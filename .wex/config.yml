@@ -1,0 +1,8 @@
+domain: symfony-analytics-ds.wex
+global:
+  name: symfony-analytics-ds
+  type: php-package
+  version: 1.0.0
+wex:
+  migration: 1
+  version: 6.0.150
