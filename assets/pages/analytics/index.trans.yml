@@ -1,0 +1,19 @@
+en:
+  page_title: Audience
+  page_icon: ph:bold/chart-line-up
+  section:
+    traffic: Over time
+    geography: Where visitors are
+    origin: Where visits come from
+    pages: Pages
+  origin_intro: "Counted on the server, without cookies: a visitor is someone else the next day. Search engines rarely pass the keyword any more."
+
+fr:
+  page_title: Audience
+  page_icon: ph:bold/chart-line-up
+  section:
+    traffic: Dans le temps
+    geography: Où sont les visiteurs
+    origin: "D'où viennent les visites"
+    pages: Pages
+  origin_intro: "Compté côté serveur, sans cookie : un visiteur devient quelqu'un d'autre le lendemain. Les moteurs de recherche ne transmettent presque plus le mot-clé."

@@ -1,0 +1,7 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/collection/table/abstract-entity-table/abstract-entity-table.vue.twig' -%}
+
+{%- block vue_config -%}
+    {{ parent() }}
+    {{ trans_js(render_pass, 'WexampleSymfonyAnalyticsDsBundle.components.analytics-breakdown-table.analytics-breakdown-table::*') }}
+    {{ trans_js(render_pass, 'WexampleSymfonyAnalyticsBundle.common.analytics::*') }}
+{%- endblock -%}

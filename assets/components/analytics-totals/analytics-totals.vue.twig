@@ -1,0 +1,18 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/_abstract/vue/vue.vue.twig' -%}
+
+{%- block vue_config -%}
+    {{ parent() }}
+    {{ trans_js(render_pass, 'WexampleSymfonyAnalyticsDsBundle.components.analytics-totals.analytics-totals::*') }}
+    {{ trans_js(render_pass, 'WexampleSymfonyAnalyticsBundle.common.analytics::*') }}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <div class="grid">
+        <div v-for="figure in figures" :key="figure.key" class="block block--card" :class="`block--tone-cat-${figure.tone}`">
+            <div class="block--figure block--figure--start">
+                <span class="block--figure-label">[[ figure.label ]]</span>
+                <span class="block--figure-value">[[ figure.value ]]</span>
+            </div>
+        </div>
+    </div>
+{%- endblock -%}

@@ -1,0 +1,47 @@
+{%- extends '@front/layouts/private/layout.html.twig' -%}
+
+{%- set page_show_title = true -%}
+{%- set page_measure = false -%}
+
+{#- The period first, which every part below follows: the figures, the
+    course, the map and the tables read the api again when it changes. -#}
+{%- block page_body -%}
+    <div class="analytics--period">
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/period-nav', {
+            value: '30d',
+            hashKey: 'period',
+            rolling: [7, 30, 90],
+        }) }}
+    </div>
+
+    {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-totals') }}
+
+    <h2>{{ '@page::section.traffic' | trans }}</h2>
+    <div class="block block--padded">
+        {{ chart('area', {}, { source: traffic_chart, period: true, lazy: false, smooth: true }) }}
+    </div>
+
+    <h2>{{ '@page::section.geography' | trans }}</h2>
+    <div class="grid grid--2">
+        <div class="block block--padded">
+            {{ chart('map', {}, { source: countries_chart, period: true, height: 360 }) }}
+            {#- DB-IP's licence (CC BY 4.0) asks to be named where its countries are shown. -#}
+            <p class="text-tertiary analytics--credit"><a href="https://db-ip.com" target="_blank" rel="noopener">IP Geolocation by DB-IP</a></p>
+        </div>
+        {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'country' }) }}
+    </div>
+
+    <h2>{{ '@page::section.origin' | trans }}</h2>
+    <p class="lead">{{ '@page::origin_intro' | trans }}</p>
+    <div class="grid grid--2">
+        {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'source' }) }}
+        {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'search_engine' }) }}
+        {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'referrer' }) }}
+        {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'keyword' }) }}
+        {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'campaign' }) }}
+        {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'device' }) }}
+    </div>
+
+    <h2>{{ '@page::section.pages' | trans }}</h2>
+    {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'page' }) }}
+{%- endblock -%}

@@ -1,11 +1,40 @@
 {
   "name": "wexample/symfony-analytics-ds",
+  "description": "Design-system screens of symfony-analytics: the audience of the site over a period, for its administrator",
   "version": "1.0.1",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
       "Wexample\\SymfonyAnalyticsDs\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "weeger",
+      "email": "romain.weeger@wexample.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.5",
+    "wexample/symfony-analytics": ">=1.0.1",
+    "wexample/symfony-charts-ds": ">=1.0.0",
+    "wexample/symfony-design-system": ">=37.0.0",
+    "wexample/symfony-helpers": ">=17.0.0",
+    "wexample/symfony-loader": ">=23.2.0"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../*",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "extra": {
+    "install": {
+      "bundle_env": "all"
     }
   }
 }

@@ -1,0 +1,43 @@
+en:
+  dimension:
+    page: Page
+    source: Source
+    referrer: Site
+    search_engine: Engine or assistant
+    keyword: Keyword
+    campaign: Campaign
+    country: Country
+    device: Device
+  source:
+    direct: Direct
+    search: Search engine
+    social: Social network
+    ai: AI assistant
+    referral: Other site
+    campaign: Campaign
+  device:
+    desktop: Computer
+    mobile: Phone
+    tablet: Tablet
+
+fr:
+  dimension:
+    page: Page
+    source: Source
+    referrer: Site
+    search_engine: Moteur ou assistant
+    keyword: Mot-clé
+    campaign: Campagne
+    country: Pays
+    device: Appareil
+  source:
+    direct: Accès direct
+    search: Moteur de recherche
+    social: Réseau social
+    ai: Assistant IA
+    referral: Autre site
+    campaign: Campagne
+  device:
+    desktop: Ordinateur
+    mobile: Téléphone
+    tablet: Tablette
