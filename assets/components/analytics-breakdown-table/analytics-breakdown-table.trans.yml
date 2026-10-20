@@ -41,3 +41,465 @@ fr:
     desktop: Ordinateur
     mobile: Téléphone
     tablet: Tablette
+
+zh:
+  dimension:
+    page: 页面
+    source: 来源
+    referrer: 网站
+    search_engine: 搜索引擎或助手
+    keyword: 关键词
+    campaign: 活动
+    country: 国家
+    device: 设备
+  source:
+    direct: 直接
+    search: 搜索引擎
+    social: 社交网络
+    ai: AI助手
+    referral: 其他网站
+    campaign: 活动
+  device:
+    desktop: 电脑
+    mobile: 手机
+    tablet: 平板
+
+ar:
+  dimension:
+    page: صفحة
+    source: مصدر
+    referrer: الموقع
+    search_engine: 'محرك البحث أو المساعد'
+    keyword: 'كلمة مفتاحية'
+    campaign: حملة
+    country: بلد
+    device: جهاز
+  source:
+    direct: مباشر
+    search: 'محرك البحث'
+    social: 'شبكة اجتماعية'
+    ai: 'مساعد ذكي'
+    referral: 'موقع آخر'
+    campaign: حملة
+  device:
+    desktop: حاسوب
+    mobile: هاتف
+    tablet: 'جهاز لوحي'
+
+hi:
+  dimension:
+    page: पृष्ठ
+    source: स्रोत
+    referrer: साइट
+    search_engine: 'इंजन या सहायक'
+    keyword: कीवर्ड
+    campaign: अभियान
+    country: देश
+    device: डिवाइस
+  source:
+    direct: प्रत्यक्ष
+    search: 'सर्च इंजन'
+    social: 'सोशल नेटवर्क'
+    ai: 'एआई सहायक'
+    referral: 'अन्य साइट'
+    campaign: अभियान
+  device:
+    desktop: कंप्यूटर
+    mobile: फोन
+    tablet: टैबलेट
+
+he:
+  dimension:
+    page: עמוד
+    source: מקור
+    referrer: אתר
+    search_engine: 'מנוע חיפוש או עוזר'
+    keyword: 'מילת מפתח'
+    campaign: קמפיין
+    country: מדינה
+    device: מכשיר
+  source:
+    direct: ישיר
+    search: 'מנוע חיפוש'
+    social: 'רשת חברתית'
+    ai: 'עוזר חכם'
+    referral: 'אתר אחר'
+    campaign: קמפיין
+  device:
+    desktop: מחשב
+    mobile: טלפון
+    tablet: טאבלט
+
+fa:
+  dimension:
+    page: صفحه
+    source: منبع
+    referrer: سایت
+    search_engine: 'موتور جستجو یا دستیار'
+    keyword: 'کلمه کلیدی'
+    campaign: کمپین
+    country: کشور
+    device: دستگاه
+  source:
+    direct: مستقیم
+    search: 'موتور جستجو'
+    social: 'شبکه اجتماعی'
+    ai: 'دستیار هوش مصنوعی'
+    referral: 'سایت دیگر'
+    campaign: کمپین
+  device:
+    desktop: کامپیوتر
+    mobile: تلفن
+    tablet: تبلت
+
+ur:
+  dimension:
+    page: صفحہ
+    source: ماخذ
+    referrer: سائٹ
+    search_engine: 'انجن یا مددگار'
+    keyword: 'کی ورڈ'
+    campaign: مہم
+    country: ملک
+    device: آلہ
+  source:
+    direct: 'براہ راست'
+    search: 'تلاش انجن'
+    social: 'سوشل نیٹ ورک'
+    ai: 'AI مددگار'
+    referral: 'دیگر سائٹ'
+    campaign: مہم
+  device:
+    desktop: کمپیوٹر
+    mobile: فون
+    tablet: ٹیبلٹ
+
+ja:
+  dimension:
+    page: ページ
+    source: ソース
+    referrer: サイト
+    search_engine: 検索エンジンまたはアシスタント
+    keyword: キーワード
+    campaign: キャンペーン
+    country: 国
+    device: デバイス
+  source:
+    direct: 直接
+    search: 検索エンジン
+    social: ソーシャルネットワーク
+    ai: AIアシスタント
+    referral: 他のサイト
+    campaign: キャンペーン
+  device:
+    desktop: コンピュータ
+    mobile: 電話
+    tablet: タブレット
+
+ko:
+  dimension:
+    page: 페이지
+    source: 출처
+    referrer: 사이트
+    search_engine: '검색 엔진 또는 도우미'
+    keyword: 키워드
+    campaign: 캠페인
+    country: 국가
+    device: 장치
+  source:
+    direct: 직접
+    search: '검색 엔진'
+    social: '소셜 네트워크'
+    ai: 'AI 도우미'
+    referral: '다른 사이트'
+    campaign: 캠페인
+  device:
+    desktop: 컴퓨터
+    mobile: 휴대폰
+    tablet: 태블릿
+
+bn:
+  dimension:
+    page: পৃষ্ঠার
+    source: সূত্র
+    referrer: সাইট
+    search_engine: 'এঞ্জিন বা সহকারী'
+    keyword: কিওয়ার্ড
+    campaign: অভিযান
+    country: দেশ
+    device: যন্ত্র
+  source:
+    direct: সরাসরি
+    search: 'সার্চ ইঞ্জিন'
+    social: 'সামাজিক নেটওয়ার্ক'
+    ai: 'এআই সহকারী'
+    referral: 'অন্যান্য সাইট'
+    campaign: অভিযান
+  device:
+    desktop: কম্পিউটার
+    mobile: ফোন
+    tablet: ট্যাবলেট
+
+th:
+  dimension:
+    page: หน้า
+    source: แหล่งที่มา
+    referrer: เว็บไซต์
+    search_engine: เครื่องมือค้นหาหรือผู้ช่วย
+    keyword: คีย์เวิร์ด
+    campaign: แคมเปญ
+    country: ประเทศ
+    device: อุปกรณ์
+  source:
+    direct: ตรง
+    search: เครื่องมือค้นหา
+    social: เครือข่ายสังคม
+    ai: 'ผู้ช่วย AI'
+    referral: เว็บไซต์อื่น
+    campaign: แคมเปญ
+  device:
+    desktop: คอมพิวเตอร์
+    mobile: โทรศัพท์
+    tablet: แท็บเล็ต
+
+de:
+  dimension:
+    page: Seite
+    source: Quelle
+    referrer: Website
+    search_engine: 'Suchmaschine oder Assistent'
+    keyword: Schlüsselwort
+    campaign: Kampagne
+    country: Land
+    device: Gerät
+  source:
+    direct: Direkt
+    search: Suchmaschine
+    social: 'Soziales Netzwerk'
+    ai: KI-Assistent
+    referral: 'Andere Website'
+    campaign: Kampagne
+  device:
+    desktop: Computer
+    mobile: Telefon
+    tablet: Tablet
+
+fi:
+  dimension:
+    page: Sivu
+    source: Lähde
+    referrer: Sivusto
+    search_engine: 'Hakukone tai avustaja'
+    keyword: Avainsana
+    campaign: Kampanja
+    country: Maa
+    device: Laite
+  source:
+    direct: Suora
+    search: Hakukone
+    social: 'Sosiaalinen verkosto'
+    ai: AI-avustaja
+    referral: 'Muu sivusto'
+    campaign: Kampanja
+  device:
+    desktop: Tietokone
+    mobile: Puhelin
+    tablet: Tabletti
+
+ru:
+  dimension:
+    page: Страница
+    source: Источник
+    referrer: Сайт
+    search_engine: 'Поисковая система или помощник'
+    keyword: 'Ключевое слово'
+    campaign: Кампания
+    country: Страна
+    device: Устройство
+  source:
+    direct: Прямой
+    search: 'Поисковая система'
+    social: 'Социальная сеть'
+    ai: 'AI помощник'
+    referral: 'Другой сайт'
+    campaign: Кампания
+  device:
+    desktop: Компьютер
+    mobile: Телефон
+    tablet: Планшет
+
+pl:
+  dimension:
+    page: Strona
+    source: Źródło
+    referrer: 'Strona odsyłająca'
+    search_engine: 'Silnik wyszukiwania lub asystent'
+    keyword: 'Słowo kluczowe'
+    campaign: Kampania
+    country: Kraj
+    device: Urządzenie
+  source:
+    direct: Bezpośrednio
+    search: Wyszukiwarka
+    social: 'Sieć społecznościowa'
+    ai: 'Asystent AI'
+    referral: 'Inna strona'
+    campaign: Kampania
+  device:
+    desktop: Komputer
+    mobile: Telefon
+    tablet: Tablet
+
+es:
+  dimension:
+    page: Página
+    source: Fuente
+    referrer: Sitio
+    search_engine: 'Motor o asistente'
+    keyword: 'Palabra clave'
+    campaign: Campaña
+    country: País
+    device: Dispositivo
+  source:
+    direct: Directo
+    search: 'Motor de búsqueda'
+    social: 'Red social'
+    ai: 'Asistente de IA'
+    referral: 'Otro sitio'
+    campaign: Campaña
+  device:
+    desktop: Computadora
+    mobile: Teléfono
+    tablet: Tableta
+
+it:
+  dimension:
+    page: Pagina
+    source: Fonte
+    referrer: Sito
+    search_engine: 'Motore o assistente'
+    keyword: 'Parola chiave'
+    campaign: Campagna
+    country: Paese
+    device: Dispositivo
+  source:
+    direct: Diretto
+    search: 'Motore di ricerca'
+    social: 'Rete sociale'
+    ai: 'Assistente AI'
+    referral: 'Altro sito'
+    campaign: Campagna
+  device:
+    desktop: Computer
+    mobile: Telefono
+    tablet: Tablet
+
+pt_BR:
+  dimension:
+    page: Página
+    source: Fonte
+    referrer: Site
+    search_engine: 'Motor de busca ou assistente'
+    keyword: Palavra-chave
+    campaign: Campanha
+    country: País
+    device: Dispositivo
+  source:
+    direct: Direto
+    search: 'Motor de busca'
+    social: 'Rede social'
+    ai: 'Assistente de IA'
+    referral: 'Outro site'
+    campaign: Campanha
+  device:
+    desktop: Computador
+    mobile: Telefone
+    tablet: Tablet
+
+tr:
+  dimension:
+    page: Sayfa
+    source: Kaynak
+    referrer: Site
+    search_engine: 'Arama motoru veya asistan'
+    keyword: 'Anahtar kelime'
+    campaign: Kampanya
+    country: Ülke
+    device: Cihaz
+  source:
+    direct: Doğrudan
+    search: 'Arama motoru'
+    social: 'Sosyal ağ'
+    ai: 'Yapay zeka asistanı'
+    referral: 'Diğer site'
+    campaign: Kampanya
+  device:
+    desktop: Bilgisayar
+    mobile: Telefon
+    tablet: Tablet
+
+vi:
+  dimension:
+    page: Trang
+    source: Nguồn
+    referrer: 'Trang web'
+    search_engine: 'Công cụ tìm kiếm hoặc trợ lý'
+    keyword: 'Từ khóa'
+    campaign: 'Chiến dịch'
+    country: 'Quốc gia'
+    device: 'Thiết bị'
+  source:
+    direct: 'Trực tiếp'
+    search: 'Công cụ tìm kiếm'
+    social: 'Mạng xã hội'
+    ai: 'Trợ lý AI'
+    referral: 'Trang web khác'
+    campaign: 'Chiến dịch'
+  device:
+    desktop: 'Máy tính'
+    mobile: 'Điện thoại'
+    tablet: 'Máy tính bảng'
+
+id:
+  dimension:
+    page: Halaman
+    source: Sumber
+    referrer: Situs
+    search_engine: 'Mesin pencari atau asisten'
+    keyword: 'Kata kunci'
+    campaign: Kampanye
+    country: Negara
+    device: Perangkat
+  source:
+    direct: Langsung
+    search: 'Mesin pencari'
+    social: 'Jaringan sosial'
+    ai: 'Asisten AI'
+    referral: 'Situs lain'
+    campaign: Kampanye
+  device:
+    desktop: Komputer
+    mobile: Telepon
+    tablet: Tablet
+
+nl:
+  dimension:
+    page: Pagina
+    source: Bron
+    referrer: Website
+    search_engine: 'Zoekmachine of assistent'
+    keyword: Trefwoord
+    campaign: Campagne
+    country: Land
+    device: Apparaat
+  source:
+    direct: Direct
+    search: Zoekmachine
+    social: 'Sociale netwerken'
+    ai: AI-assistent
+    referral: 'Andere site'
+    campaign: Campagne
+  device:
+    desktop: Computer
+    mobile: Telefoon
+    tablet: Tablet

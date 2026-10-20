@@ -3,3 +3,66 @@ en:
 
 fr:
   per_visit: Pages par visite
+
+zh:
+  per_visit: 每次访问的页面数
+
+ar:
+  per_visit: 'عدد الصفحات لكل زيارة'
+
+hi:
+  per_visit: 'प्रत्येक दौरे में पृष्ठ'
+
+he:
+  per_visit: 'דפים לביקור'
+
+fa:
+  per_visit: 'صفحات در هر بازدید'
+
+ur:
+  per_visit: 'فی وزٹ صفحات'
+
+ja:
+  per_visit: 訪問あたりのページ数
+
+ko:
+  per_visit: '방문당 페이지 수'
+
+bn:
+  per_visit: 'প্রতি দর্শনে পৃষ্ঠা'
+
+th:
+  per_visit: หน้าเฉลี่ยต่อการเยี่ยมชม
+
+de:
+  per_visit: 'Seiten pro Besuch'
+
+fi:
+  per_visit: 'Sivut vierailua kohden'
+
+ru:
+  per_visit: 'Страниц за визит'
+
+pl:
+  per_visit: 'Strony na wizytę'
+
+es:
+  per_visit: 'Páginas por visita'
+
+it:
+  per_visit: 'Pagine per visita'
+
+pt_BR:
+  per_visit: 'Páginas por visita'
+
+tr:
+  per_visit: 'Ziyaret başına sayfa'
+
+vi:
+  per_visit: 'Số trang mỗi lần truy cập'
+
+id:
+  per_visit: 'Halaman per kunjungan'
+
+nl:
+  per_visit: "Pagina's per bezoek"

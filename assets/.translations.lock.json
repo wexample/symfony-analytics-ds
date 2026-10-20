@@ -1,0 +1,2228 @@
+{
+    "components/analytics-breakdown-table/analytics-breakdown-table.ar.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.bn.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.de.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.es.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.fa.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.fi.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.he.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.hi.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.id.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.it.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.ja.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.ko.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.nl.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.pl.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.pt_BR.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.ru.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.th.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.tr.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.ur.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.vi.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-breakdown-table/analytics-breakdown-table.zh.yml": {
+        "device.desktop": {
+            "hash": "76a5ca5050dfc97f8527383f4f31a272",
+            "engine": "syrtis"
+        },
+        "device.mobile": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "device.tablet": {
+            "hash": "740be4388e1e97091ca2a309a818c29c",
+            "engine": "syrtis"
+        },
+        "dimension.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "dimension.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "dimension.device": {
+            "hash": "5480fdd220458412a0e13d5a6056cda9",
+            "engine": "syrtis"
+        },
+        "dimension.keyword": {
+            "hash": "ce58ac6bbcf777295ff71965e175ebc1",
+            "engine": "syrtis"
+        },
+        "dimension.page": {
+            "hash": "5dcbdf8deea9fde9ced518a90fd1783b",
+            "engine": "syrtis"
+        },
+        "dimension.referrer": {
+            "hash": "5ef7980b96b9b265fce5ff4758f7b758",
+            "engine": "syrtis"
+        },
+        "dimension.search_engine": {
+            "hash": "029d2259776eae85f0d12f44df2ef1a2",
+            "engine": "syrtis"
+        },
+        "dimension.source": {
+            "hash": "815bb73590ae585ebf9303a12f9fd934",
+            "engine": "syrtis"
+        },
+        "source.ai": {
+            "hash": "739a2cec1772ae334615f44976977334",
+            "engine": "syrtis"
+        },
+        "source.campaign": {
+            "hash": "55caf6413ffa2ca68154d44fc3a2b668",
+            "engine": "syrtis"
+        },
+        "source.direct": {
+            "hash": "f733d62a7c9bda9aa0dbf50ba893e255",
+            "engine": "syrtis"
+        },
+        "source.referral": {
+            "hash": "f37dbf4e043a4e09769bb222d6082c7e",
+            "engine": "syrtis"
+        },
+        "source.search": {
+            "hash": "7c7553cd4259ef7ff31396157aac59fe",
+            "engine": "syrtis"
+        },
+        "source.social": {
+            "hash": "a5c55a78f43dcd3751ae8fb5bdb6395f",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.ar.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.bn.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.de.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.es.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.fa.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.fi.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.he.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.hi.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.id.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.it.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.ja.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.ko.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.nl.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.pl.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.pt_BR.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.ru.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.th.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.tr.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.ur.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.vi.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-totals/analytics-totals.zh.yml": {
+        "per_visit": {
+            "hash": "95080914008b301aa010fe34802c3a17",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.ar.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.bn.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.de.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.es.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.fa.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.fi.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.he.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.hi.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.id.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.it.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.ja.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.ko.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.nl.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.pl.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.pt_BR.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.ru.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.th.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.tr.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.ur.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.vi.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    },
+    "pages/analytics/index.zh.yml": {
+        "origin_intro": {
+            "hash": "b722b1b75ba4f44c4ed53735f800e9cc",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "c8c46a41d12089f4c6f6444d85bf6441",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "32c918ad04b23e45429f50a171b86360",
+            "engine": "syrtis"
+        },
+        "section.geography": {
+            "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.origin": {
+            "hash": "c5f01b7b67edab57c4c52b01c4ea7786",
+            "engine": "syrtis"
+        },
+        "section.pages": {
+            "hash": "4faef21b702286066bf6a0e87f93866a",
+            "engine": "syrtis"
+        },
+        "section.traffic": {
+            "hash": "b90204304ad00807ff9437ddeed7cf48",
+            "engine": "syrtis"
+        }
+    }
+}

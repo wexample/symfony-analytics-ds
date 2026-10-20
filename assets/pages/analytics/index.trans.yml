@@ -17,3 +17,213 @@ fr:
     origin: "D'où viennent les visites"
     pages: Pages
   origin_intro: "Compté côté serveur, sans cookie : un visiteur devient quelqu'un d'autre le lendemain. Les moteurs de recherche ne transmettent presque plus le mot-clé."
+
+zh:
+  page_title: 受众
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 随着时间的推移
+    geography: 访客的来源
+    origin: 访问来自哪里
+    pages: 页面
+  origin_intro: '在服务器上计算，不使用 cookies：访客在第二天是另一个人。搜索引擎很少再传递关键词了。'
+
+ar:
+  page_title: الجمهور
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 'على مر الزمن'
+    geography: 'من أين يأتي الزوار'
+    origin: 'من أين تأتي الزيارات'
+    pages: الصفحات
+  origin_intro: 'يتم العد على الخادم، بدون ملفات تعريف الارتباط: الزائر هو شخص آخر في اليوم التالي. نادرًا ما تمر محركات البحث بالكلمة الرئيسية بعد الآن.'
+
+hi:
+  page_title: दर्शक
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 'समय के साथ'
+    geography: 'जहाँ आगंतुक हैं'
+    origin: 'जहाँ से विज़िट आते हैं'
+    pages: पृष्ठ
+  origin_intro: 'सर्वर पर गिने गए, बिना कुकीज़ के: एक आगंतुक अगले दिन कोई और होता है। सर्च इंजन अब अक्सर कीवर्ड पास नहीं करते।'
+
+he:
+  page_title: קהל
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 'עם הזמן'
+    geography: 'איפה המבקרים נמצאים'
+    origin: 'מאיפה מגיעים הביקורים'
+    pages: דפים
+  origin_intro: 'נספר על השרת, בלי עוגיות: מבקר הוא מישהו אחר ביום למחרת. מנועי חיפוש rarely מעבירים את המילה המפתח עוד.'
+
+fa:
+  page_title: مخاطب
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 'در طول زمان'
+    geography: 'مکان بازدیدکنندگان'
+    origin: 'مکان ورود بازدیدها'
+    pages: صفحات
+  origin_intro: 'در سرور شمرده شده، بدون کوکی‌ها: یک بازدیدکننده فردا کسی دیگر است. موتورهای جستجو به ندرت کلمه کلیدی را منتقل می‌کنند.'
+
+ur:
+  page_title: ناظرین
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 'وقت کے ساتھ'
+    geography: 'زائرین کہاں ہیں'
+    origin: 'ملاقاتیں کہاں سے آتی ہیں'
+    pages: صفحات
+  origin_intro: 'سرور پر شمار کیے گئے، کوکیز کے بغیر: ایک زائر اگلے دن کوئی اور ہوتا ہے۔ تلاش کے انجن اب کم ہی کلیدواژه فراہم کرتے ہیں۔'
+
+ja:
+  page_title: オーディエンス
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 時間の経過とともに
+    geography: 訪問者の所在地
+    origin: 訪問がどこから来るか
+    pages: ページ
+  origin_intro: 'サーバーでカウントされ、クッキーなし: 訪問者は翌日には別の人になります。検索エンジンはもはやキーワードを渡すことはほとんどありません。'
+
+ko:
+  page_title: 관객
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: '시간에 따른'
+    geography: '방문자가 있는 곳'
+    origin: '방문이 발생하는 곳'
+    pages: 페이지
+  origin_intro: '서버에서 집계되며, 쿠키 없이: 방문자는 다음 날 다른 사람입니다. 검색 엔진은 더 이상 키워드를 자주 전달하지 않습니다.'
+
+bn:
+  page_title: দর্শক
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 'সময় অনুযায়ী'
+    geography: 'যেখানে দর্শকরা রয়েছে'
+    origin: 'যেখানে ভিজিটগুলো আসে'
+    pages: পেজগুলো
+  origin_intro: 'সার্ভারে গণনা করা হয়, কুকি ছাড়া: একজন দর্শক পরের দিন অন্য কেউ। সার্চ ইঞ্জিনগুলো আর কমই কীওয়ার্ডটি পাঠায়।'
+
+th:
+  page_title: ผู้ชม
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: ตามเวลา
+    geography: ที่ตั้งของผู้เข้าชม
+    origin: แหล่งที่มาของการเข้าชม
+    pages: หน้า
+  origin_intro: 'นับจากเซิร์ฟเวอร์ โดยไม่ใช้คุกกี้: ผู้เข้าชมคือคนอื่นในวันถัดไป เครื่องมือค้นหามักไม่ส่งคำสำคัญอีกต่อไป.'
+
+de:
+  page_title: Zielgruppe
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 'Im Laufe der Zeit'
+    geography: 'Woher die Besucher kommen'
+    origin: 'Wo die Besuche herkommen'
+    pages: Seiten
+  origin_intro: 'Auf dem Server gezählt, ohne Cookies: ein Besucher ist am nächsten Tag jemand anderes. Suchmaschinen übermitteln das Schlüsselwort selten noch.'
+
+fi:
+  page_title: Kohderyhmä
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 'Ajan myötä'
+    geography: 'Missä kävijät ovat'
+    origin: 'Mistä vierailut tulevat'
+    pages: Sivut
+  origin_intro: 'Lasketaan palvelimella, ilman evästeitä: vierailija on seuraavana päivänä joku muu. Hakukoneet harvoin välittävät enää avainsanaa.'
+
+ru:
+  page_title: Аудитория
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 'Со временем'
+    geography: 'Где находятся посетители'
+    origin: 'Откуда приходят визиты'
+    pages: Страницы
+  origin_intro: 'Учитываются на сервере, без куки: посетитель — это кто-то другой на следующий день. Поисковые системы редко передают ключевое слово больше.'
+
+pl:
+  page_title: Odbiorcy
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 'Z biegiem czasu'
+    geography: 'Gdzie są odwiedzający'
+    origin: 'Skąd pochodzą wizyty'
+    pages: Strony
+  origin_intro: 'Liczone na serwerze, bez ciasteczek: odwiedzający to ktoś inny następnego dnia. Wyszukiwarki rzadko przekazują już słowo kluczowe.'
+
+es:
+  page_title: Audiencia
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 'Con el tiempo'
+    geography: 'Dónde están los visitantes'
+    origin: 'De dónde provienen las visitas'
+    pages: Páginas
+  origin_intro: 'Contado en el servidor, sin cookies: un visitante es alguien diferente al día siguiente. Los motores de búsqueda rara vez pasan la palabra clave ya.'
+
+it:
+  page_title: Pubblico
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 'Nel tempo'
+    geography: 'Dove si trovano i visitatori'
+    origin: 'Da dove provengono le visite'
+    pages: Pagine
+  origin_intro: 'Contati sul server, senza cookie: un visitatore è qualcun altro il giorno dopo. I motori di ricerca raramente passano più la parola chiave.'
+
+pt_BR:
+  page_title: Público
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 'Ao longo do tempo'
+    geography: 'De onde são os visitantes'
+    origin: 'De onde vêm as visitas'
+    pages: Páginas
+  origin_intro: 'Contados no servidor, sem cookies: um visitante é alguém diferente no dia seguinte. Motores de busca raramente repassam a palavra-chave agora.'
+
+tr:
+  page_title: 'Hedef Kitle'
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: Zamanla
+    geography: 'Ziyaretçilerin bulunduğu yer'
+    origin: 'Ziyaretlerin geldiği yer'
+    pages: Sayfalar
+  origin_intro: 'Sunucuda sayılır, çerez olmadan: bir ziyaretçi ertesi gün başka birisidir. Arama motorları artık anahtar kelimeyi nadiren iletir.'
+
+vi:
+  page_title: 'Đối tượng'
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 'Theo thời gian'
+    geography: 'Nơi khách truy cập đến từ'
+    origin: 'Nơi các lượt truy cập đến từ'
+    pages: Trang
+  origin_intro: 'Đếm trên máy chủ, không có cookie: một khách truy cập là người khác vào ngày hôm sau. Các công cụ tìm kiếm hiếm khi chuyển từ khóa nữa.'
+
+id:
+  page_title: Audiens
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 'Seiring waktu'
+    geography: 'Di mana pengunjung berada'
+    origin: 'Dari mana kunjungan berasal'
+    pages: Halaman
+  origin_intro: 'Dihitung di server, tanpa cookie: seorang pengunjung adalah orang lain di hari berikutnya. Mesin pencari jarang lagi meneruskan kata kunci.'
+
+nl:
+  page_title: Doelgroep
+  page_icon: 'ph:bold/chart-line-up'
+  section:
+    traffic: 'In de loop van de tijd'
+    geography: 'Waar bezoekers vandaan komen'
+    origin: 'Waar bezoeken vandaan komen'
+    pages: "Pagina's"
+  origin_intro: 'Geteld op de server, zonder cookies: een bezoeker is de volgende dag iemand anders. Zoekmachines geven zelden het zoekwoord nog door.'
