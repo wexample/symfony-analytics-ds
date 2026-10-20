@@ -1,5 +1,6 @@
 <script>
 import AbstractEntityTable from '@wexample/symfony-design-system/components/collection/table/abstract-entity-table/abstract-entity-table.vue';
+import AbstractEntityCollectionVueMixin from '@wexample/symfony-design-system/js/Vue/AbstractEntityCollectionVueMixin';
 import AnalyticsBreakdown from '@wexample/symfony-analytics/Entity/AnalyticsBreakdown';
 import { analyticsCountryFlag, analyticsCountryName, analyticsPeriodFollow } from '../../js/Helper/AnalyticsPeriodHelper';
 
@@ -64,7 +65,7 @@ export default {
         return;
       }
 
-      return AbstractEntityTable.methods.readEntitiesCollection.call(this, options);
+      return AbstractEntityCollectionVueMixin.methods.readEntitiesCollection.call(this, options);
     },
 
     formatKey(value) {

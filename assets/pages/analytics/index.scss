@@ -1,5 +1,6 @@
 // The audience page: a period, figures, charts and tables in blocks.
 @use '@wexample/symfony-design-system/css/shapes/block';
+@use '@wexample/symfony-design-system/css/shapes/grid';
 
 .analytics--period {
   display: flex;
@@ -9,4 +10,14 @@
 .analytics--credit {
   margin: var(--space-2) 0 0;
   text-align: right;
+}
+
+// Two tables side by side at most: a table needs the room of its four
+// columns, and keeps to its cell rather than spilling into the next.
+.analytics--tables {
+  --grid-min: 28rem;
+
+  > * {
+    min-width: 0;
+  }
 }

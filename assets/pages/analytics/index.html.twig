@@ -18,13 +18,13 @@
 
     <h2>{{ '@page::section.traffic' | trans }}</h2>
     <div class="block block--padded">
-        {{ chart('area', {}, { source: traffic_chart, period: true, lazy: false, smooth: true }) }}
+        {{ chart('area', {}, { source: traffic_chart, period: true, lazy: false }) }}
     </div>
 
     <h2>{{ '@page::section.geography' | trans }}</h2>
-    <div class="grid grid--2">
+    <div class="grid grid--2 analytics--tables">
         <div class="block block--padded">
-            {{ chart('map', {}, { source: countries_chart, period: true, height: 360 }) }}
+            {{ chart('map', {}, { source: countries_chart, period: true, height: '22rem' }) }}
             {#- DB-IP's licence (CC BY 4.0) asks to be named where its countries are shown. -#}
             <p class="text-tertiary analytics--credit"><a href="https://db-ip.com" target="_blank" rel="noopener">IP Geolocation by DB-IP</a></p>
         </div>
@@ -33,7 +33,7 @@
 
     <h2>{{ '@page::section.origin' | trans }}</h2>
     <p class="lead">{{ '@page::origin_intro' | trans }}</p>
-    <div class="grid grid--2">
+    <div class="grid grid--2 analytics--tables">
         {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'source' }) }}
         {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'search_engine' }) }}
         {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'referrer' }) }}
