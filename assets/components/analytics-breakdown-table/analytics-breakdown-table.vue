@@ -9,7 +9,8 @@ const METRIC = 'WexampleSymfonyAnalyticsBundle.common.analytics::metric.';
 
 // The audience of the page's period broken down by one dimension — pages,
 // sources, countries… —, the most visited first. Read once the period-nav of
-// the page has said its period, and again at each change.
+// the page has said its period, and again at each change. The robots have
+// neither visitor nor visit: their pages alone.
 export default {
   extends: AbstractEntityTable,
 
@@ -26,7 +27,7 @@ export default {
     return {
       pageLength: 10,
       showCount: true,
-      defaultSort: { key: 'visits', direction: 'desc' },
+      defaultSort: { key: this.dimension === 'robot' ? 'views' : 'visits', direction: 'desc' },
       period: null
     };
   },
@@ -75,6 +76,9 @@ export default {
         case 'source':
         case 'device':
           return this.trans(`${T}${this.dimension}.${value}`);
+        // A robot by its own name; the two without one said in words.
+        case 'robot':
+          return ['other', 'cadence'].includes(value) ? this.trans(`${T}robot.${value}`) : value;
         default:
           return value;
       }
@@ -83,12 +87,11 @@ export default {
     getColumnsConfiguration() {
       const metric = (key) => ({ key, label: this.trans(`${METRIC}${key}`), cell: 'number', align: 'right', sortable: true });
 
-      return [
-        { key: 'dimensionKey', label: this.trans(`${T}dimension.${this.dimension}`), cell: 'clamp', format: (value) => this.formatKey(value) },
-        metric('visitors'),
-        metric('visits'),
-        metric('views')
-      ];
+      const key = { key: 'dimensionKey', label: this.trans(`${T}dimension.${this.dimension}`), cell: 'clamp', format: (value) => this.formatKey(value) };
+
+      return this.dimension === 'robot'
+        ? [key, metric('views')]
+        : [key, metric('visitors'), metric('visits'), metric('views')];
     }
   }
 };

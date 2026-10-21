@@ -44,4 +44,8 @@
 
     <h2>{{ '@page::section.pages' | trans }}</h2>
     {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'page' }) }}
+
+    <h2>{{ '@page::section.robots' | trans }}</h2>
+    <p class="lead">{{ '@page::robots_intro' | trans }}</p>
+    {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'robot' }) }}
 {%- endblock -%}

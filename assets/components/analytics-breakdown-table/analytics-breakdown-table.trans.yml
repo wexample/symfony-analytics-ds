@@ -8,6 +8,10 @@ en:
     campaign: Campaign
     country: Country
     device: Device
+    robot: Robot
+  robot:
+    other: Other robots
+    cadence: Reading too fast for a person
   source:
     direct: Direct
     search: Search engine
@@ -30,6 +34,10 @@ fr:
     campaign: Campagne
     country: Pays
     device: Appareil
+    robot: Robot
+  robot:
+    other: Autres robots
+    cadence: Lecture trop rapide pour une personne
   source:
     direct: Accès direct
     search: Moteur de recherche

@@ -6,7 +6,9 @@ en:
     geography: Where visitors are
     origin: Where visits come from
     pages: Pages
+    robots: Robots
   origin_intro: "Counted on the server, without cookies: a visitor is someone else the next day. Search engines rarely pass the keyword any more."
+  robots_intro: "Crawlers and AI assistants, counted apart from the audience: pages read per robot, named by its user agent, or caught reading faster than a person."
 
 fr:
   page_title: Audience
@@ -16,7 +18,9 @@ fr:
     geography: Où sont les visiteurs
     origin: "D'où viennent les visites"
     pages: Pages
+    robots: Robots
   origin_intro: "Compté côté serveur, sans cookie : un visiteur devient quelqu'un d'autre le lendemain. Les moteurs de recherche ne transmettent presque plus le mot-clé."
+  robots_intro: "Moteurs et assistants IA, comptés à part de l'audience : pages lues par robot, nommé par son user agent, ou repéré à lire plus vite qu'une personne."
 
 zh:
   page_title: 受众
