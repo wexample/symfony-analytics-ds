@@ -1,6 +1,6 @@
 # symfony-analytics-ds
 
-Version: 2.0.1
+Version: 2.0.2
 
 `wexample/symfony-analytics-ds` draws symfony-analytics for its administrator.
 
@@ -31,11 +31,11 @@ The suite includes packages for configuration management, file handling, prompts
 ## Dependencies
 
 - php: >=8.5
-- wexample/symfony-analytics: >=2.0.0
+- wexample/symfony-analytics: >=3.0.0
 - wexample/symfony-charts-ds: >=3.0.0
 - wexample/symfony-design-system: >=39.0.0
 - wexample/symfony-helpers: >=18.0.0
-- wexample/symfony-loader: >=24.0.0
+- wexample/symfony-loader: >=25.0.0
 
 ## Versioning & Compatibility Policy
 
