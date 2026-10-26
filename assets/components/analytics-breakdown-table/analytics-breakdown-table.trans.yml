@@ -60,6 +60,10 @@ zh:
     campaign: 活动
     country: 国家
     device: 设备
+    robot: 机器人
+  robot:
+    other: 其他机器人
+    cadence: 阅读速度对人来说太快了
   source:
     direct: 直接
     search: 搜索引擎
@@ -82,6 +86,10 @@ ar:
     campaign: حملة
     country: بلد
     device: جهاز
+    robot: روبوت
+  robot:
+    other: 'روبوتات أخرى'
+    cadence: 'يقرأ بسرعة كبيرة بالنسبة لشخص'
   source:
     direct: مباشر
     search: 'محرك البحث'
@@ -104,6 +112,10 @@ hi:
     campaign: अभियान
     country: देश
     device: डिवाइस
+    robot: रोबोट
+  robot:
+    other: 'अन्य रोबोट'
+    cadence: 'किसी व्यक्ति के लिए बहुत तेजी से पढ़ना'
   source:
     direct: प्रत्यक्ष
     search: 'सर्च इंजन'
@@ -126,6 +138,10 @@ he:
     campaign: קמפיין
     country: מדינה
     device: מכשיר
+    robot: רובוט
+  robot:
+    other: 'רובוטים אחרים'
+    cadence: 'קורא מהר מדי לבן אדם'
   source:
     direct: ישיר
     search: 'מנוע חיפוש'
@@ -148,6 +164,10 @@ fa:
     campaign: کمپین
     country: کشور
     device: دستگاه
+    robot: ربات
+  robot:
+    other: 'ربات‌های دیگر'
+    cadence: 'سرعت خواندن بیش از حد برای یک فرد'
   source:
     direct: مستقیم
     search: 'موتور جستجو'
@@ -170,6 +190,10 @@ ur:
     campaign: مہم
     country: ملک
     device: آلہ
+    robot: روبوٹ
+  robot:
+    other: 'دیگر روبوٹ'
+    cadence: 'انسان کے لیے بہت تیزی سے پڑھنا'
   source:
     direct: 'براہ راست'
     search: 'تلاش انجن'
@@ -192,6 +216,10 @@ ja:
     campaign: キャンペーン
     country: 国
     device: デバイス
+    robot: ロボット
+  robot:
+    other: 他のロボット
+    cadence: 人には速すぎる読み方
   source:
     direct: 直接
     search: 検索エンジン
@@ -214,6 +242,10 @@ ko:
     campaign: 캠페인
     country: 국가
     device: 장치
+    robot: 로봇
+  robot:
+    other: '기타 로봇'
+    cadence: '사람이 읽기에는 너무 빠른 속도'
   source:
     direct: 직접
     search: '검색 엔진'
@@ -236,6 +268,10 @@ bn:
     campaign: অভিযান
     country: দেশ
     device: যন্ত্র
+    robot: রোবট
+  robot:
+    other: 'অন্যান্য রোবট'
+    cadence: 'মানুষের জন্য খুব দ্রুত পড়া'
   source:
     direct: সরাসরি
     search: 'সার্চ ইঞ্জিন'
@@ -258,6 +294,10 @@ th:
     campaign: แคมเปญ
     country: ประเทศ
     device: อุปกรณ์
+    robot: หุ่นยนต์
+  robot:
+    other: หุ่นยนต์อื่นๆ
+    cadence: อ่านเร็วเกินไปสำหรับคน
   source:
     direct: ตรง
     search: เครื่องมือค้นหา
@@ -280,6 +320,10 @@ de:
     campaign: Kampagne
     country: Land
     device: Gerät
+    robot: Robot
+  robot:
+    other: 'Andere Roboter'
+    cadence: 'Zu schnell für eine Person lesen'
   source:
     direct: Direkt
     search: Suchmaschine
@@ -302,6 +346,10 @@ fi:
     campaign: Kampanja
     country: Maa
     device: Laite
+    robot: Robotti
+  robot:
+    other: 'Muut robotit'
+    cadence: 'Lukeminen liian nopeasti ihmiselle'
   source:
     direct: Suora
     search: Hakukone
@@ -324,6 +372,10 @@ ru:
     campaign: Кампания
     country: Страна
     device: Устройство
+    robot: Робот
+  robot:
+    other: 'Другие роботы'
+    cadence: 'Чтение слишком быстро для человека'
   source:
     direct: Прямой
     search: 'Поисковая система'
@@ -346,6 +398,10 @@ pl:
     campaign: Kampania
     country: Kraj
     device: Urządzenie
+    robot: Robot
+  robot:
+    other: 'Inne roboty'
+    cadence: 'Czytanie za szybko dla człowieka'
   source:
     direct: Bezpośrednio
     search: Wyszukiwarka
@@ -368,6 +424,10 @@ es:
     campaign: Campaña
     country: País
     device: Dispositivo
+    robot: Robot
+  robot:
+    other: 'Otros robots'
+    cadence: 'Leyendo demasiado rápido para una persona'
   source:
     direct: Directo
     search: 'Motor de búsqueda'
@@ -390,6 +450,10 @@ it:
     campaign: Campagna
     country: Paese
     device: Dispositivo
+    robot: Robot
+  robot:
+    other: 'Altri robot'
+    cadence: 'Leggendo troppo velocemente per una persona'
   source:
     direct: Diretto
     search: 'Motore di ricerca'
@@ -412,6 +476,10 @@ pt_BR:
     campaign: Campanha
     country: País
     device: Dispositivo
+    robot: Robô
+  robot:
+    other: 'Outros robôs'
+    cadence: 'Lendo muito rápido para uma pessoa'
   source:
     direct: Direto
     search: 'Motor de busca'
@@ -434,6 +502,10 @@ tr:
     campaign: Kampanya
     country: Ülke
     device: Cihaz
+    robot: Robot
+  robot:
+    other: 'Diğer robotlar'
+    cadence: 'Bir kişi için çok hızlı okuma'
   source:
     direct: Doğrudan
     search: 'Arama motoru'
@@ -456,6 +528,10 @@ vi:
     campaign: 'Chiến dịch'
     country: 'Quốc gia'
     device: 'Thiết bị'
+    robot: Robot
+  robot:
+    other: 'Các robot khác'
+    cadence: 'Đọc quá nhanh đối với một người'
   source:
     direct: 'Trực tiếp'
     search: 'Công cụ tìm kiếm'
@@ -478,6 +554,10 @@ id:
     campaign: Kampanye
     country: Negara
     device: Perangkat
+    robot: Robot
+  robot:
+    other: 'Robot lain'
+    cadence: 'Membaca terlalu cepat untuk seseorang'
   source:
     direct: Langsung
     search: 'Mesin pencari'
@@ -500,6 +580,10 @@ nl:
     campaign: Campagne
     country: Land
     device: Apparaat
+    robot: Robot
+  robot:
+    other: 'Andere robots'
+    cadence: 'Te snel lezen voor een persoon'
   source:
     direct: Direct
     search: Zoekmachine

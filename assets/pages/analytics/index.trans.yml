@@ -30,7 +30,9 @@ zh:
     geography: 访客的来源
     origin: 访问来自哪里
     pages: 页面
+    robots: 机器人
   origin_intro: '在服务器上计算，不使用 cookies：访客在第二天是另一个人。搜索引擎很少再传递关键词了。'
+  robots_intro: 爬虫和人工智能助手，与观众分开计算：按机器人名称（由其用户代理命名）统计每个机器人阅读的页面数量，或者读取速度快于人的情况。
 
 ar:
   page_title: الجمهور
@@ -40,7 +42,9 @@ ar:
     geography: 'من أين يأتي الزوار'
     origin: 'من أين تأتي الزيارات'
     pages: الصفحات
+    robots: الروبوتات
   origin_intro: 'يتم العد على الخادم، بدون ملفات تعريف الارتباط: الزائر هو شخص آخر في اليوم التالي. نادرًا ما تمر محركات البحث بالكلمة الرئيسية بعد الآن.'
+  robots_intro: 'العناكب ومساعدات الذكاء الاصطناعي، تُحسب بشكل منفصل عن الجمهور: الصفحات المقروءة لكل روبوت، مسماة بواسطة وكيل المستخدم الخاص بها، أو تم رصدها تقرأ بشكل أسرع من الشخص.'
 
 hi:
   page_title: दर्शक
@@ -50,7 +54,9 @@ hi:
     geography: 'जहाँ आगंतुक हैं'
     origin: 'जहाँ से विज़िट आते हैं'
     pages: पृष्ठ
+    robots: रोबोट्स
   origin_intro: 'सर्वर पर गिने गए, बिना कुकीज़ के: एक आगंतुक अगले दिन कोई और होता है। सर्च इंजन अब अक्सर कीवर्ड पास नहीं करते।'
+  robots_intro: 'क्रॉलर और एआई सहायक, दर्शकों से अलग गिने जाते हैं: प्रति रोबोट पढ़े गए पृष्ठ, जो इसके उपयोगकर्ता एजेंट द्वारा नामित होते हैं, या जो किसी व्यक्ति से तेज़ी से पढ़ते हुए पकड़े जाते हैं।'
 
 he:
   page_title: קהל
@@ -60,7 +66,9 @@ he:
     geography: 'איפה המבקרים נמצאים'
     origin: 'מאיפה מגיעים הביקורים'
     pages: דפים
+    robots: רובוטים
   origin_intro: 'נספר על השרת, בלי עוגיות: מבקר הוא מישהו אחר ביום למחרת. מנועי חיפוש rarely מעבירים את המילה המפתח עוד.'
+  robots_intro: 'זוחלים ועוזרי AI, נחשבים בנפרד מהקהל: דפים שנקראו לכל רובוט, בשם סוכן המשתמש שלו, או נתפסים קוראים מהר יותר מאדם.'
 
 fa:
   page_title: مخاطب
@@ -70,7 +78,9 @@ fa:
     geography: 'مکان بازدیدکنندگان'
     origin: 'مکان ورود بازدیدها'
     pages: صفحات
+    robots: ربات‌ها
   origin_intro: 'در سرور شمرده شده، بدون کوکی‌ها: یک بازدیدکننده فردا کسی دیگر است. موتورهای جستجو به ندرت کلمه کلیدی را منتقل می‌کنند.'
+  robots_intro: 'زیرمجموعه‌ها و دستیارهای هوش مصنوعی، که از مخاطب جدا شمرده می‌شوند: صفحات خوانده شده به ازای هر ربات، که با شناسه کاربری‌اش نام‌گذاری شده‌اند، یا سریع‌تر از یک فرد در حال خواندن ضبط شده‌اند.'
 
 ur:
   page_title: ناظرین
@@ -80,7 +90,9 @@ ur:
     geography: 'زائرین کہاں ہیں'
     origin: 'ملاقاتیں کہاں سے آتی ہیں'
     pages: صفحات
+    robots: روبوٹس
   origin_intro: 'سرور پر شمار کیے گئے، کوکیز کے بغیر: ایک زائر اگلے دن کوئی اور ہوتا ہے۔ تلاش کے انجن اب کم ہی کلیدواژه فراہم کرتے ہیں۔'
+  robots_intro: 'کرالرز اور اے آئی اسسٹنٹس، سامعین سے الگ شمار کیے گئے: ہر روبوٹ کے لیے پڑھے گئے صفحات، جس کا نام اس کے صارف ایجنٹ کے ذریعے ہے، یا جو شخص سے زیادہ تیز پڑھتے ہوئے پکڑے گئے۔'
 
 ja:
   page_title: オーディエンス
@@ -90,7 +102,9 @@ ja:
     geography: 訪問者の所在地
     origin: 訪問がどこから来るか
     pages: ページ
+    robots: ロボット
   origin_intro: 'サーバーでカウントされ、クッキーなし: 訪問者は翌日には別の人になります。検索エンジンはもはやキーワードを渡すことはほとんどありません。'
+  robots_intro: クローラーやAIアシスタント。オーディエンスとは別にカウントされます：ロボットごとのページビュー、そのユーザーエージェントによる名称、または人より早く読み取られた場合。
 
 ko:
   page_title: 관객
@@ -100,7 +114,9 @@ ko:
     geography: '방문자가 있는 곳'
     origin: '방문이 발생하는 곳'
     pages: 페이지
+    robots: 로봇
   origin_intro: '서버에서 집계되며, 쿠키 없이: 방문자는 다음 날 다른 사람입니다. 검색 엔진은 더 이상 키워드를 자주 전달하지 않습니다.'
+  robots_intro: '크롤러와 AI 어시스턴트는 청중과 별개로 집계됩니다: 로봇별 페이지 수, 사용자 에이전트에 의해 명명되거나 사람보다 빠르게 읽고 있는 것으로 감지된.'
 
 bn:
   page_title: দর্শক
@@ -110,7 +126,9 @@ bn:
     geography: 'যেখানে দর্শকরা রয়েছে'
     origin: 'যেখানে ভিজিটগুলো আসে'
     pages: পেজগুলো
+    robots: রোবট
   origin_intro: 'সার্ভারে গণনা করা হয়, কুকি ছাড়া: একজন দর্শক পরের দিন অন্য কেউ। সার্চ ইঞ্জিনগুলো আর কমই কীওয়ার্ডটি পাঠায়।'
+  robots_intro: 'ক্রলারে এবং AI সহকারী, দর্শকের থেকে আলাদা গণনা করা: প্রতিটি রোবট দ্বারা পড়া পৃষ্ঠা, যার নাম তার ব্যবহারকারী এজেন্ট দ্বারা, অথবা একজন মানুষের চেয়ে দ্রুত পড়তে ধরা পড়েছে।'
 
 th:
   page_title: ผู้ชม
@@ -120,7 +138,9 @@ th:
     geography: ที่ตั้งของผู้เข้าชม
     origin: แหล่งที่มาของการเข้าชม
     pages: หน้า
+    robots: หุ่นยนต์
   origin_intro: 'นับจากเซิร์ฟเวอร์ โดยไม่ใช้คุกกี้: ผู้เข้าชมคือคนอื่นในวันถัดไป เครื่องมือค้นหามักไม่ส่งคำสำคัญอีกต่อไป.'
+  robots_intro: 'โปรแกรมรวบรวมข้อมูลและผู้ช่วย AI นับแยกจากผู้ชม: หน้าเว็บที่อ่านต่อหุ่นยนต์ โดยระบุจากตัวแทนผู้ใช้ หรือถูกจับได้ว่าอ่านเร็วกว่าใคร.'
 
 de:
   page_title: Zielgruppe
@@ -130,7 +150,9 @@ de:
     geography: 'Woher die Besucher kommen'
     origin: 'Wo die Besuche herkommen'
     pages: Seiten
+    robots: Roboter
   origin_intro: 'Auf dem Server gezählt, ohne Cookies: ein Besucher ist am nächsten Tag jemand anderes. Suchmaschinen übermitteln das Schlüsselwort selten noch.'
+  robots_intro: 'Crawler und KI-Assistenten, die separat vom Publikum gezählt werden: Seitenaufrufe pro Roboter, benannt nach seinem User-Agent, oder die schneller als eine Person lesen.'
 
 fi:
   page_title: Kohderyhmä
@@ -140,7 +162,9 @@ fi:
     geography: 'Missä kävijät ovat'
     origin: 'Mistä vierailut tulevat'
     pages: Sivut
+    robots: Robotit
   origin_intro: 'Lasketaan palvelimella, ilman evästeitä: vierailija on seuraavana päivänä joku muu. Hakukoneet harvoin välittävät enää avainsanaa.'
+  robots_intro: 'Indeksoijat ja tekoälyavustajat, lasketaan erikseen yleisöstä: sivut, joita kukin robotti lukee, nimetty käyttäjäagentin mukaan, tai jotka on havaittu lukevan nopeammin kuin ihminen.'
 
 ru:
   page_title: Аудитория
@@ -150,7 +174,9 @@ ru:
     geography: 'Где находятся посетители'
     origin: 'Откуда приходят визиты'
     pages: Страницы
+    robots: Роботы
   origin_intro: 'Учитываются на сервере, без куки: посетитель — это кто-то другой на следующий день. Поисковые системы редко передают ключевое слово больше.'
+  robots_intro: 'Пауки и ИИ-ассистенты, учитываемые отдельно от аудитории: страницы, прочитанные каждым роботом, названным по его пользовательскому агенту, или пойманные за чтением быстрее, чем человек.'
 
 pl:
   page_title: Odbiorcy
@@ -160,7 +186,9 @@ pl:
     geography: 'Gdzie są odwiedzający'
     origin: 'Skąd pochodzą wizyty'
     pages: Strony
+    robots: Roboty
   origin_intro: 'Liczone na serwerze, bez ciasteczek: odwiedzający to ktoś inny następnego dnia. Wyszukiwarki rzadko przekazują już słowo kluczowe.'
+  robots_intro: 'Roboty indeksujące i asystenci AI, liczeni oddzielnie od publiczności: strony przeczytane przez robota, nazwane przez jego agenta użytkownika, lub złapane na czytaniu szybciej niż człowiek.'
 
 es:
   page_title: Audiencia
@@ -170,7 +198,9 @@ es:
     geography: 'Dónde están los visitantes'
     origin: 'De dónde provienen las visitas'
     pages: Páginas
+    robots: Robots
   origin_intro: 'Contado en el servidor, sin cookies: un visitante es alguien diferente al día siguiente. Los motores de búsqueda rara vez pasan la palabra clave ya.'
+  robots_intro: 'Rastreador y asistentes de IA, contados aparte de la audiencia: páginas leídas por robot, nombradas por su agente de usuario, o atrapadas leyendo más rápido que una persona.'
 
 it:
   page_title: Pubblico
@@ -180,7 +210,9 @@ it:
     geography: 'Dove si trovano i visitatori'
     origin: 'Da dove provengono le visite'
     pages: Pagine
+    robots: Robot
   origin_intro: 'Contati sul server, senza cookie: un visitatore è qualcun altro il giorno dopo. I motori di ricerca raramente passano più la parola chiave.'
+  robots_intro: 'Crawler e assistenti AI, conteggiati separatamente dal pubblico: pagine lette per robot, nominati dal loro user agent, o sorpresi a leggere più velocemente di una persona.'
 
 pt_BR:
   page_title: Público
@@ -190,7 +222,9 @@ pt_BR:
     geography: 'De onde são os visitantes'
     origin: 'De onde vêm as visitas'
     pages: Páginas
+    robots: Robôs
   origin_intro: 'Contados no servidor, sem cookies: um visitante é alguém diferente no dia seguinte. Motores de busca raramente repassam a palavra-chave agora.'
+  robots_intro: 'Rastreadores e assistentes de IA, contados separadamente da audiência: páginas lidas por robô, nomeadas pelo seu agente de usuário, ou capturadas lendo mais rápido que uma pessoa.'
 
 tr:
   page_title: 'Hedef Kitle'
@@ -200,7 +234,9 @@ tr:
     geography: 'Ziyaretçilerin bulunduğu yer'
     origin: 'Ziyaretlerin geldiği yer'
     pages: Sayfalar
+    robots: Robotlar
   origin_intro: 'Sunucuda sayılır, çerez olmadan: bir ziyaretçi ertesi gün başka birisidir. Arama motorları artık anahtar kelimeyi nadiren iletir.'
+  robots_intro: 'Tarayıcılar ve AI asistanları, izleyiciden ayrı olarak sayılır: kullanıcı aracına göre adlandırılan her robot için okunan sayfalar veya bir insandan daha hızlı okurken yakalananlar.'
 
 vi:
   page_title: 'Đối tượng'
@@ -210,7 +246,9 @@ vi:
     geography: 'Nơi khách truy cập đến từ'
     origin: 'Nơi các lượt truy cập đến từ'
     pages: Trang
+    robots: Robot
   origin_intro: 'Đếm trên máy chủ, không có cookie: một khách truy cập là người khác vào ngày hôm sau. Các công cụ tìm kiếm hiếm khi chuyển từ khóa nữa.'
+  robots_intro: 'Các công cụ thu thập dữ liệu và trợ lý AI, được tính riêng biệt với người dùng: số trang đã đọc theo robot, được đặt tên theo tác nhân người dùng của nó, hoặc bị bắt gặp đọc nhanh hơn một người.'
 
 id:
   page_title: Audiens
@@ -220,7 +258,9 @@ id:
     geography: 'Di mana pengunjung berada'
     origin: 'Dari mana kunjungan berasal'
     pages: Halaman
+    robots: Robot
   origin_intro: 'Dihitung di server, tanpa cookie: seorang pengunjung adalah orang lain di hari berikutnya. Mesin pencari jarang lagi meneruskan kata kunci.'
+  robots_intro: 'Crawler dan asisten AI, dihitung terpisah dari audiens: halaman yang dibaca per robot, dinamai sesuai dengan user agent-nya, atau tertangkap membaca lebih cepat daripada manusia.'
 
 nl:
   page_title: Doelgroep
@@ -230,4 +270,6 @@ nl:
     geography: 'Waar bezoekers vandaan komen'
     origin: 'Waar bezoeken vandaan komen'
     pages: "Pagina's"
+    robots: Roboters
   origin_intro: 'Geteld op de server, zonder cookies: een bezoeker is de volgende dag iemand anders. Zoekmachines geven zelden het zoekwoord nog door.'
+  robots_intro: "Crawlers en AI-assistenten, apart geteld van het publiek: pagina's gelezen per robot, genoemd naar zijn user agent, of betrapt op sneller lezen dan een persoon."
