@@ -1,6 +1,6 @@
 # symfony-analytics-ds
 
-Version: 2.0.18
+Version: 2.0.19
 
 Design-system screens of symfony-analytics: the audience of the site over a period, for its administrator
 
