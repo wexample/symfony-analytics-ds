@@ -42,10 +42,10 @@
         {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'device' }) }}
     </div>
 
-    {#- The routes, a line whatever the language of a page, beside its
-        addresses, each its own line. -#}
+    {#- The routes, a line whatever the language of a page, above its
+        addresses, each its own line: both too long to share a row. -#}
     <h2>{{ '@page::section.pages' | trans }}</h2>
-    <div class="grid grid--2 analytics--tables">
+    <div class="stack--vertical">
         {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'route' }) }}
         {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'page' }) }}
     </div>
