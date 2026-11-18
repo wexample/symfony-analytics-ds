@@ -9,18 +9,21 @@ use Wexample\SymfonyAnalytics\Enum\AnalyticsDimension;
 use Wexample\SymfonyAnalytics\Service\AnalyticsAccessService;
 use Wexample\SymfonyAnalytics\Service\AnalyticsStatsService;
 use Wexample\SymfonyAnalytics\Service\AnalyticsStorageService;
+use Wexample\SymfonyAnalytics\Service\AnalyticsTodayService;
 use Wexample\SymfonyAnalytics\Service\ChartPoint\AnalyticsCompositionChartPointProvider;
 use Wexample\SymfonyAnalytics\Service\ChartPoint\AnalyticsCountriesChartPointProvider;
+use Wexample\SymfonyAnalytics\Service\ChartPoint\AnalyticsTodayChartPointProvider;
 use Wexample\SymfonyAnalytics\Service\ChartPoint\AnalyticsTrafficChartPointProvider;
 use Wexample\SymfonyAnalyticsDs\Traits\SymfonyAnalyticsDsBundleClassTrait;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
 
 /**
- * The audience of the site over a period: its figures, its course, where it
- * comes from, where it is, of the people, the robots or both, and what it
- * weighs in the database. Every part reads the api for the period the
- * period-nav of the page says, and reads it again when it changes. The
- * holders of symfony-analytics' `access_role`.
+ * What is going on in the site now, then its audience over a period: its
+ * figures, its course, where it comes from, where it is, of the people, the
+ * robots or both, and what it weighs in the database. What is going on now
+ * is read when the page is, not followed; every other part reads the api
+ * for the period the period-nav of the page says, and reads it again when it
+ * changes. The holders of symfony-analytics' `access_role`.
  */
 #[Route(path: '/analytics/', name: 'analytics_')]
 final class AnalyticsController extends AbstractPagesController
@@ -34,12 +37,22 @@ final class AnalyticsController extends AbstractPagesController
         AnalyticsAccessService $access,
         AnalyticsStatsService $stats,
         AnalyticsStorageService $storage,
+        AnalyticsTodayService $today,
     ): Response {
         $access->denyUnlessGranted();
 
         $sizes = $storage->getSizes();
 
         return $this->renderPage('index', [
+            'today_chart' => AnalyticsTodayChartPointProvider::getChartName(),
+            'today' => [
+                'windows' => array_keys(AnalyticsTodayService::WINDOWS),
+                'active' => $today->countActiveVisitors(),
+                'active_minutes' => AnalyticsTodayService::ACTIVE_MINUTES,
+                'hour' => $today->compareHour(),
+                'busiest' => $today->findBusiestRobot(),
+                'latest' => $today->findLatestPages(10),
+            ],
             'composition_chart' => AnalyticsCompositionChartPointProvider::getChartName(),
             'traffic_chart' => AnalyticsTrafficChartPointProvider::getChartName(),
             'countries_chart' => AnalyticsCountriesChartPointProvider::getChartName(),

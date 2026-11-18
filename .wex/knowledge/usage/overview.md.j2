@@ -4,6 +4,7 @@
 
 `/{_locale}/analytics/` (`analytics_index`), for symfony-analytics' `access_role`, from top to bottom:
 
+- right now, whatever the period and the audience: every page read over the last 24 hours (15-minute bars) or 2 hours (5-minute bars), stacked per audience, the window ticked without a script; beside it, the people on the site within 30 minutes, this hour against yesterday's, the busiest robot of the hour and the people's latest pages — read with the page, not followed;
 - an audience-nav (`analytics-audience-nav`: people, robots, everything) and a period-nav (month, year, or the last 7, 30, 90 days), both kept in the address;
 - the figures of the audience chosen (`analytics-totals`);
 - who reads the site: every page read per day, stacked per audience — the raw traffic, whatever the audience chosen;

@@ -29,6 +29,34 @@
   }
 }
 
+// One window of the day's chart at a time, the one ticked.
+.analytics--today:has(#analytics-today-24h:checked) .analytics--today-chart--2h,
+.analytics--today:has(#analytics-today-2h:checked) .analytics--today-chart--24h {
+  display: none;
+}
+
+.analytics--today-chart {
+  margin-top: var(--space-2);
+}
+
+.analytics--latest {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  > li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 var(--space-2);
+    padding: var(--space-1) 0;
+    min-width: 0;
+  }
+
+  a {
+    overflow-wrap: anywhere;
+  }
+}
+
 .analytics--storage {
   margin-top: var(--space-6);
 }

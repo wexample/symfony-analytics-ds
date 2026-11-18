@@ -3,10 +3,62 @@
 {%- set page_show_title = true -%}
 {%- set page_measure = false -%}
 
-{#- The audience and the period first, which every part below follows: the
-    figures and the tables add up the audience chosen, the charts read the
-    period again when it changes. -#}
+{#- What is going on now first, whatever the period and the audience; then
+    the audience and the period, which every part below follows: the figures
+    and the tables add up the audience chosen, the charts read the period
+    again when it changes. -#}
 {%- block page_body -%}
+    {%- set reasons = 'WexampleSymfonyAnalyticsDsBundle.components.analytics-breakdown-table.analytics-breakdown-table::' -%}
+
+    <h2>{{ '@page::section.now' | trans }}</h2>
+    <p class="lead">{{ '@page::now_intro' | trans }}</p>
+    <div class="grid--aside">
+        {#- The window chosen without a script: the other chart is hidden,
+            and drawn when shown, a chart waiting to be seen. -#}
+        <div class="block block--padded analytics--today">
+            <div class="radio-group radio-group--segmented" role="radiogroup">
+                {%- for window in today.windows -%}
+                    <div class="radio-option">
+                        <input class="form--radio" type="radio" name="analytics-today" id="analytics-today-{{ window }}h"
+                               value="{{ window }}h"{% if loop.first %} checked{% endif %}>
+                        <label class="form--radio-label" for="analytics-today-{{ window }}h">{{ ('@page::now.window_' ~ window ~ 'h') | trans }}</label>
+                    </div>
+                {%- endfor -%}
+            </div>
+            {%- for window in today.windows -%}
+                <div class="analytics--today-chart analytics--today-chart--{{ window }}h">
+                    {{ chart('bar', {}, { source: today_chart, scope: window ~ 'h', stacked: true, lazy: not loop.first }) }}
+                </div>
+            {%- endfor -%}
+        </div>
+
+        <div class="block block--padded analytics--now">
+            <div class="block--figure block--figure--start">
+                <span class="block--figure-label">{{ '@page::now.active' | trans({ '%minutes%': today.active_minutes }) }}</span>
+                <span class="block--figure-value">{{ today.active | number }}</span>
+            </div>
+            <p>{{ '@page::now.hour' | trans({ '%now%': today.hour.now | number, '%yesterday%': today.hour.yesterday | number }) }}</p>
+            {%- if today.busiest -%}
+                <p>{{ '@page::now.busiest' | trans({
+                    '%robot%': today.busiest.suspect or today.busiest.robot == 'other' ? (reasons ~ 'robot.' ~ today.busiest.robot) | trans : today.busiest.robot,
+                    '%views%': today.busiest.views | number,
+                }) }}</p>
+            {%- endif -%}
+            <h3>{{ '@page::now.latest' | trans }}</h3>
+            <ul class="analytics--latest">
+                {%- for view in today.latest -%}
+                    <li>
+                        <time class="text-tertiary" datetime="{{ view.viewedAt | date('c') }}">{{ view.viewedAt | date('H:i') }}</time>
+                        <a href="{{ view.path }}">{{ view.path }}</a>
+                        <span class="text-tertiary">{{ (reasons ~ 'source.' ~ view.origin.source.value) | trans }}{% if view.country %} · {{ view.country | country_name }}{% endif %}</span>
+                    </li>
+                {%- else -%}
+                    <li class="text-tertiary">{{ '@page::now.none' | trans }}</li>
+                {%- endfor -%}
+            </ul>
+        </div>
+    </div>
+
     <div class="analytics--period">
         {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-audience-nav') }}
         {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/period-nav', {
