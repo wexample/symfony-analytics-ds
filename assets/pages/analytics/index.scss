@@ -19,10 +19,12 @@
   text-align: right;
 }
 
-// Two tables side by side at most: a table needs the room of its four
-// columns, and keeps to its cell rather than spilling into the next.
-.analytics--tables {
-  --grid-min: 28rem;
+// Two tables side by side at most, and only where each has the room of its
+// four columns on one line — the widest header, a search engine's, asks
+// 35rem —; below, one under the other. Over the grid's own floor
+// (`grid--2`), which would set them side by side in less.
+.grid.analytics--tables {
+  --grid-min: 35rem;
 
   > * {
     min-width: 0;

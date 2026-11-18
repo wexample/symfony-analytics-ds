@@ -34,6 +34,9 @@ export default {
     return {
       pageLength: 10,
       showCount: true,
+      // Two to a row in the page's grid: wider than its cell, it scrolls
+      // sideways in it rather than running over the table beside it.
+      scroll: true,
       defaultSort: { key: this.dimension === 'robot' ? 'views' : 'visits', direction: 'desc' },
       period: null,
       audienceFollowed: null
