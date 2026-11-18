@@ -71,6 +71,8 @@ zh:
   robot:
     other: 其他机器人
     cadence: 阅读速度对人来说太快了
+    burst: 分段读取
+    headers: 没有浏览器头信息
   source:
     direct: 直接
     search: 搜索引擎
@@ -98,6 +100,8 @@ ar:
   robot:
     other: 'روبوتات أخرى'
     cadence: 'يقرأ بسرعة كبيرة بالنسبة لشخص'
+    burst: 'القراءة في دفعات'
+    headers: 'لا توجد رؤوس متصفح'
   source:
     direct: مباشر
     search: 'محرك البحث'
@@ -125,6 +129,8 @@ hi:
   robot:
     other: 'अन्य रोबोट'
     cadence: 'किसी व्यक्ति के लिए बहुत तेजी से पढ़ना'
+    burst: 'टुकड़ों में पढ़ना'
+    headers: 'कोई ब्राउज़र हेडर नहीं'
   source:
     direct: प्रत्यक्ष
     search: 'सर्च इंजन'
@@ -152,6 +158,8 @@ he:
   robot:
     other: 'רובוטים אחרים'
     cadence: 'קורא מהר מדי לבן אדם'
+    burst: 'קריאה בקצבים'
+    headers: 'אין כותרות דפדפן'
   source:
     direct: ישיר
     search: 'מנוע חיפוש'
@@ -179,6 +187,8 @@ fa:
   robot:
     other: 'ربات‌های دیگر'
     cadence: 'سرعت خواندن بیش از حد برای یک فرد'
+    burst: 'خواندن به صورت دسته‌ای'
+    headers: 'بدون هدرهای مرورگر'
   source:
     direct: مستقیم
     search: 'موتور جستجو'
@@ -206,6 +216,8 @@ ur:
   robot:
     other: 'دیگر روبوٹ'
     cadence: 'انسان کے لیے بہت تیزی سے پڑھنا'
+    burst: 'بھرپور پڑھنا'
+    headers: 'کوئی براؤزر ہیڈرز نہیں'
   source:
     direct: 'براہ راست'
     search: 'تلاش انجن'
@@ -233,6 +245,8 @@ ja:
   robot:
     other: 他のロボット
     cadence: 人には速すぎる読み方
+    burst: バースト読み込み
+    headers: ブラウザヘッダーなし
   source:
     direct: 直接
     search: 検索エンジン
@@ -260,6 +274,8 @@ ko:
   robot:
     other: '기타 로봇'
     cadence: '사람이 읽기에는 너무 빠른 속도'
+    burst: '짧게 읽기'
+    headers: '브라우저 헤더 없음'
   source:
     direct: 직접
     search: '검색 엔진'
@@ -287,6 +303,8 @@ bn:
   robot:
     other: 'অন্যান্য রোবট'
     cadence: 'মানুষের জন্য খুব দ্রুত পড়া'
+    burst: 'সংক্ষিপ্তভাবে পড়া'
+    headers: 'কোন ব্রাউজার হেডার নেই'
   source:
     direct: সরাসরি
     search: 'সার্চ ইঞ্জিন'
@@ -314,6 +332,8 @@ th:
   robot:
     other: หุ่นยนต์อื่นๆ
     cadence: อ่านเร็วเกินไปสำหรับคน
+    burst: อ่านแบบพุ่ง
+    headers: ไม่มีส่วนหัวของเบราว์เซอร์
   source:
     direct: ตรง
     search: เครื่องมือค้นหา
@@ -341,6 +361,8 @@ de:
   robot:
     other: 'Andere Roboter'
     cadence: 'Zu schnell für eine Person lesen'
+    burst: 'In kurzen Abschnitten lesen'
+    headers: 'Keine Browser-Header'
   source:
     direct: Direkt
     search: Suchmaschine
@@ -368,6 +390,8 @@ fi:
   robot:
     other: 'Muut robotit'
     cadence: 'Lukeminen liian nopeasti ihmiselle'
+    burst: 'Lukeminen erissä'
+    headers: 'Ei selainotsikoita'
   source:
     direct: Suora
     search: Hakukone
@@ -395,6 +419,8 @@ ru:
   robot:
     other: 'Другие роботы'
     cadence: 'Чтение слишком быстро для человека'
+    burst: 'Чтение порциями'
+    headers: 'Нет заголовков браузера'
   source:
     direct: Прямой
     search: 'Поисковая система'
@@ -422,6 +448,8 @@ pl:
   robot:
     other: 'Inne roboty'
     cadence: 'Czytanie za szybko dla człowieka'
+    burst: 'Czytanie w seriach'
+    headers: 'Brak nagłówków przeglądarki'
   source:
     direct: Bezpośrednio
     search: Wyszukiwarka
@@ -449,6 +477,8 @@ es:
   robot:
     other: 'Otros robots'
     cadence: 'Leyendo demasiado rápido para una persona'
+    burst: 'Lectura en ráfagas'
+    headers: 'Sin encabezados del navegador'
   source:
     direct: Directo
     search: 'Motor de búsqueda'
@@ -476,6 +506,8 @@ it:
   robot:
     other: 'Altri robot'
     cadence: 'Leggendo troppo velocemente per una persona'
+    burst: 'Lettura a scatti'
+    headers: 'Nessuna intestazione del browser'
   source:
     direct: Diretto
     search: 'Motore di ricerca'
@@ -503,6 +535,8 @@ pt_BR:
   robot:
     other: 'Outros robôs'
     cadence: 'Lendo muito rápido para uma pessoa'
+    burst: 'Leitura em intervalos'
+    headers: 'Sem cabeçalhos do navegador'
   source:
     direct: Direto
     search: 'Motor de busca'
@@ -530,6 +564,8 @@ tr:
   robot:
     other: 'Diğer robotlar'
     cadence: 'Bir kişi için çok hızlı okuma'
+    burst: 'Patlayarak okuma'
+    headers: 'Tarayıcı başlığı yok'
   source:
     direct: Doğrudan
     search: 'Arama motoru'
@@ -545,7 +581,7 @@ tr:
 vi:
   dimension:
     page: Trang
-    route: 'Tuyến'
+    route: Tuyến
     source: Nguồn
     referrer: 'Trang web'
     search_engine: 'Công cụ tìm kiếm hoặc trợ lý'
@@ -557,6 +593,8 @@ vi:
   robot:
     other: 'Các robot khác'
     cadence: 'Đọc quá nhanh đối với một người'
+    burst: 'Đọc theo từng đoạn'
+    headers: 'Không có tiêu đề trình duyệt'
   source:
     direct: 'Trực tiếp'
     search: 'Công cụ tìm kiếm'
@@ -584,6 +622,8 @@ id:
   robot:
     other: 'Robot lain'
     cadence: 'Membaca terlalu cepat untuk seseorang'
+    burst: 'Membaca dalam jeda'
+    headers: 'Tidak ada header browser'
   source:
     direct: Langsung
     search: 'Mesin pencari'
@@ -611,6 +651,8 @@ nl:
   robot:
     other: 'Andere robots'
     cadence: 'Te snel lezen voor een persoon'
+    burst: 'In stukken lezen'
+    headers: 'Geen browserheaders'
   source:
     direct: Direct
     search: Zoekmachine

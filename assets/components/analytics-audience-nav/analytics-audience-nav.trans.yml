@@ -9,3 +9,129 @@ fr:
   humans: 'Personnes'
   robots: 'Robots'
   all: 'Tout'
+
+zh:
+  label: 受众
+  humans: 人
+  robots: 机器人
+  all: 所有
+
+ar:
+  label: الجمهور
+  humans: أشخاص
+  robots: روبوتات
+  all: 'كل شيء'
+
+hi:
+  label: दर्शक
+  humans: लोग
+  robots: रोबोट
+  all: 'सब कुछ'
+
+he:
+  label: קהל
+  humans: אנשים
+  robots: רובוטים
+  all: הכל
+
+fa:
+  label: مخاطب
+  humans: افراد
+  robots: روبات‌ها
+  all: 'همه چیز'
+
+ur:
+  label: ناظرین
+  humans: لوگ
+  robots: روبوٹس
+  all: 'سب کچھ'
+
+ja:
+  label: オーディエンス
+  humans: 人間
+  robots: ロボット
+  all: すべて
+
+ko:
+  label: 청중
+  humans: 사람들
+  robots: 로봇
+  all: '모든 것'
+
+bn:
+  label: দর্শক
+  humans: মানুষ
+  robots: রোবট
+  all: সবকিছু
+
+th:
+  label: กลุ่มเป้าหมาย
+  humans: ผู้คน
+  robots: หุ่นยนต์
+  all: ทุกอย่าง
+
+de:
+  label: Zielgruppe
+  humans: Menschen
+  robots: Roboter
+  all: Alles
+
+fi:
+  label: Kohdeyleisö
+  humans: Ihmiset
+  robots: Robotit
+  all: Kaikki
+
+ru:
+  label: Аудитория
+  humans: Люди
+  robots: Роботы
+  all: Все
+
+pl:
+  label: Publiczność
+  humans: Ludzie
+  robots: Roboty
+  all: Wszystko
+
+es:
+  label: Audiencia
+  humans: Personas
+  robots: Robots
+  all: Todo
+
+it:
+  label: Pubblico
+  humans: Persone
+  robots: Robot
+  all: Tutto
+
+pt_BR:
+  label: Público
+  humans: Pessoas
+  robots: Robôs
+  all: Tudo
+
+tr:
+  label: 'Hedef Kitle'
+  humans: İnsanlar
+  robots: Robotlar
+  all: 'Her Şey'
+
+vi:
+  label: 'Khán giả'
+  humans: Người
+  robots: Robot
+  all: 'Mọi thứ'
+
+id:
+  label: Audiens
+  humans: Orang
+  robots: Robot
+  all: Segalanya
+
+nl:
+  label: Publiek
+  humans: Mensen
+  robots: Robots
+  all: Alles

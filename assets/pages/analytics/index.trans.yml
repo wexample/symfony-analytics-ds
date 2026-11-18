@@ -34,250 +34,334 @@ zh:
   page_title: 受众
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 谁在浏览网站
     traffic: 随着时间的推移
     geography: 访客的来源
     origin: 访问来自哪里
     pages: 页面
     robots: 机器人
+  composition_intro: 每一页的浏览量：真实的流量，包括人类、伪装成浏览器的机器人，以及自称为机器人的那些。
+  people_only: 仅限于人类，不论上面选择的受众是什么。
+  storage: 数据库中存储的受众数量为%size%。逐日保留：人类%human%个月，怀疑的机器人%suspect%个月，已声明的机器人%declared%个月；之后按月统计。
   origin_intro: '在服务器上计算，不使用 cookies：访客在第二天是另一个人。搜索引擎很少再传递关键词了。'
-  robots_intro: 爬虫和人工智能助手，与观众分开计算：按机器人名称（由其用户代理命名）统计每个机器人阅读的页面数量，或者读取速度快于人的情况。
+  robots_intro: 每一个机器人，单独计数，不包括人类：由其用户代理声明——爬虫、人工智能助手——或被怀疑——没有浏览器头的浏览器用户代理，以比人类更快的速度或间歇性地进行阅读。仅限其页面。
 
 ar:
   page_title: الجمهور
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 'من يقرأ الموقع'
     traffic: 'على مر الزمن'
     geography: 'من أين يأتي الزوار'
     origin: 'من أين تأتي الزيارات'
     pages: الصفحات
     robots: الروبوتات
+  composition_intro: 'كل صفحة مقروءة، الحركة الخام: الأشخاص، الروبوتات التي تم القبض عليها متنكرة كمتصفحات، والروبوتات التي تسمي نفسها.'
+  people_only: 'الأشخاص فقط، بغض النظر عن الجمهور المختار أعلاه.'
+  storage: '%size% من الجمهور في قاعدة البيانات. محفوظة يوماً بيوم: الأشخاص %human% شهراً، الروبوتات المشتبه بها %suspect% شهراً، الروبوتات المعلنة %declared% شهراً؛ شهراً بشهر بعد ذلك.'
   origin_intro: 'يتم العد على الخادم، بدون ملفات تعريف الارتباط: الزائر هو شخص آخر في اليوم التالي. نادرًا ما تمر محركات البحث بالكلمة الرئيسية بعد الآن.'
-  robots_intro: 'العناكب ومساعدات الذكاء الاصطناعي، تُحسب بشكل منفصل عن الجمهور: الصفحات المقروءة لكل روبوت، مسماة بواسطة وكيل المستخدم الخاص بها، أو تم رصدها تقرأ بشكل أسرع من الشخص.'
+  robots_intro: 'كل روبوت، يُحتسب بشكل منفصل عن الأشخاص: مُعلن بواسطة وكيل المستخدم الخاص به — الزاحفون، مساعدو الذكاء الاصطناعي —، أو المشتبه بهم — وكيل مستخدم المتصفح بدون رؤوس المتصفح، يقرأ في دفعات أو أسرع من الشخص. صفحاتهم فقط.'
 
 hi:
   page_title: दर्शक
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 'कौन साइट पढ़ता है'
     traffic: 'समय के साथ'
     geography: 'जहाँ आगंतुक हैं'
     origin: 'जहाँ से विज़िट आते हैं'
     pages: पृष्ठ
     robots: रोबोट्स
+  composition_intro: 'प्रत्येक पृष्ठ पढ़ा गया, कच्चा ट्रैफिक: लोग, वे रोबोट जो ब्राउज़र के रूप में पकड़े गए हैं, और वे रोबोट जो अपने आप को नामित करते हैं।'
+  people_only: 'सिर्फ लोग, चाहे जो भी ऊपर चुना गया दर्शक हो।'
+  storage: '%size% दर्शक डेटाबेस में। दिन-प्रतिदिन रखा गया: लोग %human% महीने, संदेहास्पद रोबोट %suspect% महीने, घोषित रोबोट %declared% महीने; उसके बाद महीने दर महीने।'
   origin_intro: 'सर्वर पर गिने गए, बिना कुकीज़ के: एक आगंतुक अगले दिन कोई और होता है। सर्च इंजन अब अक्सर कीवर्ड पास नहीं करते।'
-  robots_intro: 'क्रॉलर और एआई सहायक, दर्शकों से अलग गिने जाते हैं: प्रति रोबोट पढ़े गए पृष्ठ, जो इसके उपयोगकर्ता एजेंट द्वारा नामित होते हैं, या जो किसी व्यक्ति से तेज़ी से पढ़ते हुए पकड़े जाते हैं।'
+  robots_intro: 'प्रत्येक रोबोट, लोगों से अलग गिना गया: इसके उपयोगकर्ता एजेंट द्वारा घोषित — क्रॉलर, एआई सहायक —, या संदेहास्पद — किसी ब्राउज़र के हेडर के बिना एक ब्राउज़र का उपयोगकर्ता एजेंट, जो एक व्यक्ति से तेज़ी से या झोंकों में पढ़ रहा है। केवल उनके पृष्ठ।'
 
 he:
   page_title: קהל
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 'מי קורא את האתר'
     traffic: 'עם הזמן'
     geography: 'איפה המבקרים נמצאים'
     origin: 'מאיפה מגיעים הביקורים'
     pages: דפים
     robots: רובוטים
+  composition_intro: 'כל עמוד נקרא, התנועה הגולמית: האנשים, הרובוטים שנתפסו מחופשים לדפדפנים, והרובוטים שמציינים את עצמם.'
+  people_only: 'רק האנשים, כלשהם הקהל הנבחר לעיל.'
+  storage: '%size% מהקהל בבסיס הנתונים. נשמר יום יום: האנשים %human% חודשים, הרובוטים החשודים %suspect% חודשים, הרובוטים המוצהרים %declared% חודשים; חודש אחרי חודש לאחר מכן.'
   origin_intro: 'נספר על השרת, בלי עוגיות: מבקר הוא מישהו אחר ביום למחרת. מנועי חיפוש rarely מעבירים את המילה המפתח עוד.'
-  robots_intro: 'זוחלים ועוזרי AI, נחשבים בנפרד מהקהל: דפים שנקראו לכל רובוט, בשם סוכן המשתמש שלו, או נתפסים קוראים מהר יותר מאדם.'
+  robots_intro: 'כל רובוט, נחשב בנפרד מהאנשים: המוצהרים על ידי סוכן המשתמש שלהם — זחלים, עוזרי AI —, או החשודים — סוכן משתמש של דפדפן ללא כותרות דפדפן, קוראים במתקפות או מהר יותר מאדם. העמודים שלהם בלבד.'
 
 fa:
   page_title: مخاطب
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 'چه کسی سایت را می‌خواند'
     traffic: 'در طول زمان'
     geography: 'مکان بازدیدکنندگان'
     origin: 'مکان ورود بازدیدها'
     pages: صفحات
     robots: ربات‌ها
+  composition_intro: 'هر صفحه‌ای که خوانده می‌شود، ترافیک خام: مردم، ربات‌هایی که به عنوان مرورگر لباس پوشیده‌اند و ربات‌هایی که خود را معرفی می‌کنند.'
+  people_only: 'فقط افراد، هرچه که مخاطب انتخاب شده در بالا باشد.'
+  storage: '%size% از مخاطب در پایگاه داده. روز به روز نگهداری می‌شود: افراد %human% ماه، ربات‌های مشکوک %suspect% ماه، ربات‌های اعلام شده %declared% ماه؛ ماه به ماه بعد از آن.'
   origin_intro: 'در سرور شمرده شده، بدون کوکی‌ها: یک بازدیدکننده فردا کسی دیگر است. موتورهای جستجو به ندرت کلمه کلیدی را منتقل می‌کنند.'
-  robots_intro: 'زیرمجموعه‌ها و دستیارهای هوش مصنوعی، که از مخاطب جدا شمرده می‌شوند: صفحات خوانده شده به ازای هر ربات، که با شناسه کاربری‌اش نام‌گذاری شده‌اند، یا سریع‌تر از یک فرد در حال خواندن ضبط شده‌اند.'
+  robots_intro: 'هر ربات، جدا از افراد شمارش می‌شود: اعلام شده توسط عامل کاربری‌اش — خزنده‌ها، دستیارهای هوش مصنوعی —، یا مشکوک — عامل کاربری مرورگری بدون هدرهای مرورگر، که به صورت ناگهانی یا سریع‌تر از یک شخص می‌خواند. صفحات آن‌ها به تنهایی.'
 
 ur:
   page_title: ناظرین
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 'جو سائٹ پڑھتا ہے'
     traffic: 'وقت کے ساتھ'
     geography: 'زائرین کہاں ہیں'
     origin: 'ملاقاتیں کہاں سے آتی ہیں'
     pages: صفحات
     robots: روبوٹس
+  composition_intro: 'ہر پڑھی جانے والی صفحہ، خام ٹریفک: لوگ، وہ روبوٹ جو براؤزر کے طور پر ملبوس ہیں، اور وہ روبوٹ جو اپنے آپ کو نام دیتے ہیں۔'
+  people_only: 'صرف لوگ، اوپر منتخب کردہ سامعین کی پرواہ کیے بغیر۔'
+  storage: '%size% سامعین کی ڈیٹا بیس میں۔ دن بدن محفوظ کیا جاتا ہے: لوگ %human% مہینے، مشکوک روبوٹ %suspect% مہینے، اعلان کردہ روبوٹ %declared% مہینے؛ اس کے بعد ہر مہینے۔'
   origin_intro: 'سرور پر شمار کیے گئے، کوکیز کے بغیر: ایک زائر اگلے دن کوئی اور ہوتا ہے۔ تلاش کے انجن اب کم ہی کلیدواژه فراہم کرتے ہیں۔'
-  robots_intro: 'کرالرز اور اے آئی اسسٹنٹس، سامعین سے الگ شمار کیے گئے: ہر روبوٹ کے لیے پڑھے گئے صفحات، جس کا نام اس کے صارف ایجنٹ کے ذریعے ہے، یا جو شخص سے زیادہ تیز پڑھتے ہوئے پکڑے گئے۔'
+  robots_intro: 'ہر روبوٹ، لوگوں سے الگ شمار کیا جاتا ہے: اپنے صارف ایجنٹ کے ذریعہ اعلان کردہ — کھرچنے والے، AI معاون — یا مشکوک — بغیر براؤزر کے ہیڈرز کے براؤزر کا صارف ایجنٹ، جھپٹنے یا انسان سے تیز پڑھنے والا۔ صرف ان کے صفحات۔'
 
 ja:
   page_title: オーディエンス
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 誰がサイトを読んでいるか
     traffic: 時間の経過とともに
     geography: 訪問者の所在地
     origin: 訪問がどこから来るか
     pages: ページ
     robots: ロボット
+  composition_intro: 読まれたページすべて、生のトラフィック：人々、ブラウザとして装ったロボット、そして自らをロボットと名乗る者たち。
+  people_only: 選択されたオーディエンスに関わらず、人々のみ。
+  storage: データベースにおける%size%のオーディエンス。日々保持：人々は%human%ヶ月、疑わしいロボットは%suspect%ヶ月、明示的なロボットは%declared%ヶ月；以降は月ごとに。
   origin_intro: 'サーバーでカウントされ、クッキーなし: 訪問者は翌日には別の人になります。検索エンジンはもはやキーワードを渡すことはほとんどありません。'
-  robots_intro: クローラーやAIアシスタント。オーディエンスとは別にカウントされます：ロボットごとのページビュー、そのユーザーエージェントによる名称、または人より早く読み取られた場合。
+  robots_intro: '人々とは別にカウントされるすべてのロボット：ユーザーエージェントによって明示された — クローラー、AIアシスタント — または疑わしい — ブラウザのヘッダーなしのブラウザのユーザーエージェント、バーストで読み取るか、人間よりも早く。彼らのページのみ。'
 
 ko:
   page_title: 관객
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: '누가 사이트를 읽나요'
     traffic: '시간에 따른'
     geography: '방문자가 있는 곳'
     origin: '방문이 발생하는 곳'
     pages: 페이지
     robots: 로봇
+  composition_intro: '읽은 모든 페이지, 원시 트래픽: 사람들, 브라우저처럼 가장한 로봇들, 그리고 스스로를 로봇이라고 명명한 것들.'
+  people_only: '선택한 청중과 관계없이 사람들만.'
+  storage: '데이터베이스에 있는 청중의 %size%. 매일 유지: 사람들 %human%개월, 의심되는 로봇 %suspect%개월, 선언된 로봇 %declared%개월; 그 이후로 매달.'
   origin_intro: '서버에서 집계되며, 쿠키 없이: 방문자는 다음 날 다른 사람입니다. 검색 엔진은 더 이상 키워드를 자주 전달하지 않습니다.'
-  robots_intro: '크롤러와 AI 어시스턴트는 청중과 별개로 집계됩니다: 로봇별 페이지 수, 사용자 에이전트에 의해 명명되거나 사람보다 빠르게 읽고 있는 것으로 감지된.'
+  robots_intro: '사람들과는 별도로 계산된 모든 로봇: 사용자 에이전트로 선언된 — 크롤러, AI 어시스턴트 — 또는 의심되는 — 브라우저의 헤더 없이 브라우저의 사용자 에이전트, 사람보다 더 빠르거나 갑자기 읽는 것. 그들의 페이지만.'
 
 bn:
   page_title: দর্শক
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 'কে সাইটটি পড়ে'
     traffic: 'সময় অনুযায়ী'
     geography: 'যেখানে দর্শকরা রয়েছে'
     origin: 'যেখানে ভিজিটগুলো আসে'
     pages: পেজগুলো
     robots: রোবট
+  composition_intro: 'প্রতিটি পৃষ্ঠা পড়া, কাঁচা ট্রাফিক: মানুষ, ব্রাউজারের মতো পোষাক পরা রোবট, এবং নিজেদের নামকরণ করা রোবট।'
+  people_only: 'শুধু মানুষ, উপরে নির্বাচিত দর্শকের যাই হোক না কেন।'
+  storage: 'ডেটাবেসে দর্শকের %size%। প্রতি দিন রাখা হয়: মানুষ %human% মাস, সন্দেহভাজন রোবট %suspect% মাস, ঘোষিত রোবট %declared% মাস; তারপর প্রতি মাসে।'
   origin_intro: 'সার্ভারে গণনা করা হয়, কুকি ছাড়া: একজন দর্শক পরের দিন অন্য কেউ। সার্চ ইঞ্জিনগুলো আর কমই কীওয়ার্ডটি পাঠায়।'
-  robots_intro: 'ক্রলারে এবং AI সহকারী, দর্শকের থেকে আলাদা গণনা করা: প্রতিটি রোবট দ্বারা পড়া পৃষ্ঠা, যার নাম তার ব্যবহারকারী এজেন্ট দ্বারা, অথবা একজন মানুষের চেয়ে দ্রুত পড়তে ধরা পড়েছে।'
+  robots_intro: 'প্রতিটি রোবট, মানুষ থেকে আলাদা করে গণনা করা: এর ব্যবহারকারী এজেন্ট দ্বারা ঘোষণা করা — ক্রলার, এআই সহায়ক —, বা সন্দেহভাজন — একটি ব্রাউজারের ব্যবহারকারী এজেন্ট যা ব্রাউজারের হেডার ছাড়া, ফোঁটা ফোঁটা বা একজনের চেয়ে দ্রুত পড়ে। তাদের পৃষ্ঠাগুলি একা।'
 
 th:
   page_title: ผู้ชม
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: ใครอ่านเว็บไซต์
     traffic: ตามเวลา
     geography: ที่ตั้งของผู้เข้าชม
     origin: แหล่งที่มาของการเข้าชม
     pages: หน้า
     robots: หุ่นยนต์
+  composition_intro: 'ทุกหน้าที่อ่าน, การเข้าชมดิบ: คน, หุ่นยนต์ที่ถูกจับในชุดของเบราว์เซอร์, และหุ่นยนต์ที่ตั้งชื่อเอง.'
+  people_only: 'เฉพาะคน, ไม่ว่าจะเป็นผู้ชมที่เลือกข้างต้น.'
+  storage: '%size% ของผู้ชมในฐานข้อมูล เก็บไว้แบบวันต่อวัน: คน %human% เดือน, หุ่นยนต์ที่สงสัย %suspect% เดือน, หุ่นยนต์ที่ประกาศ %declared% เดือน; เดือนต่อเดือนหลังจากนั้น.'
   origin_intro: 'นับจากเซิร์ฟเวอร์ โดยไม่ใช้คุกกี้: ผู้เข้าชมคือคนอื่นในวันถัดไป เครื่องมือค้นหามักไม่ส่งคำสำคัญอีกต่อไป.'
-  robots_intro: 'โปรแกรมรวบรวมข้อมูลและผู้ช่วย AI นับแยกจากผู้ชม: หน้าเว็บที่อ่านต่อหุ่นยนต์ โดยระบุจากตัวแทนผู้ใช้ หรือถูกจับได้ว่าอ่านเร็วกว่าใคร.'
+  robots_intro: 'หุ่นยนต์ทุกตัว, นับแยกจากคน: ประกาศโดยผู้ใช้ของมัน — เว็บครอว์เลอร์, ผู้ช่วย AI — หรือสงสัย — ผู้ใช้ของเบราว์เซอร์ที่ไม่มีส่วนหัวของเบราว์เซอร์, อ่านในช่วงพีคหรือเร็วกว่าอย่างคน. หน้าเว็บของพวกเขาเพียงอย่างเดียว.'
 
 de:
   page_title: Zielgruppe
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 'Wer die Seite liest'
     traffic: 'Im Laufe der Zeit'
     geography: 'Woher die Besucher kommen'
     origin: 'Wo die Besuche herkommen'
     pages: Seiten
     robots: Roboter
+  composition_intro: 'Jede gelesene Seite, der rohe Traffic: die Menschen, die als Browser verkleideten Roboter und die Roboter, die sich selbst benennen.'
+  people_only: 'Nur die Menschen, unabhängig vom oben gewählten Publikum.'
+  storage: '%size% des Publikums in der Datenbank. Tag für Tag gespeichert: die Menschen %human% Monate, die vermuteten Roboter %suspect% Monate, die deklarierten Roboter %declared% Monate; Monat für Monat danach.'
   origin_intro: 'Auf dem Server gezählt, ohne Cookies: ein Besucher ist am nächsten Tag jemand anderes. Suchmaschinen übermitteln das Schlüsselwort selten noch.'
-  robots_intro: 'Crawler und KI-Assistenten, die separat vom Publikum gezählt werden: Seitenaufrufe pro Roboter, benannt nach seinem User-Agent, oder die schneller als eine Person lesen.'
+  robots_intro: 'Jeder Roboter, separat von den Menschen gezählt: deklariert durch seinen User-Agent — Crawler, KI-Assistenten — oder vermutet — ein User-Agent eines Browsers ohne die Header eines Browsers, der in Stößen oder schneller als ein Mensch liest. Nur ihre Seiten.'
 
 fi:
   page_title: Kohderyhmä
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 'Kuka lukee sivustoa'
     traffic: 'Ajan myötä'
     geography: 'Missä kävijät ovat'
     origin: 'Mistä vierailut tulevat'
     pages: Sivut
     robots: Robotit
+  composition_intro: 'Jokainen sivu, joka luetaan, raaka liikenne: ihmiset, robotit, jotka on saatu kiinni selaimina, ja robotit, jotka nimeävät itsensä.'
+  people_only: 'Vain ihmiset, riippumatta edellä valitusta yleisöstä.'
+  storage: '%size% yleisöä tietokannassa. Säilytetään päivä päivältä: ihmiset %human% kuukautta, epäillyt robotit %suspect% kuukautta, ilmoitetut robotit %declared% kuukautta; kuukausi kuukaudelta sen jälkeen.'
   origin_intro: 'Lasketaan palvelimella, ilman evästeitä: vierailija on seuraavana päivänä joku muu. Hakukoneet harvoin välittävät enää avainsanaa.'
-  robots_intro: 'Indeksoijat ja tekoälyavustajat, lasketaan erikseen yleisöstä: sivut, joita kukin robotti lukee, nimetty käyttäjäagentin mukaan, tai jotka on havaittu lukevan nopeammin kuin ihminen.'
+  robots_intro: 'Jokainen robotti, lasketaan erikseen ihmisistä: ilmoitettu käyttäjäagenttinsa mukaan — indeksoijat, tekoälyavustajat —, tai epäilty — selaimen käyttäjäagentti ilman selaimen otsikoita, lukemassa purkauksittain tai nopeammin kuin ihminen. Vain heidän sivunsa.'
 
 ru:
   page_title: Аудитория
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 'Кто читает сайт'
     traffic: 'Со временем'
     geography: 'Где находятся посетители'
     origin: 'Откуда приходят визиты'
     pages: Страницы
     robots: Роботы
+  composition_intro: 'Каждая прочитанная страница, сырой трафик: люди, роботы, маскирующиеся под браузеры, и роботы, которые называют себя.'
+  people_only: 'Только люди, независимо от выбранной выше аудитории.'
+  storage: '%size% аудитории в базе данных. Хранятся день за днем: люди %human% месяцев, подозреваемые роботы %suspect% месяцев, заявленные роботы %declared% месяцев; по месяцам после этого.'
   origin_intro: 'Учитываются на сервере, без куки: посетитель — это кто-то другой на следующий день. Поисковые системы редко передают ключевое слово больше.'
-  robots_intro: 'Пауки и ИИ-ассистенты, учитываемые отдельно от аудитории: страницы, прочитанные каждым роботом, названным по его пользовательскому агенту, или пойманные за чтением быстрее, чем человек.'
+  robots_intro: 'Каждый робот, учитываемый отдельно от людей: заявленный своим пользовательским агентом — краулеры, AI помощники — или подозреваемый — пользовательский агент браузера без заголовков браузера, читающий с перебоями или быстрее, чем человек. Только их страницы.'
 
 pl:
   page_title: Odbiorcy
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 'Kto czyta stronę'
     traffic: 'Z biegiem czasu'
     geography: 'Gdzie są odwiedzający'
     origin: 'Skąd pochodzą wizyty'
     pages: Strony
     robots: Roboty
+  composition_intro: 'Każda przeczytana strona, surowy ruch: ludzie, roboty przebrane za przeglądarki oraz roboty, które same się nazywają.'
+  people_only: 'Tylko ludzie, bez względu na wybraną powyżej publiczność.'
+  storage: '%size% publiczności w bazie danych. Przechowywane dzień po dniu: ludzie %human% miesięcy, podejrzane roboty %suspect% miesięcy, zadeklarowane roboty %declared% miesięcy; miesiąc po miesiącu po tym.'
   origin_intro: 'Liczone na serwerze, bez ciasteczek: odwiedzający to ktoś inny następnego dnia. Wyszukiwarki rzadko przekazują już słowo kluczowe.'
-  robots_intro: 'Roboty indeksujące i asystenci AI, liczeni oddzielnie od publiczności: strony przeczytane przez robota, nazwane przez jego agenta użytkownika, lub złapane na czytaniu szybciej niż człowiek.'
+  robots_intro: 'Każdy robot, liczony oddzielnie od ludzi: zadeklarowany przez swój agent użytkownika — roboty indeksujące, asystenci AI — lub podejrzany — agent użytkownika przeglądarki bez nagłówków przeglądarki, czytający w seriach lub szybciej niż człowiek. Tylko ich strony.'
 
 es:
   page_title: Audiencia
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 'Quién lee el sitio'
     traffic: 'Con el tiempo'
     geography: 'Dónde están los visitantes'
     origin: 'De dónde provienen las visitas'
     pages: Páginas
     robots: Robots
+  composition_intro: 'Cada página leída, el tráfico bruto: las personas, los robots atrapados disfrazados de navegadores, y los robots que se nombran a sí mismos.'
+  people_only: 'Solo las personas, cualquiera que sea la audiencia elegida arriba.'
+  storage: '%size% de audiencia en la base de datos. Conservados día a día: las personas %human% meses, los robots sospechosos %suspect% meses, los robots declarados %declared% meses; mes a mes después de eso.'
   origin_intro: 'Contado en el servidor, sin cookies: un visitante es alguien diferente al día siguiente. Los motores de búsqueda rara vez pasan la palabra clave ya.'
-  robots_intro: 'Rastreador y asistentes de IA, contados aparte de la audiencia: páginas leídas por robot, nombradas por su agente de usuario, o atrapadas leyendo más rápido que una persona.'
+  robots_intro: 'Cada robot, contado aparte de las personas: declarado por su agente de usuario — rastreadores, asistentes de IA —, o sospechado — un agente de usuario de navegador sin los encabezados de navegador, leyendo en ráfagas o más rápido que una persona. Solo sus páginas.'
 
 it:
   page_title: Pubblico
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 'Chi legge il sito'
     traffic: 'Nel tempo'
     geography: 'Dove si trovano i visitatori'
     origin: 'Da dove provengono le visite'
     pages: Pagine
     robots: Robot
+  composition_intro: 'Ogni pagina letta, il traffico grezzo: le persone, i robot travestiti da browser e i robot che si dichiarano tali.'
+  people_only: 'Solo le persone, qualunque sia il pubblico scelto sopra.'
+  storage: '%size% del pubblico nel database. Conservato giorno dopo giorno: le persone %human% mesi, i robot sospetti %suspect% mesi, i robot dichiarati %declared% mesi; mese dopo mese dopo di ciò.'
   origin_intro: 'Contati sul server, senza cookie: un visitatore è qualcun altro il giorno dopo. I motori di ricerca raramente passano più la parola chiave.'
-  robots_intro: 'Crawler e assistenti AI, conteggiati separatamente dal pubblico: pagine lette per robot, nominati dal loro user agent, o sorpresi a leggere più velocemente di una persona.'
+  robots_intro: 'Ogni robot, conteggiato a parte dalle persone: dichiarato dal suo user agent — crawler, assistenti AI —, o sospetto — un user agent di un browser senza le intestazioni di un browser, che legge a scatti o più velocemente di una persona. Solo le loro pagine.'
 
 pt_BR:
   page_title: Público
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 'Quem lê o site'
     traffic: 'Ao longo do tempo'
     geography: 'De onde são os visitantes'
     origin: 'De onde vêm as visitas'
     pages: Páginas
     robots: Robôs
+  composition_intro: 'Toda página lida, o tráfego bruto: as pessoas, os robôs disfarçados de navegadores e os robôs que se nomeiam.'
+  people_only: 'Apenas as pessoas, independentemente do público escolhido acima.'
+  storage: '%size% do público na base de dados. Mantido dia após dia: as pessoas %human% meses, os robôs suspeitos %suspect% meses, os robôs declarados %declared% meses; mês a mês após isso.'
   origin_intro: 'Contados no servidor, sem cookies: um visitante é alguém diferente no dia seguinte. Motores de busca raramente repassam a palavra-chave agora.'
-  robots_intro: 'Rastreadores e assistentes de IA, contados separadamente da audiência: páginas lidas por robô, nomeadas pelo seu agente de usuário, ou capturadas lendo mais rápido que uma pessoa.'
+  robots_intro: 'Todo robô, contado separadamente das pessoas: declarado pelo seu agente de usuário — crawlers, assistentes de IA —, ou suspeito — um agente de usuário de navegador sem os cabeçalhos de um navegador, lendo em rajadas ou mais rápido que uma pessoa. Suas páginas apenas.'
 
 tr:
   page_title: 'Hedef Kitle'
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 'Siteyi kim okuyor'
     traffic: Zamanla
     geography: 'Ziyaretçilerin bulunduğu yer'
     origin: 'Ziyaretlerin geldiği yer'
     pages: Sayfalar
     robots: Robotlar
+  composition_intro: 'Okunan her sayfa, ham trafik: insanlar, tarayıcı gibi giyinmiş robotlar ve kendilerini robot olarak adlandıranlar.'
+  people_only: 'Yalnızca insanlar, yukarıda seçilen hedef kitle ne olursa olsun.'
+  storage: 'Veritabanında %size% izleyici. Gün gün tutulur: insanlar %human% ay, şüpheli robotlar %suspect% ay, beyan edilen robotlar %declared% ay; ondan sonra her ay.'
   origin_intro: 'Sunucuda sayılır, çerez olmadan: bir ziyaretçi ertesi gün başka birisidir. Arama motorları artık anahtar kelimeyi nadiren iletir.'
-  robots_intro: 'Tarayıcılar ve AI asistanları, izleyiciden ayrı olarak sayılır: kullanıcı aracına göre adlandırılan her robot için okunan sayfalar veya bir insandan daha hızlı okurken yakalananlar.'
+  robots_intro: 'Her robot, insanlar dışında sayılır: kullanıcı ajanı tarafından beyan edilen — tarayıcılar, yapay zeka asistanları — veya şüpheli — bir tarayıcının başlıkları olmadan bir tarayıcının kullanıcı ajanı, bir insandan daha hızlı veya patlayarak okuma yapan. Sadece onların sayfaları.'
 
 vi:
   page_title: 'Đối tượng'
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 'Ai đọc trang web'
     traffic: 'Theo thời gian'
     geography: 'Nơi khách truy cập đến từ'
     origin: 'Nơi các lượt truy cập đến từ'
     pages: Trang
     robots: Robot
+  composition_intro: 'Mỗi trang được đọc, lưu lượng truy cập thô: những người, những robot giả dạng trình duyệt, và những robot tự xưng.'
+  people_only: 'Chỉ có những người, bất kể đối tượng đã chọn ở trên.'
+  storage: '%size% của đối tượng trong cơ sở dữ liệu. Giữ lại từng ngày: những người %human% tháng, những robot bị nghi ngờ %suspect% tháng, những robot đã được công nhận %declared% tháng; từng tháng sau đó.'
   origin_intro: 'Đếm trên máy chủ, không có cookie: một khách truy cập là người khác vào ngày hôm sau. Các công cụ tìm kiếm hiếm khi chuyển từ khóa nữa.'
-  robots_intro: 'Các công cụ thu thập dữ liệu và trợ lý AI, được tính riêng biệt với người dùng: số trang đã đọc theo robot, được đặt tên theo tác nhân người dùng của nó, hoặc bị bắt gặp đọc nhanh hơn một người.'
+  robots_intro: 'Mỗi robot, được tính riêng biệt với con người: được công nhận bởi tác nhân người dùng của nó — trình thu thập thông tin, trợ lý AI —, hoặc bị nghi ngờ — tác nhân người dùng của trình duyệt mà không có tiêu đề của trình duyệt, đọc theo từng đợt hoặc nhanh hơn con người. Chỉ những trang của chúng.'
 
 id:
   page_title: Audiens
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 'Siapa yang membaca situs'
     traffic: 'Seiring waktu'
     geography: 'Di mana pengunjung berada'
     origin: 'Dari mana kunjungan berasal'
     pages: Halaman
     robots: Robot
+  composition_intro: 'Setiap halaman yang dibaca, lalu lintas mentah: orang-orang, robot yang tertangkap berpura-pura sebagai peramban, dan robot yang menyebut diri mereka sendiri.'
+  people_only: 'Hanya orang-orang, apa pun audiens yang dipilih di atas.'
+  storage: '%size% audiens di database. Disimpan hari demi hari: orang %human% bulan, robot yang dicurigai %suspect% bulan, robot yang dinyatakan %declared% bulan; bulan demi bulan setelah itu.'
   origin_intro: 'Dihitung di server, tanpa cookie: seorang pengunjung adalah orang lain di hari berikutnya. Mesin pencari jarang lagi meneruskan kata kunci.'
-  robots_intro: 'Crawler dan asisten AI, dihitung terpisah dari audiens: halaman yang dibaca per robot, dinamai sesuai dengan user agent-nya, atau tertangkap membaca lebih cepat daripada manusia.'
+  robots_intro: 'Setiap robot, dihitung terpisah dari orang: dinyatakan oleh agen penggunanya — crawler, asisten AI —, atau dicurigai — agen pengguna peramban tanpa header peramban, membaca dalam lonjakan atau lebih cepat dari manusia. Halaman mereka saja.'
 
 nl:
   page_title: Doelgroep
   page_icon: 'ph:bold/chart-line-up'
   section:
+    composition: 'Wie leest de site'
     traffic: 'In de loop van de tijd'
     geography: 'Waar bezoekers vandaan komen'
     origin: 'Waar bezoeken vandaan komen'
     pages: "Pagina's"
     robots: Roboters
+  composition_intro: 'Elke gelezen pagina, het ruwe verkeer: de mensen, de robots die zich verkleden als browsers, en de robots die zichzelf benoemen.'
+  people_only: 'Alleen de mensen, ongeacht het publiek dat hierboven is gekozen.'
+  storage: '%size% van het publiek in de database. Dagelijks bijgehouden: de mensen %human% maanden, de vermoedelijke robots %suspect% maanden, de verklaarde robots %declared% maanden; maand na maand daarna.'
   origin_intro: 'Geteld op de server, zonder cookies: een bezoeker is de volgende dag iemand anders. Zoekmachines geven zelden het zoekwoord nog door.'
-  robots_intro: "Crawlers en AI-assistenten, apart geteld van het publiek: pagina's gelezen per robot, genoemd naar zijn user agent, of betrapt op sneller lezen dan een persoon."
+  robots_intro: "Elke robot, apart geteld van de mensen: verklaard door zijn user agent — crawlers, AI-assistenten —, of vermoedelijk — de user agent van een browser zonder de headers van een browser, die in bursts leest of sneller dan een persoon. Alleen hun pagina's."
