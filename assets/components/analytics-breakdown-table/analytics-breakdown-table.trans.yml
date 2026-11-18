@@ -1,6 +1,7 @@
 en:
   dimension:
     page: Page
+    route: Route
     source: Source
     referrer: Site
     search_engine: Engine or assistant
@@ -27,6 +28,7 @@ en:
 fr:
   dimension:
     page: Page
+    route: Route
     source: Source
     referrer: Site
     search_engine: Moteur ou assistant
@@ -53,6 +55,7 @@ fr:
 zh:
   dimension:
     page: 页面
+    route: 路由
     source: 来源
     referrer: 网站
     search_engine: 搜索引擎或助手
@@ -79,6 +82,7 @@ zh:
 ar:
   dimension:
     page: صفحة
+    route: المسار
     source: مصدر
     referrer: الموقع
     search_engine: 'محرك البحث أو المساعد'
@@ -105,6 +109,7 @@ ar:
 hi:
   dimension:
     page: पृष्ठ
+    route: रूट
     source: स्रोत
     referrer: साइट
     search_engine: 'इंजन या सहायक'
@@ -131,6 +136,7 @@ hi:
 he:
   dimension:
     page: עמוד
+    route: נתיב
     source: מקור
     referrer: אתר
     search_engine: 'מנוע חיפוש או עוזר'
@@ -157,6 +163,7 @@ he:
 fa:
   dimension:
     page: صفحه
+    route: مسیر
     source: منبع
     referrer: سایت
     search_engine: 'موتور جستجو یا دستیار'
@@ -183,6 +190,7 @@ fa:
 ur:
   dimension:
     page: صفحہ
+    route: روٹ
     source: ماخذ
     referrer: سائٹ
     search_engine: 'انجن یا مددگار'
@@ -209,6 +217,7 @@ ur:
 ja:
   dimension:
     page: ページ
+    route: ルート
     source: ソース
     referrer: サイト
     search_engine: 検索エンジンまたはアシスタント
@@ -235,6 +244,7 @@ ja:
 ko:
   dimension:
     page: 페이지
+    route: 라우트
     source: 출처
     referrer: 사이트
     search_engine: '검색 엔진 또는 도우미'
@@ -261,6 +271,7 @@ ko:
 bn:
   dimension:
     page: পৃষ্ঠার
+    route: রুট
     source: সূত্র
     referrer: সাইট
     search_engine: 'এঞ্জিন বা সহকারী'
@@ -287,6 +298,7 @@ bn:
 th:
   dimension:
     page: หน้า
+    route: เส้นทาง
     source: แหล่งที่มา
     referrer: เว็บไซต์
     search_engine: เครื่องมือค้นหาหรือผู้ช่วย
@@ -313,6 +325,7 @@ th:
 de:
   dimension:
     page: Seite
+    route: Route
     source: Quelle
     referrer: Website
     search_engine: 'Suchmaschine oder Assistent'
@@ -339,6 +352,7 @@ de:
 fi:
   dimension:
     page: Sivu
+    route: Reitti
     source: Lähde
     referrer: Sivusto
     search_engine: 'Hakukone tai avustaja'
@@ -365,6 +379,7 @@ fi:
 ru:
   dimension:
     page: Страница
+    route: Маршрут
     source: Источник
     referrer: Сайт
     search_engine: 'Поисковая система или помощник'
@@ -391,6 +406,7 @@ ru:
 pl:
   dimension:
     page: Strona
+    route: Trasa
     source: Źródło
     referrer: 'Strona odsyłająca'
     search_engine: 'Silnik wyszukiwania lub asystent'
@@ -417,6 +433,7 @@ pl:
 es:
   dimension:
     page: Página
+    route: Ruta
     source: Fuente
     referrer: Sitio
     search_engine: 'Motor o asistente'
@@ -443,6 +460,7 @@ es:
 it:
   dimension:
     page: Pagina
+    route: Rotta
     source: Fonte
     referrer: Sito
     search_engine: 'Motore o assistente'
@@ -469,6 +487,7 @@ it:
 pt_BR:
   dimension:
     page: Página
+    route: Rota
     source: Fonte
     referrer: Site
     search_engine: 'Motor de busca ou assistente'
@@ -495,6 +514,7 @@ pt_BR:
 tr:
   dimension:
     page: Sayfa
+    route: Rota
     source: Kaynak
     referrer: Site
     search_engine: 'Arama motoru veya asistan'
@@ -521,6 +541,7 @@ tr:
 vi:
   dimension:
     page: Trang
+    route: 'Tuyến'
     source: Nguồn
     referrer: 'Trang web'
     search_engine: 'Công cụ tìm kiếm hoặc trợ lý'
@@ -547,6 +568,7 @@ vi:
 id:
   dimension:
     page: Halaman
+    route: Rute
     source: Sumber
     referrer: Situs
     search_engine: 'Mesin pencari atau asisten'
@@ -573,6 +595,7 @@ id:
 nl:
   dimension:
     page: Pagina
+    route: Route
     source: Bron
     referrer: Website
     search_engine: 'Zoekmachine of assistent'

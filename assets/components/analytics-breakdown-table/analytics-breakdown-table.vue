@@ -87,7 +87,10 @@ export default {
     getColumnsConfiguration() {
       const metric = (key) => ({ key, label: this.trans(`${METRIC}${key}`), cell: 'number', align: 'right', sortable: true });
 
-      const key = { key: 'dimensionKey', label: this.trans(`${T}dimension.${this.dimension}`), cell: 'clamp', format: (value) => this.formatKey(value) };
+      // A page leads to itself: its key is the path it was read at.
+      const key = this.dimension === 'page'
+        ? { key: 'dimensionKey', label: this.trans(`${T}dimension.page`), href: (row) => row.dimensionKey }
+        : { key: 'dimensionKey', label: this.trans(`${T}dimension.${this.dimension}`), cell: 'clamp', format: (value) => this.formatKey(value) };
 
       return this.dimension === 'robot'
         ? [key, metric('views')]
