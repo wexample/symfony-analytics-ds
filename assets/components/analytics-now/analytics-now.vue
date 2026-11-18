@@ -4,6 +4,7 @@ import PollingVueMixin from '@wexample/symfony-design-system/js/Vue/PollingVueMi
 import DateDisplay from '@wexample/symfony-design-system/components/date-display/date-display.vue';
 import FilePath from '@wexample/symfony-design-system/components/file-path/file-path.vue';
 import Bar from '@wexample/symfony-design-system/components/bar/bar.vue';
+import { countryName } from '@wexample/symfony-design-system/js/Helper/CountryHelper';
 
 const T = 'WexampleSymfonyAnalyticsDsBundle.components.analytics-now.analytics-now::';
 // The words of the breakdown: a robot's reason, a source's name.
@@ -107,11 +108,7 @@ export default {
     },
 
     country(code) {
-      try {
-        return new Intl.DisplayNames([this.locale()], { type: 'region' }).of(code) ?? code;
-      } catch {
-        return code;
-      }
+      return countryName(code);
     },
 
     locale() {

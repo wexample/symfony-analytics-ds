@@ -2,17 +2,8 @@
 @use '@wexample/symfony-design-system/css/shapes/block';
 @use '@wexample/symfony-design-system/css/shapes/grid';
 @use '@wexample/symfony-design-system/css/shapes/stack';
+@use '@wexample/symfony-design-system/css/shapes/toolbar';
 @use '@wexample/symfony-design-system/css/shapes/form/radio';
-
-// The audience to the left, the period to the right; one above the other
-// when narrow.
-.analytics--period {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-2);
-}
 
 .analytics--credit {
   margin: var(--space-2) 0 0;

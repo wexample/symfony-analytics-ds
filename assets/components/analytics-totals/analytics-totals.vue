@@ -1,7 +1,8 @@
 <script>
 import AbstractEntityManipulatorVueMixin from '@wexample/symfony-design-system/js/Vue/AbstractEntityManipulatorVueMixin';
 import AnalyticsBreakdown from '@wexample/symfony-analytics/Entity/AnalyticsBreakdown';
-import { analyticsAudienceFollow, analyticsPeriodFollow } from '../../js/Helper/AnalyticsPeriodHelper';
+import { periodFollow } from '@wexample/symfony-design-system/js/Helper/PeriodHelper';
+import { analyticsAudienceFollow } from '../../js/Helper/AnalyticsAudienceHelper';
 
 const METRIC = 'WexampleSymfonyAnalyticsBundle.common.analytics::metric.';
 const T = 'WexampleSymfonyAnalyticsDsBundle.components.analytics-totals.analytics-totals::';
@@ -41,7 +42,7 @@ export default {
       this.audience = audience;
       this.read();
     });
-    this.forgetPeriod = analyticsPeriodFollow((period) => {
+    this.forgetPeriod = periodFollow((period) => {
       this.period = period;
       this.read();
     });

@@ -38,13 +38,19 @@
         {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-now', { summary: today.summary, part: 'latest' }) }}
     </div>
 
-    <div class="analytics--period">
-        {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-audience-nav') }}
-        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/period-nav', {
-            value: '30d',
-            hashKey: 'period',
-            rolling: [7, 30, 90],
-        }) }}
+    {#- What every part below follows: the audience at the start of the bar,
+        the period at its end. -#}
+    <div class="toolbar toolbar--wrap toolbar--flush">
+        <div class="toolbar--group">
+            {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-audience-nav') }}
+        </div>
+        <div class="toolbar--group">
+            {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/period-nav', {
+                value: '30d',
+                hashKey: 'period',
+                rolling: [7, 30, 90],
+            }) }}
+        </div>
     </div>
 
     {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-totals') }}
@@ -84,10 +90,10 @@
         {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'device' }) }}
     </div>
 
-    {#- The routes, a line whatever the language of a page, above its
-        addresses, each its own line: both too long to share a row. -#}
+    {#- The routes, a line whatever the language of a page, beside its
+        addresses — one under the other where the row is too narrow. -#}
     <h2>{{ '@page::section.pages' | trans }}</h2>
-    <div class="stack--vertical">
+    <div class="grid grid--2 analytics--tables">
         {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'route' }) }}
         {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'page' }) }}
     </div>

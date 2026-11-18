@@ -2,7 +2,9 @@
 import AbstractEntityTable from '@wexample/symfony-design-system/components/collection/table/abstract-entity-table/abstract-entity-table.vue';
 import AbstractEntityCollectionVueMixin from '@wexample/symfony-design-system/js/Vue/AbstractEntityCollectionVueMixin';
 import AnalyticsBreakdown from '@wexample/symfony-analytics/Entity/AnalyticsBreakdown';
-import { analyticsAudienceFollow, analyticsCountryFlag, analyticsCountryName, analyticsPeriodFollow } from '../../js/Helper/AnalyticsPeriodHelper';
+import { periodFollow } from '@wexample/symfony-design-system/js/Helper/PeriodHelper';
+import { countryFlag, countryName } from '@wexample/symfony-design-system/js/Helper/CountryHelper';
+import { analyticsAudienceFollow } from '../../js/Helper/AnalyticsAudienceHelper';
 
 const T = 'WexampleSymfonyAnalyticsDsBundle.components.analytics-breakdown-table.analytics-breakdown-table::';
 const METRIC = 'WexampleSymfonyAnalyticsBundle.common.analytics::metric.';
@@ -51,7 +53,7 @@ export default {
       });
     }
 
-    this.forgetPeriod = analyticsPeriodFollow((period) => {
+    this.forgetPeriod = periodFollow((period) => {
       this.period = period;
       this.refreshEntitiesCollection();
     });
@@ -92,7 +94,7 @@ export default {
     formatKey(value) {
       switch (this.dimension) {
         case 'country':
-          return `${analyticsCountryFlag(value)} ${analyticsCountryName(value)}`;
+          return `${countryFlag(value)} ${countryName(value)}`;
         case 'source':
         case 'device':
           return this.trans(`${T}${this.dimension}.${value}`);
