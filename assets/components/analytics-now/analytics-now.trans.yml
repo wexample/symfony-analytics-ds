@@ -1,55 +1,229 @@
 en:
   active: People on the site in the last %minutes% minutes
-  hour: '%now% pages read by people since the hour began, %yesterday% yesterday at the same time.'
-  busiest: 'Busiest robot this hour: %robot%, %views% pages.'
   latest: Latest pages read
   none: No page read yet.
+  hour_label: Pages read this hour
+  hour_yesterday: '%count% yesterday at the same time'
+  busiest_label: Busiest robot this hour
+  busiest_none: No robot this hour
+  pages: pages
 
 fr:
   active: Personnes sur le site ces %minutes% dernières minutes
-  hour: '%now% pages lues par des personnes depuis le début de l''heure, %yesterday% hier à la même heure.'
-  busiest: 'Robot le plus actif de l''heure : %robot%, %views% pages.'
   latest: Dernières pages lues
   none: Aucune page lue pour l'instant.
+  hour_label: Pages lues cette heure
+  hour_yesterday: '%count% hier à la même heure'
+  busiest_label: Robot le plus actif de l'heure
+  busiest_none: Aucun robot cette heure
+  pages: pages
 
-zh: {}
+zh:
+  active: 过去 %minutes% 分钟内在站点上的人
+  latest: 最近阅读的页面
+  none: 暂无已读页面。
+  hour_label: 本小时阅读的页面
+  hour_yesterday: 昨天同一时间 %count%
+  busiest_label: 本小时最活跃的机器人
+  busiest_none: 本小时没有机器人
+  pages: 页
 
-ar: {}
+ar:
+  active: الأشخاص على الموقع خلال آخر %minutes% دقيقة
+  latest: آخر الصفحات المقروءة
+  none: لم تُقرأ أي صفحة بعد.
+  hour_label: الصفحات المقروءة هذه الساعة
+  hour_yesterday: '%count% أمس في الوقت نفسه'
+  busiest_label: الروبوت الأكثر نشاطًا هذه الساعة
+  busiest_none: لا يوجد روبوت هذه الساعة
+  pages: صفحات
 
-hi: {}
+hi:
+  active: पिछले %minutes% मिनट में साइट पर लोग
+  latest: हाल में पढ़े गए पेज
+  none: अभी तक कोई पेज नहीं पढ़ा गया।
+  hour_label: इस घंटे पढ़े गए पेज
+  hour_yesterday: कल इसी समय %count%
+  busiest_label: इस घंटे का सबसे सक्रिय रोबोट
+  busiest_none: इस घंटे कोई रोबोट नहीं
+  pages: पेज
 
-he: {}
+he:
+  active: אנשים באתר ב־%minutes% הדקות האחרונות
+  latest: הדפים האחרונים שנקראו
+  none: עדיין לא נקרא אף דף.
+  hour_label: דפים שנקראו בשעה זו
+  hour_yesterday: '%count% אתמול באותה שעה'
+  busiest_label: הרובוט הפעיל ביותר בשעה זו
+  busiest_none: אין רובוט בשעה זו
+  pages: דפים
 
-fa: {}
+fa:
+  active: افراد حاضر در سایت در %minutes% دقیقه گذشته
+  latest: آخرین صفحه‌های خوانده‌شده
+  none: هنوز هیچ صفحه‌ای خوانده نشده است.
+  hour_label: صفحه‌های خوانده‌شده در این ساعت
+  hour_yesterday: '%count% دیروز در همین ساعت'
+  busiest_label: فعال‌ترین ربات این ساعت
+  busiest_none: هیچ رباتی در این ساعت
+  pages: صفحه
 
-ur: {}
+ur:
+  active: پچھلے %minutes% منٹ میں سائٹ پر لوگ
+  latest: حال ہی میں پڑھے گئے صفحات
+  none: ابھی تک کوئی صفحہ نہیں پڑھا گیا۔
+  hour_label: اس گھنٹے پڑھے گئے صفحات
+  hour_yesterday: کل اسی وقت %count%
+  busiest_label: اس گھنٹے کا سب سے فعال روبوٹ
+  busiest_none: اس گھنٹے کوئی روبوٹ نہیں
+  pages: صفحات
 
-ja: {}
+ja:
+  active: 過去 %minutes% 分間にサイトにいた人
+  latest: 最近読まれたページ
+  none: まだ読まれたページはありません。
+  hour_label: この1時間に読まれたページ
+  hour_yesterday: 昨日の同時刻は %count%
+  busiest_label: この1時間で最も活発なロボット
+  busiest_none: この1時間にロボットはいません
+  pages: ページ
 
-ko: {}
+ko:
+  active: 최근 %minutes%분 동안 사이트에 있던 사람
+  latest: 최근 읽힌 페이지
+  none: 아직 읽힌 페이지가 없습니다.
+  hour_label: 이번 시간에 읽힌 페이지
+  hour_yesterday: 어제 같은 시간 %count%
+  busiest_label: 이번 시간 가장 활발한 로봇
+  busiest_none: 이번 시간 로봇 없음
+  pages: 페이지
 
-bn: {}
+bn:
+  active: গত %minutes% মিনিটে সাইটে থাকা মানুষ
+  latest: সাম্প্রতিক পড়া পৃষ্ঠা
+  none: এখনও কোনো পৃষ্ঠা পড়া হয়নি।
+  hour_label: এই ঘণ্টায় পড়া পৃষ্ঠা
+  hour_yesterday: গতকাল একই সময়ে %count%
+  busiest_label: এই ঘণ্টার সবচেয়ে সক্রিয় রোবট
+  busiest_none: এই ঘণ্টায় কোনো রোবট নেই
+  pages: পৃষ্ঠা
 
-th: {}
+th:
+  active: ผู้คนบนเว็บไซต์ใน %minutes% นาทีที่ผ่านมา
+  latest: หน้าที่อ่านล่าสุด
+  none: ยังไม่มีหน้าที่ถูกอ่าน
+  hour_label: หน้าที่อ่านในชั่วโมงนี้
+  hour_yesterday: เมื่อวานเวลาเดียวกัน %count%
+  busiest_label: บอตที่ทำงานมากที่สุดในชั่วโมงนี้
+  busiest_none: ไม่มีบอตในชั่วโมงนี้
+  pages: หน้า
 
-de: {}
+de:
+  active: Personen auf der Website in den letzten %minutes% Minuten
+  latest: Zuletzt gelesene Seiten
+  none: Noch keine Seite gelesen.
+  hour_label: In dieser Stunde gelesene Seiten
+  hour_yesterday: '%count% gestern zur gleichen Zeit'
+  busiest_label: Aktivster Roboter dieser Stunde
+  busiest_none: Kein Roboter in dieser Stunde
+  pages: Seiten
 
-fi: {}
+fi:
+  active: Ihmisiä sivustolla viimeisen %minutes% minuutin aikana
+  latest: Viimeksi luetut sivut
+  none: Yhtään sivua ei ole vielä luettu.
+  hour_label: Tällä tunnilla luetut sivut
+  hour_yesterday: '%count% eilen samaan aikaan'
+  busiest_label: Tämän tunnin aktiivisin robotti
+  busiest_none: Ei robotteja tällä tunnilla
+  pages: sivua
 
-ru: {}
+ru:
+  active: Люди на сайте за последние %minutes% минут
+  latest: Последние прочитанные страницы
+  none: Пока ни одной прочитанной страницы.
+  hour_label: Страниц прочитано за этот час
+  hour_yesterday: '%count% вчера в это же время'
+  busiest_label: Самый активный робот этого часа
+  busiest_none: Нет роботов в этот час
+  pages: стр.
 
-pl: {}
+pl:
+  active: Osoby na stronie w ciągu ostatnich %minutes% minut
+  latest: Ostatnio przeczytane strony
+  none: Nie przeczytano jeszcze żadnej strony.
+  hour_label: Strony przeczytane w tej godzinie
+  hour_yesterday: '%count% wczoraj o tej samej porze'
+  busiest_label: Najaktywniejszy robot tej godziny
+  busiest_none: Brak robotów w tej godzinie
+  pages: stron
 
-es: {}
+es:
+  active: Personas en el sitio en los últimos %minutes% minutos
+  latest: Últimas páginas leídas
+  none: Aún no se ha leído ninguna página.
+  hour_label: Páginas leídas esta hora
+  hour_yesterday: '%count% ayer a la misma hora'
+  busiest_label: Robot más activo de la hora
+  busiest_none: Ningún robot esta hora
+  pages: páginas
 
-it: {}
+it:
+  active: Persone sul sito negli ultimi %minutes% minuti
+  latest: Ultime pagine lette
+  none: Nessuna pagina letta finora.
+  hour_label: Pagine lette in quest'ora
+  hour_yesterday: '%count% ieri alla stessa ora'
+  busiest_label: Robot più attivo dell'ora
+  busiest_none: Nessun robot in quest'ora
+  pages: pagine
 
-pt_BR: {}
+pt_BR:
+  active: Pessoas no site nos últimos %minutes% minutos
+  latest: Últimas páginas lidas
+  none: Nenhuma página lida ainda.
+  hour_label: Páginas lidas nesta hora
+  hour_yesterday: '%count% ontem no mesmo horário'
+  busiest_label: Robô mais ativo da hora
+  busiest_none: Nenhum robô nesta hora
+  pages: páginas
 
-tr: {}
+tr:
+  active: Son %minutes% dakikada sitedeki kişiler
+  latest: Son okunan sayfalar
+  none: Henüz okunan sayfa yok.
+  hour_label: Bu saat okunan sayfalar
+  hour_yesterday: Dün aynı saatte %count%
+  busiest_label: Bu saatin en etkin robotu
+  busiest_none: Bu saat robot yok
+  pages: sayfa
 
-vi: {}
+vi:
+  active: Người trên trang trong %minutes% phút qua
+  latest: Các trang được đọc gần đây
+  none: Chưa có trang nào được đọc.
+  hour_label: Trang được đọc trong giờ này
+  hour_yesterday: '%count% hôm qua cùng giờ'
+  busiest_label: Robot hoạt động nhiều nhất giờ này
+  busiest_none: Không có robot trong giờ này
+  pages: trang
 
-id: {}
+id:
+  active: Orang di situs dalam %minutes% menit terakhir
+  latest: Halaman yang terakhir dibaca
+  none: Belum ada halaman yang dibaca.
+  hour_label: Halaman dibaca jam ini
+  hour_yesterday: '%count% kemarin pada jam yang sama'
+  busiest_label: Robot paling aktif jam ini
+  busiest_none: Tidak ada robot jam ini
+  pages: halaman
 
-nl: {}
+nl:
+  active: Mensen op de site in de laatste %minutes% minuten
+  latest: Laatst gelezen pagina's
+  none: Nog geen pagina gelezen.
+  hour_label: Pagina's gelezen dit uur
+  hour_yesterday: '%count% gisteren rond dezelfde tijd'
+  busiest_label: Actiefste robot van dit uur
+  busiest_none: Geen robot dit uur
+  pages: pagina's

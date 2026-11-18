@@ -11,6 +11,10 @@
 
     <h2>{{ '@page::section.now' | trans }}</h2>
     <p class="lead">{{ '@page::now_intro' | trans }}</p>
+    {#- The key figures of now, then its course beside its latest pages:
+        both read again every minute while the page is seen, once between
+        them. -#}
+    {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-now', { summary: today.summary, part: 'figures' }) }}
     <div class="grid--aside">
         {#- The window chosen without a script: the other chart is hidden,
             and drawn when shown, a chart waiting to be seen. -#}
@@ -31,9 +35,7 @@
             {%- endfor -%}
         </div>
 
-        {#- The people at it, this hour, the busiest robot, the latest pages:
-            read again every minute while the page is seen. -#}
-        {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-now', { summary: today.summary }) }}
+        {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-now', { summary: today.summary, part: 'latest' }) }}
     </div>
 
     <div class="analytics--period">

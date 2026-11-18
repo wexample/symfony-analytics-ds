@@ -7,22 +7,56 @@
     {{ trans_js(render_pass, 'WexampleSymfonyAnalyticsDsBundle.components.analytics-breakdown-table.analytics-breakdown-table::source.*') }}
 {%- endblock -%}
 
+{%- block vue_require -%}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/bar') -}}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/date-display') -}}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/file-path') -}}
+{%- endblock -%}
+
 {%- block vue_body -%}
-    <div class="block block--padded analytics-now">
-        <div class="block--figure block--figure--start">
-            <span class="block--figure-label">[[ t('active', { '%minutes%': now.active_minutes }) ]]</span>
-            <span class="block--figure-value">[[ number(now.active) ]]</span>
+    {#- The key figures of now, a tile each, as the period's totals are. -#}
+    <div v-if="part === 'figures'" class="grid analytics-now--figures">
+        <div class="block block--card block--tone-cat-blue-jeans">
+            <div class="block--figure block--figure--start">
+                <span class="block--figure-label">[[ t('active', { '%minutes%': now.active_minutes }) ]]</span>
+                <span class="block--figure-value">[[ number(now.active) ]]</span>
+            </div>
         </div>
-        <p>[[ t('hour', { '%now%': number(now.hour.now), '%yesterday%': number(now.hour.yesterday) }) ]]</p>
-        <p v-if="busiestRobot">[[ t('busiest', { '%robot%': busiestRobot, '%views%': number(now.busiest.views) }) ]]</p>
-        <h3>[[ t('latest') ]]</h3>
-        <ul class="analytics-now--latest">
-            <li v-for="(view, index) in now.latest" :key="view.viewed_at + index">
-                <time class="text-tertiary" :datetime="view.viewed_at">[[ time(view.viewed_at) ]]</time>
-                <a :href="view.path">[[ view.path ]]</a>
-                <span class="text-tertiary">[[ source(view) ]]<template v-if="view.country"> · [[ country(view.country) ]]</template></span>
-            </li>
-            <li v-if="!now.latest.length" class="text-tertiary">[[ t('none') ]]</li>
-        </ul>
+        <div class="block block--card block--tone-cat-plum">
+            <div class="block--figure block--figure--start">
+                <span class="block--figure-label">[[ t('hour_label') ]]</span>
+                <span class="block--figure-value">[[ number(now.hour.now) ]]</span>
+                <span v-if="hourTrend.direction" class="block--figure-trend" :class="`block--figure-trend--${hourTrend.direction}`">[[ hourTrend.label ]]</span>
+                <span class="block--figure-sub">[[ t('hour_yesterday', { '%count%': number(now.hour.yesterday) }) ]]</span>
+            </div>
+        </div>
+        <div class="block block--card block--tone-cat-sunflower">
+            <div class="block--figure block--figure--start">
+                <span class="block--figure-label">[[ t('busiest_label') ]]</span>
+                <template v-if="busiestRobot">
+                    <span class="block--figure-value">[[ number(now.busiest.views) ]]<span class="block--figure-unit">[[ t('pages') ]]</span></span>
+                    <span class="block--figure-sub">[[ busiestRobot ]]</span>
+                </template>
+                <span v-else class="block--figure-sub">[[ t('busiest_none') ]]</span>
+            </div>
+        </div>
     </div>
+
+    {#- The people's latest pages, a row each: the page — its end kept, its
+        folders cut short —, whence it was reached, how long ago. -#}
+    <section v-else class="stack--vertical analytics-now--latest">
+        <h3>[[ t('latest') ]]</h3>
+        <div v-if="now.latest.length" class="block block--rows">
+            <bar v-for="(view, index) in latest" :key="view.viewed_at + index">
+                <template #body>
+                    <a class="bar--title-link" :href="view.path"><file-path :path="view.path" :fit="true"></file-path></a>
+                    <div class="text-secondary bar--subtitle">[[ source(view) ]]<template v-if="view.country"> · [[ country(view.country) ]]</template></div>
+                </template>
+                <template #trailing>
+                    <date-display class="text-tertiary" :value="view.viewed_at"></date-display>
+                </template>
+            </bar>
+        </div>
+        <p v-else class="empty">[[ t('none') ]]</p>
+    </section>
 {%- endblock -%}

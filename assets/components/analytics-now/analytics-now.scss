@@ -1,20 +1,7 @@
 @use '@wexample/symfony-design-system/css/shapes/block';
-
-// The latest pages, a line each: when, which, whence.
-.analytics-now--latest {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
-  > li {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0 var(--space-2);
-    padding: var(--space-1) 0;
-    min-width: 0;
-  }
-
-  a {
-    overflow-wrap: anywhere;
-  }
-}
+@use '@wexample/symfony-design-system/css/shapes/grid';
+@use '@wexample/symfony-design-system/css/shapes/stack';
+@use '@wexample/symfony-design-system/css/shapes/empty';
+@use '@wexample/symfony-design-system/components/bar/bar';
+@use '@wexample/symfony-design-system/components/file-path/file-path';
+@use '@wexample/symfony-design-system/components/date-display/date-display';

@@ -1,6 +1,9 @@
 <script>
 import ApiService from '@wexample/symfony-loader/js/Services/ApiService';
 import PollingVueMixin from '@wexample/symfony-design-system/js/Vue/PollingVueMixin';
+import DateDisplay from '@wexample/symfony-design-system/components/date-display/date-display.vue';
+import FilePath from '@wexample/symfony-design-system/components/file-path/file-path.vue';
+import Bar from '@wexample/symfony-design-system/components/bar/bar.vue';
 
 const T = 'WexampleSymfonyAnalyticsDsBundle.components.analytics-now.analytics-now::';
 // The words of the breakdown: a robot's reason, a source's name.
@@ -8,13 +11,23 @@ const BREAKDOWN = 'WexampleSymfonyAnalyticsDsBundle.components.analytics-breakdo
 // What is going on now moves by the minute: read again as often, while the
 // page is seen (the loader's PollingService).
 const POLL_MS = 60_000;
+// The latest pages shown: as many as stand beside the chart of the day.
+const LATEST_SHOWN = 6;
 
-// What is going on in the site now — the people at it, this hour beside
-// yesterday's, the busiest robot, the people's latest pages —, drawn first
-// from what the page was rendered with (`summary`, the shape of
-// AnalyticsTodayService::summarize()), then read again from the api.
+// What is going on in the site now, drawn first from what the page was
+// rendered with (`summary`, the shape of AnalyticsTodayService::summarize()),
+// then read again from the api. A page lays its two parts where it wants
+// them (`part`): the key figures — the people at it, this hour beside
+// yesterday's, the busiest robot —, and the people's latest pages; both read
+// once a minute between them (one key of the PollingService).
 export default {
   mixins: [PollingVueMixin],
+
+  components: {
+    Bar,
+    DateDisplay,
+    FilePath
+  },
 
   template: '#vue-template-wexample-symfony-analytics-ds-bundle-components-analytics-now-analytics-now',
 
@@ -22,6 +35,11 @@ export default {
     summary: {
       type: Object,
       required: true
+    },
+    // `figures` or `latest`.
+    part: {
+      type: String,
+      default: 'figures'
     }
   },
 
@@ -32,6 +50,21 @@ export default {
   },
 
   computed: {
+    // The latest pages a row each, as many as stand beside the chart.
+    latest() {
+      return (this.now.latest ?? []).slice(0, LATEST_SHOWN);
+    },
+
+    // How this hour moved against yesterday's: its sign, and which way.
+    hourTrend() {
+      const delta = (this.now.hour.now ?? 0) - (this.now.hour.yesterday ?? 0);
+
+      return {
+        label: `${delta > 0 ? '+' : ''}${this.number(delta)}`,
+        direction: delta > 0 ? 'up' : (delta < 0 ? 'down' : null)
+      };
+    },
+
     busiestRobot() {
       const busiest = this.now.busiest;
 
@@ -67,10 +100,6 @@ export default {
 
     number(value) {
       return new Intl.NumberFormat(this.locale()).format(value ?? 0);
-    },
-
-    time(at) {
-      return new Date(at).toLocaleTimeString(this.locale(), { hour: '2-digit', minute: '2-digit' });
     },
 
     source(view) {
