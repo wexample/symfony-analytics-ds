@@ -1,0 +1,28 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/_abstract/vue/vue.vue.twig' -%}
+
+{%- block vue_config -%}
+    {{ parent() }}
+    {{ trans_js(render_pass, 'WexampleSymfonyAnalyticsDsBundle.components.analytics-now.analytics-now::*') }}
+    {{ trans_js(render_pass, 'WexampleSymfonyAnalyticsDsBundle.components.analytics-breakdown-table.analytics-breakdown-table::robot.*') }}
+    {{ trans_js(render_pass, 'WexampleSymfonyAnalyticsDsBundle.components.analytics-breakdown-table.analytics-breakdown-table::source.*') }}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <div class="block block--padded analytics-now">
+        <div class="block--figure block--figure--start">
+            <span class="block--figure-label">[[ t('active', { '%minutes%': now.active_minutes }) ]]</span>
+            <span class="block--figure-value">[[ number(now.active) ]]</span>
+        </div>
+        <p>[[ t('hour', { '%now%': number(now.hour.now), '%yesterday%': number(now.hour.yesterday) }) ]]</p>
+        <p v-if="busiestRobot">[[ t('busiest', { '%robot%': busiestRobot, '%views%': number(now.busiest.views) }) ]]</p>
+        <h3>[[ t('latest') ]]</h3>
+        <ul class="analytics-now--latest">
+            <li v-for="(view, index) in now.latest" :key="view.viewed_at + index">
+                <time class="text-tertiary" :datetime="view.viewed_at">[[ time(view.viewed_at) ]]</time>
+                <a :href="view.path">[[ view.path ]]</a>
+                <span class="text-tertiary">[[ source(view) ]]<template v-if="view.country"> · [[ country(view.country) ]]</template></span>
+            </li>
+            <li v-if="!now.latest.length" class="text-tertiary">[[ t('none') ]]</li>
+        </ul>
+    </div>
+{%- endblock -%}

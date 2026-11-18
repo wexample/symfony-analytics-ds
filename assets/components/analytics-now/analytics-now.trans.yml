@@ -1,0 +1,55 @@
+en:
+  active: People on the site in the last %minutes% minutes
+  hour: '%now% pages read by people since the hour began, %yesterday% yesterday at the same time.'
+  busiest: 'Busiest robot this hour: %robot%, %views% pages.'
+  latest: Latest pages read
+  none: No page read yet.
+
+fr:
+  active: Personnes sur le site ces %minutes% dernières minutes
+  hour: '%now% pages lues par des personnes depuis le début de l''heure, %yesterday% hier à la même heure.'
+  busiest: 'Robot le plus actif de l''heure : %robot%, %views% pages.'
+  latest: Dernières pages lues
+  none: Aucune page lue pour l'instant.
+
+zh: {}
+
+ar: {}
+
+hi: {}
+
+he: {}
+
+fa: {}
+
+ur: {}
+
+ja: {}
+
+ko: {}
+
+bn: {}
+
+th: {}
+
+de: {}
+
+fi: {}
+
+ru: {}
+
+pl: {}
+
+es: {}
+
+it: {}
+
+pt_BR: {}
+
+tr: {}
+
+vi: {}
+
+id: {}
+
+nl: {}

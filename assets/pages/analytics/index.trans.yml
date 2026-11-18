@@ -13,11 +13,6 @@ en:
   now:
     window_24h: 24 hours
     window_2h: 2 hours
-    active: "People on the site in the last %minutes% minutes"
-    hour: "%now% pages read by people since the hour began, %yesterday% yesterday at the same time."
-    busiest: "Busiest robot this hour: %robot%, %views% pages."
-    latest: Latest pages read
-    none: No page read yet.
   composition_intro: "Every page read, the raw traffic: the people, the robots caught dressed as browsers, and the robots naming themselves."
   people_only: "The people only, whatever the audience chosen above."
   storage: "%size% of audience in the database. Kept day by day: the people %human% months, the suspected robots %suspect% months, the declared robots %declared% months; month by month after that."
@@ -39,11 +34,6 @@ fr:
   now:
     window_24h: 24 heures
     window_2h: 2 heures
-    active: "Personnes sur le site ces %minutes% dernières minutes"
-    hour: "%now% pages lues par des personnes depuis le début de l'heure, %yesterday% hier à la même heure."
-    busiest: "Robot le plus actif de l'heure : %robot%, %views% pages."
-    latest: Dernières pages lues
-    none: "Aucune page lue pour l'instant."
   composition_intro: "Toutes les pages lues, le trafic brut : les personnes, les robots repérés sous un habit de navigateur, et les robots qui se nomment."
   people_only: "Les personnes seulement, quelle que soit l'audience choisie en haut."
   storage: "%size% d'audience en base. Gardé jour par jour : les personnes %human% mois, les robots suspectés %suspect% mois, les robots déclarés %declared% mois ; mois par mois au-delà."

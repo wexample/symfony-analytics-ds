@@ -21,9 +21,10 @@ use Wexample\SymfonyLoader\Controller\AbstractPagesController;
  * What is going on in the site now, then its audience over a period: its
  * figures, its course, where it comes from, where it is, of the people, the
  * robots or both, and what it weighs in the database. What is going on now
- * is read when the page is, not followed; every other part reads the api
- * for the period the period-nav of the page says, and reads it again when it
- * changes. The holders of symfony-analytics' `access_role`.
+ * is drawn from what the page is rendered with, then read again every
+ * minute while the page is seen (the loader's PollingService); every other
+ * part reads the api for the period the period-nav of the page says, and
+ * reads it again when it changes. The holders of symfony-analytics' `access_role`.
  */
 #[Route(path: '/analytics/', name: 'analytics_')]
 final class AnalyticsController extends AbstractPagesController
@@ -47,11 +48,8 @@ final class AnalyticsController extends AbstractPagesController
             'today_chart' => AnalyticsTodayChartPointProvider::getChartName(),
             'today' => [
                 'windows' => array_keys(AnalyticsTodayService::WINDOWS),
-                'active' => $today->countActiveVisitors(),
-                'active_minutes' => AnalyticsTodayService::ACTIVE_MINUTES,
-                'hour' => $today->compareHour(),
-                'busiest' => $today->findBusiestRobot(),
-                'latest' => $today->findLatestPages(10),
+                // Its first drawing; the page reads it again from the api.
+                'summary' => $today->summarize(),
             ],
             'composition_chart' => AnalyticsCompositionChartPointProvider::getChartName(),
             'traffic_chart' => AnalyticsTrafficChartPointProvider::getChartName(),

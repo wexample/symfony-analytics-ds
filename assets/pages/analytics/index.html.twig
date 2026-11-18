@@ -8,7 +8,6 @@
     and the tables add up the audience chosen, the charts read the period
     again when it changes. -#}
 {%- block page_body -%}
-    {%- set reasons = 'WexampleSymfonyAnalyticsDsBundle.components.analytics-breakdown-table.analytics-breakdown-table::' -%}
 
     <h2>{{ '@page::section.now' | trans }}</h2>
     <p class="lead">{{ '@page::now_intro' | trans }}</p>
@@ -27,36 +26,14 @@
             </div>
             {%- for window in today.windows -%}
                 <div class="analytics--today-chart analytics--today-chart--{{ window }}h">
-                    {{ chart('bar', {}, { source: today_chart, scope: window ~ 'h', stacked: true, lazy: not loop.first }) }}
+                    {{ chart('bar', {}, { source: today_chart, scope: window ~ 'h', stacked: true, lazy: not loop.first, poll: 60 }) }}
                 </div>
             {%- endfor -%}
         </div>
 
-        <div class="block block--padded analytics--now">
-            <div class="block--figure block--figure--start">
-                <span class="block--figure-label">{{ '@page::now.active' | trans({ '%minutes%': today.active_minutes }) }}</span>
-                <span class="block--figure-value">{{ today.active | number }}</span>
-            </div>
-            <p>{{ '@page::now.hour' | trans({ '%now%': today.hour.now | number, '%yesterday%': today.hour.yesterday | number }) }}</p>
-            {%- if today.busiest -%}
-                <p>{{ '@page::now.busiest' | trans({
-                    '%robot%': today.busiest.suspect or today.busiest.robot == 'other' ? (reasons ~ 'robot.' ~ today.busiest.robot) | trans : today.busiest.robot,
-                    '%views%': today.busiest.views | number,
-                }) }}</p>
-            {%- endif -%}
-            <h3>{{ '@page::now.latest' | trans }}</h3>
-            <ul class="analytics--latest">
-                {%- for view in today.latest -%}
-                    <li>
-                        <time class="text-tertiary" datetime="{{ view.viewedAt | date('c') }}">{{ view.viewedAt | date('H:i') }}</time>
-                        <a href="{{ view.path }}">{{ view.path }}</a>
-                        <span class="text-tertiary">{{ (reasons ~ 'source.' ~ view.origin.source.value) | trans }}{% if view.country %} · {{ view.country | country_name }}{% endif %}</span>
-                    </li>
-                {%- else -%}
-                    <li class="text-tertiary">{{ '@page::now.none' | trans }}</li>
-                {%- endfor -%}
-            </ul>
-        </div>
+        {#- The people at it, this hour, the busiest robot, the latest pages:
+            read again every minute while the page is seen. -#}
+        {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-now', { summary: today.summary }) }}
     </div>
 
     <div class="analytics--period">
