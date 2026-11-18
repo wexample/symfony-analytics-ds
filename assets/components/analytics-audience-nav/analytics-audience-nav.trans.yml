@@ -1,0 +1,11 @@
+en:
+  label: 'Audience'
+  humans: 'People'
+  robots: 'Robots'
+  all: 'Everything'
+
+fr:
+  label: 'Audience'
+  humans: 'Personnes'
+  robots: 'Robots'
+  all: 'Tout'

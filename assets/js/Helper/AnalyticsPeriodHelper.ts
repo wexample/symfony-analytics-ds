@@ -20,6 +20,26 @@ export function analyticsPeriodFollow(onChange: (period: AnalyticsPeriod) => voi
   return () => document.removeEventListener('period-change', listener);
 }
 
+// Whose pages the page adds up — `humans`, `robots`, `all` —, as the
+// audience-nav announces it (`analytics-audience-change`), followed the same
+// way as the period.
+export function analyticsAudienceFollow(onChange: (audience: string) => void): () => void {
+  let current: string | null = null;
+  const listener = (event: Event): void => {
+    const { audience } = (event as CustomEvent<{ audience: string }>).detail;
+
+    if (current !== audience) {
+      current = audience;
+      onChange(audience);
+    }
+  };
+
+  document.addEventListener('analytics-audience-change', listener);
+  document.dispatchEvent(new CustomEvent('analytics-audience-request'));
+
+  return () => document.removeEventListener('analytics-audience-change', listener);
+}
+
 // A country code as a flag: the two regional indicator letters it spells.
 export function analyticsCountryFlag(code: string): string {
   return /^[A-Z]{2}$/.test(code)

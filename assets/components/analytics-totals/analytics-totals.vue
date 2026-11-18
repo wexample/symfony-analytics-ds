@@ -1,13 +1,14 @@
 <script>
 import AbstractEntityManipulatorVueMixin from '@wexample/symfony-design-system/js/Vue/AbstractEntityManipulatorVueMixin';
 import AnalyticsBreakdown from '@wexample/symfony-analytics/Entity/AnalyticsBreakdown';
-import { analyticsPeriodFollow } from '../../js/Helper/AnalyticsPeriodHelper';
+import { analyticsAudienceFollow, analyticsPeriodFollow } from '../../js/Helper/AnalyticsPeriodHelper';
 
 const METRIC = 'WexampleSymfonyAnalyticsBundle.common.analytics::metric.';
 const T = 'WexampleSymfonyAnalyticsDsBundle.components.analytics-totals.analytics-totals::';
 
-// The figures of the page's period: visitors, visits, pages viewed, and the
-// pages a visit reads — the `total` line of the breakdown.
+// The figures of the page's period for the audience the audience-nav says:
+// visitors, visits, pages viewed, and the pages a visit reads — the `total`
+// line of the breakdown.
 export default {
   mixins: [AbstractEntityManipulatorVueMixin],
 
@@ -15,7 +16,9 @@ export default {
 
   data() {
     return {
-      totals: null
+      totals: null,
+      period: null,
+      audience: null
     };
   },
 
@@ -34,10 +37,18 @@ export default {
   },
 
   mounted() {
-    this.forgetPeriod = analyticsPeriodFollow((period) => this.read(period));
+    this.forgetAudience = analyticsAudienceFollow((audience) => {
+      this.audience = audience;
+      this.read();
+    });
+    this.forgetPeriod = analyticsPeriodFollow((period) => {
+      this.period = period;
+      this.read();
+    });
   },
 
   beforeUnmount() {
+    this.forgetAudience?.();
     this.forgetPeriod?.();
   },
 
@@ -46,8 +57,16 @@ export default {
       return AnalyticsBreakdown;
     },
 
-    async read(period) {
-      const result = await this.getEntityRepository().fetchListPaginated({ query: { dimension: 'total', ...period }, length: 0 });
+    // Nothing to read before the period is known.
+    async read() {
+      if (!this.period) {
+        return;
+      }
+
+      const result = await this.getEntityRepository().fetchListPaginated({
+        query: { dimension: 'total', audience: this.audience ?? 'humans', ...this.period },
+        length: 0
+      });
       const line = result.items[0];
 
       this.totals = line

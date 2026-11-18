@@ -1,0 +1,16 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/_abstract/vue/vue.vue.twig' -%}
+
+{%- block vue_config -%}
+    {{ parent() }}
+    {{ trans_js(render_pass, 'WexampleSymfonyAnalyticsDsBundle.components.analytics-audience-nav.analytics-audience-nav::*') }}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <div class="radio-group radio-group--segmented" role="radiogroup" :aria-label="t('label')">
+        <div v-for="audience in audiences" :key="audience" class="radio-option">
+            <input class="form--radio" type="radio" :id="`${uid}-${audience}`" :name="uid" :value="audience"
+                   :checked="selected === audience" @change="select(audience)">
+            <label class="form--radio-label" :for="`${uid}-${audience}`">[[ t(audience) ]]</label>
+        </div>
+    </div>
+{%- endblock -%}

@@ -3,10 +3,12 @@
 {%- set page_show_title = true -%}
 {%- set page_measure = false -%}
 
-{#- The period first, which every part below follows: the figures, the
-    course, the map and the tables read the api again when it changes. -#}
+{#- The audience and the period first, which every part below follows: the
+    figures and the tables add up the audience chosen, the charts read the
+    period again when it changes. -#}
 {%- block page_body -%}
     <div class="analytics--period">
+        {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-audience-nav') }}
         {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/period-nav', {
             value: '30d',
             hashKey: 'period',
@@ -16,9 +18,18 @@
 
     {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-totals') }}
 
-    <h2>{{ '@page::section.traffic' | trans }}</h2>
+    {#- The raw traffic, whatever the audience chosen: what the filter leaves
+        out shows here. -#}
+    <h2>{{ '@page::section.composition' | trans }}</h2>
+    <p class="lead">{{ '@page::composition_intro' | trans }}</p>
     <div class="block block--padded">
-        {{ chart('area', {}, { source: traffic_chart, period: true, lazy: false }) }}
+        {{ chart('area', {}, { source: composition_chart, period: true, stacked: true, lazy: false }) }}
+    </div>
+
+    <h2>{{ '@page::section.traffic' | trans }}</h2>
+    <p class="lead">{{ '@page::people_only' | trans }}</p>
+    <div class="block block--padded">
+        {{ chart('area', {}, { source: traffic_chart, period: true }) }}
     </div>
 
     <h2>{{ '@page::section.geography' | trans }}</h2>
@@ -50,7 +61,17 @@
         {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'page' }) }}
     </div>
 
+    {#- Every robot, whatever the audience chosen: the people have none. -#}
     <h2>{{ '@page::section.robots' | trans }}</h2>
     <p class="lead">{{ '@page::robots_intro' | trans }}</p>
-    {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'robot' }) }}
+    {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'robot', audience: 'robots' }) }}
+
+    {%- if storage_size is not null -%}
+        <p class="text-tertiary analytics--storage">{{ '@page::storage' | trans({
+            '%size%': storage_size | file_bytes,
+            '%human%': retention.human,
+            '%suspect%': retention.suspect,
+            '%declared%': retention.declared,
+        }) }}</p>
+    {%- endif -%}
 {%- endblock -%}

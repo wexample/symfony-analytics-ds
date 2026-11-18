@@ -13,6 +13,8 @@ en:
   robot:
     other: Other robots
     cadence: Reading too fast for a person
+    burst: 'Reading in bursts'
+    headers: 'No browser headers'
   source:
     direct: Direct
     search: Search engine
@@ -40,6 +42,8 @@ fr:
   robot:
     other: Autres robots
     cadence: Lecture trop rapide pour une personne
+    burst: 'Lecture en rafale'
+    headers: 'Sans en-têtes de navigateur'
   source:
     direct: Accès direct
     search: Moteur de recherche

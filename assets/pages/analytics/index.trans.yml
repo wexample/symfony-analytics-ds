@@ -2,25 +2,33 @@ en:
   page_title: Audience
   page_icon: ph:bold/chart-line-up
   section:
+    composition: Who reads the site
     traffic: Over time
     geography: Where visitors are
     origin: Where visits come from
     pages: Pages
     robots: Robots
+  composition_intro: "Every page read, the raw traffic: the people, the robots caught dressed as browsers, and the robots naming themselves."
+  people_only: "The people only, whatever the audience chosen above."
+  storage: "%size% of audience in the database. Kept day by day: the people %human% months, the suspected robots %suspect% months, the declared robots %declared% months; month by month after that."
   origin_intro: "Counted on the server, without cookies: a visitor is someone else the next day. Search engines rarely pass the keyword any more."
-  robots_intro: "Crawlers and AI assistants, counted apart from the audience: pages read per robot, named by its user agent, or caught reading faster than a person."
+  robots_intro: "Every robot, counted apart from the people: declared by its user agent — crawlers, AI assistants —, or suspected — a browser's user agent without a browser's headers, reading in bursts or faster than a person. Their pages alone."
 
 fr:
   page_title: Audience
   page_icon: ph:bold/chart-line-up
   section:
+    composition: Qui lit le site
     traffic: Dans le temps
     geography: Où sont les visiteurs
     origin: "D'où viennent les visites"
     pages: Pages
     robots: Robots
+  composition_intro: "Toutes les pages lues, le trafic brut : les personnes, les robots repérés sous un habit de navigateur, et les robots qui se nomment."
+  people_only: "Les personnes seulement, quelle que soit l'audience choisie en haut."
+  storage: "%size% d'audience en base. Gardé jour par jour : les personnes %human% mois, les robots suspectés %suspect% mois, les robots déclarés %declared% mois ; mois par mois au-delà."
   origin_intro: "Compté côté serveur, sans cookie : un visiteur devient quelqu'un d'autre le lendemain. Les moteurs de recherche ne transmettent presque plus le mot-clé."
-  robots_intro: "Moteurs et assistants IA, comptés à part de l'audience : pages lues par robot, nommé par son user agent, ou repéré à lire plus vite qu'une personne."
+  robots_intro: "Tous les robots, comptés à part des personnes : déclarés par leur user agent — moteurs, assistants IA —, ou suspectés — un user agent de navigateur sans les en-têtes d'un navigateur, lisant en rafale ou plus vite qu'une personne. Leurs pages seulement."
 
 zh:
   page_title: 受众

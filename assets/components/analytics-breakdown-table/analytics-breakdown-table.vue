@@ -2,15 +2,17 @@
 import AbstractEntityTable from '@wexample/symfony-design-system/components/collection/table/abstract-entity-table/abstract-entity-table.vue';
 import AbstractEntityCollectionVueMixin from '@wexample/symfony-design-system/js/Vue/AbstractEntityCollectionVueMixin';
 import AnalyticsBreakdown from '@wexample/symfony-analytics/Entity/AnalyticsBreakdown';
-import { analyticsCountryFlag, analyticsCountryName, analyticsPeriodFollow } from '../../js/Helper/AnalyticsPeriodHelper';
+import { analyticsAudienceFollow, analyticsCountryFlag, analyticsCountryName, analyticsPeriodFollow } from '../../js/Helper/AnalyticsPeriodHelper';
 
 const T = 'WexampleSymfonyAnalyticsDsBundle.components.analytics-breakdown-table.analytics-breakdown-table::';
 const METRIC = 'WexampleSymfonyAnalyticsBundle.common.analytics::metric.';
 
 // The audience of the page's period broken down by one dimension — pages,
 // sources, countries… —, the most visited first. Read once the period-nav of
-// the page has said its period, and again at each change. The robots have
-// neither visitor nor visit: their pages alone.
+// the page has said its period, and again at each change; of the audience
+// the audience-nav says, unless the table is given one (`audience`). The
+// robot dimension has their pages alone: a declared robot has neither
+// visitor nor visit.
 export default {
   extends: AbstractEntityTable,
 
@@ -20,6 +22,11 @@ export default {
     dimension: {
       type: String,
       required: true
+    },
+    // `humans`, `robots` or `all` whatever the audience-nav says.
+    audience: {
+      type: String,
+      default: null
     }
   },
 
@@ -28,11 +35,19 @@ export default {
       pageLength: 10,
       showCount: true,
       defaultSort: { key: this.dimension === 'robot' ? 'views' : 'visits', direction: 'desc' },
-      period: null
+      period: null,
+      audienceFollowed: null
     };
   },
 
   mounted() {
+    if (!this.audience) {
+      this.forgetAudience = analyticsAudienceFollow((audience) => {
+        this.audienceFollowed = audience;
+        this.refreshEntitiesCollection();
+      });
+    }
+
     this.forgetPeriod = analyticsPeriodFollow((period) => {
       this.period = period;
       this.refreshEntitiesCollection();
@@ -40,6 +55,7 @@ export default {
   },
 
   beforeUnmount() {
+    this.forgetAudience?.();
     this.forgetPeriod?.();
   },
 
@@ -56,6 +72,7 @@ export default {
       return {
         ...AbstractEntityTable.methods.getCollectionQuery.call(this),
         dimension: this.dimension,
+        audience: this.audience ?? this.audienceFollowed ?? 'humans',
         ...(this.period ?? {})
       };
     },
@@ -76,9 +93,10 @@ export default {
         case 'source':
         case 'device':
           return this.trans(`${T}${this.dimension}.${value}`);
-        // A robot by its own name; the two without one said in words.
+        // A robot by its own name; the ones without one, and the reasons a
+        // suspected one was caught, said in words.
         case 'robot':
-          return ['other', 'cadence'].includes(value) ? this.trans(`${T}robot.${value}`) : value;
+          return ['other', 'cadence', 'burst', 'headers'].includes(value) ? this.trans(`${T}robot.${value}`) : value;
         default:
           return value;
       }
