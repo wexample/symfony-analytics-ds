@@ -69,10 +69,12 @@
         {{ chart('area', {}, { source: traffic_chart, period: true }) }}
     </div>
 
+    {#- The map every page read, robots in: the people alone are few. -#}
     <h2>{{ '@page::section.geography' | trans }}</h2>
+    <p class="lead">{{ '@page::geography_intro' | trans }}</p>
     <div class="grid grid--2 analytics--tables">
         <div class="block block--padded">
-            {{ chart('map', {}, { source: countries_chart, period: true, height: '22rem' }) }}
+            {{ chart('map', {}, { source: countries_chart, scope: 'all', period: true, height: '22rem' }) }}
             {#- DB-IP's licence (CC BY 4.0) asks to be named where its countries are shown. -#}
             <p class="text-tertiary analytics--credit"><a href="https://db-ip.com" target="_blank" rel="noopener">IP Geolocation by DB-IP</a></p>
         </div>
