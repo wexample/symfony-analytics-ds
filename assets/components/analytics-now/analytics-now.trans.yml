@@ -2,20 +2,20 @@ en:
   active: People on the site in the last %minutes% minutes
   latest: Latest pages read
   none: No page read yet.
-  hour_label: Pages read this hour
+  hour_label: Pages read in the last hour
   hour_yesterday: '%count% yesterday at the same time'
-  busiest_label: Busiest robot this hour
-  busiest_none: No robot this hour
+  busiest_label: Busiest robot in the last hour
+  busiest_none: No robot in the last hour
   pages: pages
 
 fr:
   active: Personnes sur le site ces %minutes% dernières minutes
   latest: Dernières pages lues
   none: Aucune page lue pour l'instant.
-  hour_label: Pages lues cette heure
+  hour_label: Pages lues dans la dernière heure
   hour_yesterday: '%count% hier à la même heure'
-  busiest_label: Robot le plus actif de l'heure
-  busiest_none: Aucun robot cette heure
+  busiest_label: Robot le plus actif de la dernière heure
+  busiest_none: Aucun robot dans la dernière heure
   pages: pages
 
 zh:
