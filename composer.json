@@ -1,7 +1,7 @@
 {
   "name": "wexample/symfony-analytics-ds",
   "description": "Design-system screens of symfony-analytics: the audience of the site over a period, for its administrator",
-  "version": "4.0.5",
+  "version": "5.0.0",
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -17,7 +17,7 @@
   ],
   "require": {
     "php": ">=8.5",
-    "wexample/symfony-analytics": ">=6.0.0",
+    "wexample/symfony-analytics": ">=7.0.0",
     "wexample/symfony-charts-ds": ">=7.0.0",
     "wexample/symfony-design-system": ">=50.0.0",
     "wexample/symfony-helpers": ">=19.3.0",
