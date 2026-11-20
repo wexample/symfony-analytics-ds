@@ -6,6 +6,8 @@ en:
   hour_yesterday: '%count% yesterday at the same time'
   busiest_label: Busiest robot in the last hour
   busiest_none: No robot in the last hour
+  api_label: Calls to the api in the last hour
+  api_limited: '%count% rate limited'
   pages: pages
 
 fr:
@@ -16,6 +18,8 @@ fr:
   hour_yesterday: '%count% hier à la même heure'
   busiest_label: Robot le plus actif de la dernière heure
   busiest_none: Aucun robot dans la dernière heure
+  api_label: "Appels à l'API dans la dernière heure"
+  api_limited: '%count% plafonnés'
   pages: pages
 
 zh:

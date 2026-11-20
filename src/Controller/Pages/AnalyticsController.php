@@ -7,9 +7,11 @@ use Symfony\Component\Routing\Attribute\Route;
 use Wexample\SymfonyAnalytics\Enum\AnalyticsAudience;
 use Wexample\SymfonyAnalytics\Enum\AnalyticsDimension;
 use Wexample\SymfonyAnalytics\Service\AnalyticsAccessService;
+use Wexample\SymfonyAnalytics\Service\AnalyticsApiStatsService;
 use Wexample\SymfonyAnalytics\Service\AnalyticsStatsService;
 use Wexample\SymfonyAnalytics\Service\AnalyticsStorageService;
 use Wexample\SymfonyAnalytics\Service\AnalyticsTodayService;
+use Wexample\SymfonyAnalytics\Service\ChartPoint\AnalyticsApiChartPointProvider;
 use Wexample\SymfonyAnalytics\Service\ChartPoint\AnalyticsCompositionChartPointProvider;
 use Wexample\SymfonyAnalytics\Service\ChartPoint\AnalyticsCountriesChartPointProvider;
 use Wexample\SymfonyAnalytics\Service\ChartPoint\AnalyticsTodayChartPointProvider;
@@ -39,6 +41,7 @@ final class AnalyticsController extends AbstractPagesController
         AnalyticsStatsService $stats,
         AnalyticsStorageService $storage,
         AnalyticsTodayService $today,
+        AnalyticsApiStatsService $api,
     ): Response {
         $access->denyUnlessGranted();
 
@@ -54,6 +57,8 @@ final class AnalyticsController extends AbstractPagesController
             'composition_chart' => AnalyticsCompositionChartPointProvider::getChartName(),
             'traffic_chart' => AnalyticsTrafficChartPointProvider::getChartName(),
             'countries_chart' => AnalyticsCountriesChartPointProvider::getChartName(),
+            // None where the api is not counted: its section is left out.
+            'api_chart' => $api->isEnabled() ? AnalyticsApiChartPointProvider::getChartName() : null,
             'dimensions' => array_map(static fn (AnalyticsDimension $dimension): string => $dimension->value, AnalyticsDimension::cases()),
             'storage_size' => null === $sizes ? null : array_sum($sizes),
             'retention' => [

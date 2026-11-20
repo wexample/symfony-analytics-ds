@@ -11,6 +11,7 @@
 - the people's visitors, visits and pages over time, and their world map;
 - the tables of the audience chosen: countries, then the origins — sources, engines and assistants, sites, keywords, campaigns, devices —, the pages by route then by address (each a link);
 - the robots, declared and suspected, whatever the audience chosen;
+- the api, where symfony-analytics counts it: the period's calls, callers, rate limited, refused and failed, average time (`analytics-api-totals`), their course per outcome, and a table per route or MCP tool, caller, status and cache answer (`analytics-api-table`), following the period-nav;
 - what the audience weighs in the database and how long each audience is kept day by day.
 
 Each table is an `analytics-breakdown-table` (an entity table on `AnalyticsBreakdown`), given its `audience` or following the audience-nav.

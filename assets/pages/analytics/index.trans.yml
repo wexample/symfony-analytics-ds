@@ -9,6 +9,8 @@ en:
     origin: Where visits come from
     pages: Pages
     robots: Robots
+    api: API
+  api_intro: "The programs and MCP agents calling the api, counted apart from the readers: per route or tool, caller, status, and whether the cache answered."
   now_intro: "Every page read over the last hours, whatever the period and the audience chosen below."
   now:
     window_24h: 24 hours
@@ -31,6 +33,8 @@ fr:
     origin: "D'où viennent les visites"
     pages: Pages
     robots: Robots
+    api: API
+  api_intro: "Les programmes et agents MCP qui appellent l'API, comptés à part des lecteurs : par route ou outil, appelant, statut, et selon que le cache a répondu."
   now_intro: "Toutes les pages lues ces dernières heures, quelles que soient la période et l'audience choisies plus bas."
   now:
     window_24h: 24 heures

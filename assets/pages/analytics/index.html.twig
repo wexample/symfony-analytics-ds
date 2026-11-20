@@ -105,6 +105,26 @@
     <p class="lead">{{ '@page::robots_intro' | trans }}</p>
     {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-breakdown-table', { dimension: 'robot', audience: 'robots' }) }}
 
+    {#- The programs calling the api, apart from the readers: the period's
+        figures, their course per outcome, and per route and MCP tool, caller,
+        status, cache answer. -#}
+    {%- if api_chart -%}
+        <h2>{{ '@page::section.api' | trans }}</h2>
+        <p class="lead">{{ '@page::api_intro' | trans }}</p>
+        {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-api-totals') }}
+        <div class="block block--padded">
+            {{ chart('bar', {}, { source: api_chart, period: true, stacked: true }) }}
+        </div>
+        <div class="stack--vertical">
+            {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-api-table', { dimension: 'route' }) }}
+            {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-api-table', { dimension: 'client' }) }}
+        </div>
+        <div class="grid grid--2 analytics--tables">
+            {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-api-table', { dimension: 'status' }) }}
+            {{ vue(render_pass, '@WexampleSymfonyAnalyticsDsBundle/components/analytics-api-table', { dimension: 'cache' }) }}
+        </div>
+    {%- endif -%}
+
     {%- if storage_size is not null -%}
         <p class="text-tertiary analytics--storage">{{ '@page::storage' | trans({
             '%size%': storage_size | file_bytes,

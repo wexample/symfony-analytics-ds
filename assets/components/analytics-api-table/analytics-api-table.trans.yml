@@ -1,0 +1,23 @@
+en:
+  dimension:
+    route: 'Route or tool'
+    client: 'Caller'
+    status: 'Status'
+    cache: 'Cache'
+  anonymous: 'Anonymous'
+  cache:
+    hit: 'Answered from the cache'
+    miss: 'Computed, then cached'
+    none: 'Not cached'
+
+fr:
+  dimension:
+    route: 'Route ou outil'
+    client: 'Appelant'
+    status: 'Statut'
+    cache: 'Cache'
+  anonymous: 'Anonyme'
+  cache:
+    hit: 'Servi depuis le cache'
+    miss: 'Calculé, puis mis en cache'
+    none: 'Hors cache'

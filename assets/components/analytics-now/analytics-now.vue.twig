@@ -40,6 +40,13 @@
                 <span v-else class="block--figure-sub">[[ t('busiest_none') ]]</span>
             </div>
         </div>
+        <div v-if="now.api" class="block block--card block--tone-cat-lavender">
+            <div class="block--figure block--figure--start">
+                <span class="block--figure-label">[[ t('api_label') ]]</span>
+                <span class="block--figure-value">[[ number(now.api.calls) ]]</span>
+                <span class="block--figure-sub">[[ t('api_limited', { '%count%': number(now.api.limited) }) ]]</span>
+            </div>
+        </div>
     </div>
 
     {#- The people's latest pages, a row each: the page — its end kept, its
