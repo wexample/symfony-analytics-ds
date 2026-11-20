@@ -1,5 +1,5 @@
 en:
-  active: People on the site in the last %minutes% minutes
+  active: People on the site in the last hour
   latest: Latest pages read
   none: No page read yet.
   hour_label: Pages read in the last hour
@@ -9,7 +9,7 @@ en:
   pages: pages
 
 fr:
-  active: Personnes sur le site ces %minutes% dernières minutes
+  active: Personnes sur le site dans la dernière heure
   latest: Dernières pages lues
   none: Aucune page lue pour l'instant.
   hour_label: Pages lues dans la dernière heure

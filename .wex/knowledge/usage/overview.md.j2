@@ -4,7 +4,7 @@
 
 `/{_locale}/analytics/` (`analytics_index`), for symfony-analytics' `access_role`, from top to bottom:
 
-- right now, whatever the period and the audience: every page read over the last 24 hours (15-minute bars) or 2 hours (5-minute bars), stacked per audience, the window ticked without a script; beside it, the people on the site within 30 minutes, the last hour against the same one yesterday, the busiest robot of that hour and the people's latest pages (`analytics-now`) — drawn with the page, then read again every minute while it is seen, the chart as well (`poll`, the loader's PollingService): polling chosen, the analytics holding no live connection;
+- right now, whatever the period and the audience: every page read over the last 24 hours (15-minute bars) or 2 hours (5-minute bars), stacked per audience, the window ticked without a script; beside it, over the last hour, the people on the site, their pages against the same hour yesterday, the busiest robot and the people's latest pages (`analytics-now`) — drawn with the page, then read again every minute while it is seen, the chart as well (`poll`, the loader's PollingService): polling chosen, the analytics holding no live connection;
 - an audience-nav (`analytics-audience-nav`: people, robots, everything) and a period-nav (month, year, or the last 7, 30, 90 days), both kept in the address;
 - the figures of the audience chosen (`analytics-totals`);
 - who reads the site: every page read per day, stacked per audience — the raw traffic, whatever the audience chosen;
