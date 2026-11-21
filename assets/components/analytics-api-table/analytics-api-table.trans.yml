@@ -21,3 +21,255 @@ fr:
     hit: 'Servi depuis le cache'
     miss: 'Calculé, puis mis en cache'
     none: 'Hors cache'
+
+zh:
+  dimension:
+    route: 路线或工具
+    client: 呼叫者
+    status: 状态
+    cache: 缓存
+  anonymous: 匿名
+  cache:
+    hit: 从缓存中回答
+    miss: 计算后缓存
+    none: 未缓存
+
+ar:
+  dimension:
+    route: 'مسار أو أداة'
+    client: المتصل
+    status: الحالة
+    cache: 'ذاكرة التخزين المؤقت'
+  anonymous: مجهول
+  cache:
+    hit: 'تم الرد من ذاكرة التخزين المؤقت'
+    miss: 'تم الحساب ثم التخزين المؤقت'
+    none: 'لم يتم التخزين المؤقت'
+
+hi:
+  dimension:
+    route: 'मार्ग या उपकरण'
+    client: कॉलर
+    status: स्थिति
+    cache: कैश
+  anonymous: गुमनाम
+  cache:
+    hit: 'कैश से उत्तर दिया गया'
+    miss: 'गणना की गई, फिर कैश की गई'
+    none: 'कैश नहीं किया गया'
+
+he:
+  dimension:
+    route: 'מסלול או כלי'
+    client: מטלפן
+    status: סטטוס
+    cache: מטמון
+  anonymous: אנונימי
+  cache:
+    hit: 'נענה מהמטמון'
+    miss: 'חישוב, ואז נשמר במטמון'
+    none: 'לא נשמר במטמון'
+
+fa:
+  dimension:
+    route: 'مسیر یا ابزار'
+    client: 'تماس گیرنده'
+    status: وضعیت
+    cache: کش
+  anonymous: ناشناس
+  cache:
+    hit: 'از کش پاسخ داده شد'
+    miss: 'محاسبه شده و سپس در کش ذخیره شد'
+    none: 'ذخیره نشده است'
+
+ur:
+  dimension:
+    route: 'راستہ یا ٹول'
+    client: 'کال کرنے والا'
+    status: حالت
+    cache: کیچ
+  anonymous: نامعلوم
+  cache:
+    hit: 'کیچ سے جواب دیا گیا'
+    miss: 'حساب کیا گیا، پھر کیچ کیا گیا'
+    none: 'کیچ نہیں کیا گیا'
+
+ja:
+  dimension:
+    route: ルートまたはツール
+    client: 発信者
+    status: ステータス
+    cache: キャッシュ
+  anonymous: 匿名
+  cache:
+    hit: キャッシュからの応答
+    miss: 計算され、その後キャッシュされた
+    none: キャッシュされていません
+
+ko:
+  dimension:
+    route: '경로 또는 도구'
+    client: 호출자
+    status: 상태
+    cache: 캐시
+  anonymous: 익명
+  cache:
+    hit: '캐시에서 응답됨'
+    miss: '계산 후 캐시됨'
+    none: '캐시되지 않음'
+
+bn:
+  dimension:
+    route: 'রুট বা টুল'
+    client: কলার
+    status: স্ট্যাটাস
+    cache: ক্যাশ
+  anonymous: অ্যানোনিমাস
+  cache:
+    hit: 'ক্যাশ থেকে উত্তর দেওয়া হয়েছে'
+    miss: 'গণনা করা হয়েছে, তারপর ক্যাশ করা হয়েছে'
+    none: 'ক্যাশ করা হয়নি'
+
+th:
+  dimension:
+    route: เส้นทางหรือเครื่องมือ
+    client: ผู้โทร
+    status: สถานะ
+    cache: แคช
+  anonymous: ไม่ระบุชื่อ
+  cache:
+    hit: ตอบกลับจากแคช
+    miss: คำนวณแล้วจึงแคช
+    none: ไม่แคช
+
+de:
+  dimension:
+    route: 'Route oder Werkzeug'
+    client: Anrufer
+    status: Status
+    cache: Cache
+  anonymous: Anonym
+  cache:
+    hit: 'Aus dem Cache beantwortet'
+    miss: 'Berechnet und dann im Cache gespeichert'
+    none: 'Nicht im Cache gespeichert'
+
+fi:
+  dimension:
+    route: 'Reitti tai työkalu'
+    client: Soittaja
+    status: Tila
+    cache: Välimuisti
+  anonymous: Anonyymi
+  cache:
+    hit: 'Vastattu välimuistista'
+    miss: 'Laskettiin ja tallennettiin välimuistiin'
+    none: 'Ei välimuistissa'
+
+ru:
+  dimension:
+    route: 'Маршрут или инструмент'
+    client: Звонящий
+    status: Статус
+    cache: Кэш
+  anonymous: Анонимный
+  cache:
+    hit: 'Ответ из кэша'
+    miss: 'Вычислено, затем кэшировано'
+    none: 'Не кэшировано'
+
+pl:
+  dimension:
+    route: 'Trasa lub narzędzie'
+    client: 'Osoba dzwoniąca'
+    status: Status
+    cache: Cache
+  anonymous: Anonimowy
+  cache:
+    hit: 'Odpowiedziano z pamięci podręcznej'
+    miss: 'Obliczone, a następnie zapisane w pamięci podręcznej'
+    none: 'Nie zapisano w pamięci podręcznej'
+
+es:
+  dimension:
+    route: 'Ruta o herramienta'
+    client: Llamante
+    status: Estado
+    cache: Caché
+  anonymous: Anónimo
+  cache:
+    hit: 'Respondido desde la caché'
+    miss: 'Computado, luego almacenado en caché'
+    none: 'No almacenado en caché'
+
+it:
+  dimension:
+    route: 'Percorso o strumento'
+    client: Chiamante
+    status: Stato
+    cache: Cache
+  anonymous: Anonimo
+  cache:
+    hit: 'Risposto dalla cache'
+    miss: 'Calcolato, poi memorizzato'
+    none: 'Non memorizzato'
+
+pt_BR:
+  dimension:
+    route: 'Rota ou ferramenta'
+    client: Chamador
+    status: Status
+    cache: Cache
+  anonymous: Anônimo
+  cache:
+    hit: 'Respondido do cache'
+    miss: 'Computado, então armazenado em cache'
+    none: 'Não armazenado em cache'
+
+tr:
+  dimension:
+    route: 'Rota veya araç'
+    client: Arayan
+    status: Durum
+    cache: Önbellek
+  anonymous: Anonim
+  cache:
+    hit: 'Önbellekten yanıtlandı'
+    miss: 'Hesaplandı, ardından önbelleğe alındı'
+    none: 'Önbelleğe alınmadı'
+
+vi:
+  dimension:
+    route: 'Tuyến đường hoặc công cụ'
+    client: 'Người gọi'
+    status: 'Trạng thái'
+    cache: 'Bộ nhớ đệm'
+  anonymous: 'Người ẩn danh'
+  cache:
+    hit: 'Đã trả lời từ bộ nhớ đệm'
+    miss: 'Đã tính toán, sau đó lưu vào bộ nhớ đệm'
+    none: 'Không được lưu vào bộ nhớ đệm'
+
+id:
+  dimension:
+    route: 'Rute atau alat'
+    client: Penelepon
+    status: Status
+    cache: Cache
+  anonymous: SAMA
+  cache:
+    hit: 'Dijawab dari cache'
+    miss: 'Dihitung, kemudian disimpan dalam cache'
+    none: 'Tidak disimpan dalam cache'
+
+nl:
+  dimension:
+    route: 'Route of hulpmiddel'
+    client: Beller
+    status: Status
+    cache: Cache
+  anonymous: Anoniem
+  cache:
+    hit: 'Beantwoord vanuit de cache'
+    miss: 'Berekend en vervolgens gecached'
+    none: 'Niet gecached'

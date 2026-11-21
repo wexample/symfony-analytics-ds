@@ -50,14 +50,22 @@ zh:
   page_title: 受众
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: 现在
     composition: 谁在浏览网站
     traffic: 随着时间的推移
     geography: 访客的来源
     origin: 访问来自哪里
     pages: 页面
     robots: 机器人
+    api: API
+  api_intro: '调用 API 的程序和 MCP 代理，单独计数，按路由或工具、调用者、状态以及缓存是否响应进行分类。'
+  now_intro: 过去几小时内阅读的每个页面，无论下面选择的时间段和受众。
+  now:
+    window_24h: '24 小时'
+    window_2h: '2 小时'
   composition_intro: 每一页的浏览量：真实的流量，包括人类、伪装成浏览器的机器人，以及自称为机器人的那些。
   people_only: 仅限于人类，不论上面选择的受众是什么。
+  geography_intro: 地图显示每个页面的阅读量，包括机器人；旁边的表格显示上述选择的受众。
   storage: 数据库中存储的受众数量为%size%。逐日保留：人类%human%个月，怀疑的机器人%suspect%个月，已声明的机器人%declared%个月；之后按月统计。
   origin_intro: '在服务器上计算，不使用 cookies：访客在第二天是另一个人。搜索引擎很少再传递关键词了。'
   robots_intro: 每一个机器人，单独计数，不包括人类：由其用户代理声明——爬虫、人工智能助手——或被怀疑——没有浏览器头的浏览器用户代理，以比人类更快的速度或间歇性地进行阅读。仅限其页面。
@@ -66,14 +74,22 @@ ar:
   page_title: الجمهور
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: الآن
     composition: 'من يقرأ الموقع'
     traffic: 'على مر الزمن'
     geography: 'من أين يأتي الزوار'
     origin: 'من أين تأتي الزيارات'
     pages: الصفحات
     robots: الروبوتات
+    api: API
+  api_intro: 'البرامج ووكلاء MCP الذين يتصلون بالـ api، محسوبين بشكل منفصل عن القراء: حسب المسار أو الأداة، المتصل، الحالة، وما إذا كانت الذاكرة المؤقتة قد أجابت.'
+  now_intro: 'كل صفحة تم قراءتها خلال الساعات الماضية، بغض النظر عن الفترة والجمهور المختار أدناه.'
+  now:
+    window_24h: '24 ساعة'
+    window_2h: ساعتان
   composition_intro: 'كل صفحة مقروءة، الحركة الخام: الأشخاص، الروبوتات التي تم القبض عليها متنكرة كمتصفحات، والروبوتات التي تسمي نفسها.'
   people_only: 'الأشخاص فقط، بغض النظر عن الجمهور المختار أعلاه.'
+  geography_intro: 'تحتسب الخريطة كل صفحة تمت قراءتها، بما في ذلك الروبوتات؛ الجدول بجانبها، الجمهور المختار أعلاه.'
   storage: '%size% من الجمهور في قاعدة البيانات. محفوظة يوماً بيوم: الأشخاص %human% شهراً، الروبوتات المشتبه بها %suspect% شهراً، الروبوتات المعلنة %declared% شهراً؛ شهراً بشهر بعد ذلك.'
   origin_intro: 'يتم العد على الخادم، بدون ملفات تعريف الارتباط: الزائر هو شخص آخر في اليوم التالي. نادرًا ما تمر محركات البحث بالكلمة الرئيسية بعد الآن.'
   robots_intro: 'كل روبوت، يُحتسب بشكل منفصل عن الأشخاص: مُعلن بواسطة وكيل المستخدم الخاص به — الزاحفون، مساعدو الذكاء الاصطناعي —، أو المشتبه بهم — وكيل مستخدم المتصفح بدون رؤوس المتصفح، يقرأ في دفعات أو أسرع من الشخص. صفحاتهم فقط.'
@@ -82,14 +98,22 @@ hi:
   page_title: दर्शक
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: 'इस समय'
     composition: 'कौन साइट पढ़ता है'
     traffic: 'समय के साथ'
     geography: 'जहाँ आगंतुक हैं'
     origin: 'जहाँ से विज़िट आते हैं'
     pages: पृष्ठ
     robots: रोबोट्स
+    api: API
+  api_intro: 'प्रोग्राम और MCP एजेंट जो API को कॉल कर रहे हैं, पाठकों से अलग गिने जाते हैं: प्रति मार्ग या उपकरण, कॉलर, स्थिति, और क्या कैश ने उत्तर दिया।'
+  now_intro: 'पिछले घंटों में पढ़े गए हर पृष्ठ, नीचे चुने गए अवधि और दर्शकों के बावजूद।'
+  now:
+    window_24h: '24 घंटे'
+    window_2h: '2 घंटे'
   composition_intro: 'प्रत्येक पृष्ठ पढ़ा गया, कच्चा ट्रैफिक: लोग, वे रोबोट जो ब्राउज़र के रूप में पकड़े गए हैं, और वे रोबोट जो अपने आप को नामित करते हैं।'
   people_only: 'सिर्फ लोग, चाहे जो भी ऊपर चुना गया दर्शक हो।'
+  geography_intro: 'मानचित्र हर पढ़े गए पृष्ठ को गिनता है, रोबोटों सहित; इसके बगल की तालिका, ऊपर चुने गए दर्शकों को दर्शाती है।'
   storage: '%size% दर्शक डेटाबेस में। दिन-प्रतिदिन रखा गया: लोग %human% महीने, संदेहास्पद रोबोट %suspect% महीने, घोषित रोबोट %declared% महीने; उसके बाद महीने दर महीने।'
   origin_intro: 'सर्वर पर गिने गए, बिना कुकीज़ के: एक आगंतुक अगले दिन कोई और होता है। सर्च इंजन अब अक्सर कीवर्ड पास नहीं करते।'
   robots_intro: 'प्रत्येक रोबोट, लोगों से अलग गिना गया: इसके उपयोगकर्ता एजेंट द्वारा घोषित — क्रॉलर, एआई सहायक —, या संदेहास्पद — किसी ब्राउज़र के हेडर के बिना एक ब्राउज़र का उपयोगकर्ता एजेंट, जो एक व्यक्ति से तेज़ी से या झोंकों में पढ़ रहा है। केवल उनके पृष्ठ।'
@@ -98,14 +122,22 @@ he:
   page_title: קהל
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: עכשיו
     composition: 'מי קורא את האתר'
     traffic: 'עם הזמן'
     geography: 'איפה המבקרים נמצאים'
     origin: 'מאיפה מגיעים הביקורים'
     pages: דפים
     robots: רובוטים
+    api: API
+  api_intro: 'התוכניות וסוכני ה-MCP שמתקשרים ל-api, נחשבים בנפרד מהקוראים: לפי נתיב או כלי, מתקשר, סטטוס, ואם המטמון ענה.'
+  now_intro: 'כל עמוד שנקרא בשעות האחרונות, ללא קשר לתקופה ולקהל שנבחר למטה.'
+  now:
+    window_24h: '24 שעות'
+    window_2h: '2 שעות'
   composition_intro: 'כל עמוד נקרא, התנועה הגולמית: האנשים, הרובוטים שנתפסו מחופשים לדפדפנים, והרובוטים שמציינים את עצמם.'
   people_only: 'רק האנשים, כלשהם הקהל הנבחר לעיל.'
+  geography_intro: 'המפה סופרת כל עמוד שנקרא, רובוטים בפנים; הטבלה לצידה, הקהל שנבחר למעלה.'
   storage: '%size% מהקהל בבסיס הנתונים. נשמר יום יום: האנשים %human% חודשים, הרובוטים החשודים %suspect% חודשים, הרובוטים המוצהרים %declared% חודשים; חודש אחרי חודש לאחר מכן.'
   origin_intro: 'נספר על השרת, בלי עוגיות: מבקר הוא מישהו אחר ביום למחרת. מנועי חיפוש rarely מעבירים את המילה המפתח עוד.'
   robots_intro: 'כל רובוט, נחשב בנפרד מהאנשים: המוצהרים על ידי סוכן המשתמש שלהם — זחלים, עוזרי AI —, או החשודים — סוכן משתמש של דפדפן ללא כותרות דפדפן, קוראים במתקפות או מהר יותר מאדם. העמודים שלהם בלבד.'
@@ -114,14 +146,22 @@ fa:
   page_title: مخاطب
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: 'همین حالا'
     composition: 'چه کسی سایت را می‌خواند'
     traffic: 'در طول زمان'
     geography: 'مکان بازدیدکنندگان'
     origin: 'مکان ورود بازدیدها'
     pages: صفحات
     robots: ربات‌ها
+    api: API
+  api_intro: 'برنامه‌ها و عامل‌های MCP که به API تماس می‌گیرند، جدا از خوانندگان شمارش می‌شوند: بر اساس مسیر یا ابزار، تماس‌گیرنده، وضعیت و اینکه آیا کش پاسخ داده است یا نه.'
+  now_intro: 'هر صفحه‌ای که در ساعات گذشته خوانده شده، صرف‌نظر از دوره و مخاطب انتخاب شده در زیر.'
+  now:
+    window_24h: '۲۴ ساعت'
+    window_2h: '۲ ساعت'
   composition_intro: 'هر صفحه‌ای که خوانده می‌شود، ترافیک خام: مردم، ربات‌هایی که به عنوان مرورگر لباس پوشیده‌اند و ربات‌هایی که خود را معرفی می‌کنند.'
   people_only: 'فقط افراد، هرچه که مخاطب انتخاب شده در بالا باشد.'
+  geography_intro: 'نقشه هر صفحه خوانده شده را شمارش می‌کند، ربات‌ها در؛ جدول کنار آن، مخاطب انتخاب شده در بالا.'
   storage: '%size% از مخاطب در پایگاه داده. روز به روز نگهداری می‌شود: افراد %human% ماه، ربات‌های مشکوک %suspect% ماه، ربات‌های اعلام شده %declared% ماه؛ ماه به ماه بعد از آن.'
   origin_intro: 'در سرور شمرده شده، بدون کوکی‌ها: یک بازدیدکننده فردا کسی دیگر است. موتورهای جستجو به ندرت کلمه کلیدی را منتقل می‌کنند.'
   robots_intro: 'هر ربات، جدا از افراد شمارش می‌شود: اعلام شده توسط عامل کاربری‌اش — خزنده‌ها، دستیارهای هوش مصنوعی —، یا مشکوک — عامل کاربری مرورگری بدون هدرهای مرورگر، که به صورت ناگهانی یا سریع‌تر از یک شخص می‌خواند. صفحات آن‌ها به تنهایی.'
@@ -130,14 +170,22 @@ ur:
   page_title: ناظرین
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: 'فی الحال'
     composition: 'جو سائٹ پڑھتا ہے'
     traffic: 'وقت کے ساتھ'
     geography: 'زائرین کہاں ہیں'
     origin: 'ملاقاتیں کہاں سے آتی ہیں'
     pages: صفحات
     robots: روبوٹس
+    api: API
+  api_intro: 'ایپلی کیشنز اور MCP ایجنٹس جو API کو کال کر رہے ہیں، قارئین سے الگ شمار کیے گئے: ہر راستے یا ٹول، کالر، حیثیت، اور کیا کیش نے جواب دیا۔'
+  now_intro: 'گزشتہ چند گھنٹوں میں پڑھی گئی ہر صفحہ، نیچے منتخب کردہ دورانیے اور سامعین کے مطابق۔'
+  now:
+    window_24h: '24 گھنٹے'
+    window_2h: '2 گھنٹے'
   composition_intro: 'ہر پڑھی جانے والی صفحہ، خام ٹریفک: لوگ، وہ روبوٹ جو براؤزر کے طور پر ملبوس ہیں، اور وہ روبوٹ جو اپنے آپ کو نام دیتے ہیں۔'
   people_only: 'صرف لوگ، اوپر منتخب کردہ سامعین کی پرواہ کیے بغیر۔'
+  geography_intro: 'نقشہ ہر پڑھے گئے صفحے کا حساب رکھتا ہے، روبوٹ شامل ہیں؛ اس کے ساتھ موجود جدول، اوپر منتخب کردہ سامعین۔'
   storage: '%size% سامعین کی ڈیٹا بیس میں۔ دن بدن محفوظ کیا جاتا ہے: لوگ %human% مہینے، مشکوک روبوٹ %suspect% مہینے، اعلان کردہ روبوٹ %declared% مہینے؛ اس کے بعد ہر مہینے۔'
   origin_intro: 'سرور پر شمار کیے گئے، کوکیز کے بغیر: ایک زائر اگلے دن کوئی اور ہوتا ہے۔ تلاش کے انجن اب کم ہی کلیدواژه فراہم کرتے ہیں۔'
   robots_intro: 'ہر روبوٹ، لوگوں سے الگ شمار کیا جاتا ہے: اپنے صارف ایجنٹ کے ذریعہ اعلان کردہ — کھرچنے والے، AI معاون — یا مشکوک — بغیر براؤزر کے ہیڈرز کے براؤزر کا صارف ایجنٹ، جھپٹنے یا انسان سے تیز پڑھنے والا۔ صرف ان کے صفحات۔'
@@ -146,14 +194,22 @@ ja:
   page_title: オーディエンス
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: 現在
     composition: 誰がサイトを読んでいるか
     traffic: 時間の経過とともに
     geography: 訪問者の所在地
     origin: 訪問がどこから来るか
     pages: ページ
     robots: ロボット
+    api: API
+  api_intro: APIを呼び出すプログラムとMCPエージェントの数を、リーダーとは別にカウントします：ルートまたはツール、呼び出し元、ステータス、キャッシュの応答の有無によって。
+  now_intro: 下記で選択した期間とオーディエンスにかかわらず、過去数時間に読まれたすべてのページ。
+  now:
+    window_24h: 24時間
+    window_2h: 2時間
   composition_intro: 読まれたページすべて、生のトラフィック：人々、ブラウザとして装ったロボット、そして自らをロボットと名乗る者たち。
   people_only: 選択されたオーディエンスに関わらず、人々のみ。
+  geography_intro: 地図は、すべてのページ読まれた数をカウントし、ロボットも含まれます；その横のテーブルは、上で選択されたオーディエンスを示します。
   storage: データベースにおける%size%のオーディエンス。日々保持：人々は%human%ヶ月、疑わしいロボットは%suspect%ヶ月、明示的なロボットは%declared%ヶ月；以降は月ごとに。
   origin_intro: 'サーバーでカウントされ、クッキーなし: 訪問者は翌日には別の人になります。検索エンジンはもはやキーワードを渡すことはほとんどありません。'
   robots_intro: '人々とは別にカウントされるすべてのロボット：ユーザーエージェントによって明示された — クローラー、AIアシスタント — または疑わしい — ブラウザのヘッダーなしのブラウザのユーザーエージェント、バーストで読み取るか、人間よりも早く。彼らのページのみ。'
@@ -162,14 +218,22 @@ ko:
   page_title: 관객
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: 현재
     composition: '누가 사이트를 읽나요'
     traffic: '시간에 따른'
     geography: '방문자가 있는 곳'
     origin: '방문이 발생하는 곳'
     pages: 페이지
     robots: 로봇
+    api: API
+  api_intro: 'API를 호출하는 프로그램과 MCP 에이전트를 독립적으로 계산합니다: 경로 또는 도구, 호출자, 상태, 캐시 응답 여부에 따라.'
+  now_intro: '아래에서 선택한 기간과 청중에 관계없이 지난 몇 시간 동안 읽은 모든 페이지.'
+  now:
+    window_24h: 24시간
+    window_2h: 2시간
   composition_intro: '읽은 모든 페이지, 원시 트래픽: 사람들, 브라우저처럼 가장한 로봇들, 그리고 스스로를 로봇이라고 명명한 것들.'
   people_only: '선택한 청중과 관계없이 사람들만.'
+  geography_intro: '지도는 읽은 모든 페이지를 계산하며, 로봇 포함; 옆의 표는 위에서 선택한 청중을 나타냅니다.'
   storage: '데이터베이스에 있는 청중의 %size%. 매일 유지: 사람들 %human%개월, 의심되는 로봇 %suspect%개월, 선언된 로봇 %declared%개월; 그 이후로 매달.'
   origin_intro: '서버에서 집계되며, 쿠키 없이: 방문자는 다음 날 다른 사람입니다. 검색 엔진은 더 이상 키워드를 자주 전달하지 않습니다.'
   robots_intro: '사람들과는 별도로 계산된 모든 로봇: 사용자 에이전트로 선언된 — 크롤러, AI 어시스턴트 — 또는 의심되는 — 브라우저의 헤더 없이 브라우저의 사용자 에이전트, 사람보다 더 빠르거나 갑자기 읽는 것. 그들의 페이지만.'
@@ -178,14 +242,22 @@ bn:
   page_title: দর্শক
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: এখনই
     composition: 'কে সাইটটি পড়ে'
     traffic: 'সময় অনুযায়ী'
     geography: 'যেখানে দর্শকরা রয়েছে'
     origin: 'যেখানে ভিজিটগুলো আসে'
     pages: পেজগুলো
     robots: রোবট
+    api: এপিআই
+  api_intro: 'এপিআই কল করা প্রোগ্রাম এবং এমসিপি এজেন্টগুলি, পাঠকদের থেকে আলাদা গণনা করা: প্রতি রুট বা টুল, কলার, স্থিতি, এবং ক্যাশ উত্তর দিয়েছে কি না।'
+  now_intro: 'গত কয়েক ঘণ্টায় পড়া প্রতিটি পৃষ্ঠা, নিচে নির্বাচিত সময়কাল এবং শ্রোতা নির্বিশেষে।'
+  now:
+    window_24h: '২৪ ঘণ্টা'
+    window_2h: '২ ঘণ্টা'
   composition_intro: 'প্রতিটি পৃষ্ঠা পড়া, কাঁচা ট্রাফিক: মানুষ, ব্রাউজারের মতো পোষাক পরা রোবট, এবং নিজেদের নামকরণ করা রোবট।'
   people_only: 'শুধু মানুষ, উপরে নির্বাচিত দর্শকের যাই হোক না কেন।'
+  geography_intro: 'মানচিত্রে প্রতি পৃষ্ঠা পড়া গণনা করা হয়, রোবটসহ; এর পাশে টেবিল, উপরে নির্বাচিত শ্রোতা।'
   storage: 'ডেটাবেসে দর্শকের %size%। প্রতি দিন রাখা হয়: মানুষ %human% মাস, সন্দেহভাজন রোবট %suspect% মাস, ঘোষিত রোবট %declared% মাস; তারপর প্রতি মাসে।'
   origin_intro: 'সার্ভারে গণনা করা হয়, কুকি ছাড়া: একজন দর্শক পরের দিন অন্য কেউ। সার্চ ইঞ্জিনগুলো আর কমই কীওয়ার্ডটি পাঠায়।'
   robots_intro: 'প্রতিটি রোবট, মানুষ থেকে আলাদা করে গণনা করা: এর ব্যবহারকারী এজেন্ট দ্বারা ঘোষণা করা — ক্রলার, এআই সহায়ক —, বা সন্দেহভাজন — একটি ব্রাউজারের ব্যবহারকারী এজেন্ট যা ব্রাউজারের হেডার ছাড়া, ফোঁটা ফোঁটা বা একজনের চেয়ে দ্রুত পড়ে। তাদের পৃষ্ঠাগুলি একা।'
@@ -194,14 +266,22 @@ th:
   page_title: ผู้ชม
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: ตอนนี้
     composition: ใครอ่านเว็บไซต์
     traffic: ตามเวลา
     geography: ที่ตั้งของผู้เข้าชม
     origin: แหล่งที่มาของการเข้าชม
     pages: หน้า
     robots: หุ่นยนต์
+    api: API
+  api_intro: 'โปรแกรมและตัวแทน MCP ที่เรียกใช้ API จะถูกนับแยกจากผู้อ่าน: ตามเส้นทางหรือเครื่องมือ, ผู้โทร, สถานะ, และว่าแคชตอบกลับหรือไม่'
+  now_intro: 'ทุกหน้าที่อ่านในช่วงไม่กี่ชั่วโมงที่ผ่านมา ไม่ว่าจะเป็นช่วงเวลาและกลุ่มผู้ชมที่เลือกด้านล่าง'
+  now:
+    window_24h: '24 ชั่วโมง'
+    window_2h: '2 ชั่วโมง'
   composition_intro: 'ทุกหน้าที่อ่าน, การเข้าชมดิบ: คน, หุ่นยนต์ที่ถูกจับในชุดของเบราว์เซอร์, และหุ่นยนต์ที่ตั้งชื่อเอง.'
   people_only: 'เฉพาะคน, ไม่ว่าจะเป็นผู้ชมที่เลือกข้างต้น.'
+  geography_intro: 'แผนที่จะนับทุกหน้าที่อ่าน รวมถึงบอท; ตารางข้างๆ จะเป็นกลุ่มผู้ชมที่เลือกด้านบน'
   storage: '%size% ของผู้ชมในฐานข้อมูล เก็บไว้แบบวันต่อวัน: คน %human% เดือน, หุ่นยนต์ที่สงสัย %suspect% เดือน, หุ่นยนต์ที่ประกาศ %declared% เดือน; เดือนต่อเดือนหลังจากนั้น.'
   origin_intro: 'นับจากเซิร์ฟเวอร์ โดยไม่ใช้คุกกี้: ผู้เข้าชมคือคนอื่นในวันถัดไป เครื่องมือค้นหามักไม่ส่งคำสำคัญอีกต่อไป.'
   robots_intro: 'หุ่นยนต์ทุกตัว, นับแยกจากคน: ประกาศโดยผู้ใช้ของมัน — เว็บครอว์เลอร์, ผู้ช่วย AI — หรือสงสัย — ผู้ใช้ของเบราว์เซอร์ที่ไม่มีส่วนหัวของเบราว์เซอร์, อ่านในช่วงพีคหรือเร็วกว่าอย่างคน. หน้าเว็บของพวกเขาเพียงอย่างเดียว.'
@@ -210,14 +290,22 @@ de:
   page_title: Zielgruppe
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: 'Jetzt gerade'
     composition: 'Wer die Seite liest'
     traffic: 'Im Laufe der Zeit'
     geography: 'Woher die Besucher kommen'
     origin: 'Wo die Besuche herkommen'
     pages: Seiten
     robots: Roboter
+    api: API
+  api_intro: 'Die Programme und MCP-Agenten, die die API aufrufen, gezählt getrennt von den Lesern: nach Route oder Tool, Aufrufer, Status und ob der Cache geantwortet hat.'
+  now_intro: 'Jede Seite, die in den letzten Stunden gelesen wurde, unabhängig von dem unten gewählten Zeitraum und Publikum.'
+  now:
+    window_24h: '24 Stunden'
+    window_2h: '2 Stunden'
   composition_intro: 'Jede gelesene Seite, der rohe Traffic: die Menschen, die als Browser verkleideten Roboter und die Roboter, die sich selbst benennen.'
   people_only: 'Nur die Menschen, unabhängig vom oben gewählten Publikum.'
+  geography_intro: 'Die Karte zählt jede gelesene Seite, Roboter inklusive; die Tabelle daneben, das oben gewählte Publikum.'
   storage: '%size% des Publikums in der Datenbank. Tag für Tag gespeichert: die Menschen %human% Monate, die vermuteten Roboter %suspect% Monate, die deklarierten Roboter %declared% Monate; Monat für Monat danach.'
   origin_intro: 'Auf dem Server gezählt, ohne Cookies: ein Besucher ist am nächsten Tag jemand anderes. Suchmaschinen übermitteln das Schlüsselwort selten noch.'
   robots_intro: 'Jeder Roboter, separat von den Menschen gezählt: deklariert durch seinen User-Agent — Crawler, KI-Assistenten — oder vermutet — ein User-Agent eines Browsers ohne die Header eines Browsers, der in Stößen oder schneller als ein Mensch liest. Nur ihre Seiten.'
@@ -226,14 +314,22 @@ fi:
   page_title: Kohderyhmä
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: 'Tällä hetkellä'
     composition: 'Kuka lukee sivustoa'
     traffic: 'Ajan myötä'
     geography: 'Missä kävijät ovat'
     origin: 'Mistä vierailut tulevat'
     pages: Sivut
     robots: Robotit
+    api: API
+  api_intro: 'Ohjelmat ja MCP-agentit, jotka kutsuvat API:a, lasketaan erikseen lukijoista: reitin tai työkalun, kutsujan, tilan ja sen mukaan, vastasiko välimuisti.'
+  now_intro: 'Jokainen sivu, joka on luettu viimeisten tuntien aikana, riippumatta valitusta ajanjaksosta ja yleisöstä.'
+  now:
+    window_24h: '24 tuntia'
+    window_2h: '2 tuntia'
   composition_intro: 'Jokainen sivu, joka luetaan, raaka liikenne: ihmiset, robotit, jotka on saatu kiinni selaimina, ja robotit, jotka nimeävät itsensä.'
   people_only: 'Vain ihmiset, riippumatta edellä valitusta yleisöstä.'
+  geography_intro: 'Kartta laskee jokaisen luetun sivun, robotit mukaan lukien; sen vieressä oleva taulukko näyttää ylle valitun yleisön.'
   storage: '%size% yleisöä tietokannassa. Säilytetään päivä päivältä: ihmiset %human% kuukautta, epäillyt robotit %suspect% kuukautta, ilmoitetut robotit %declared% kuukautta; kuukausi kuukaudelta sen jälkeen.'
   origin_intro: 'Lasketaan palvelimella, ilman evästeitä: vierailija on seuraavana päivänä joku muu. Hakukoneet harvoin välittävät enää avainsanaa.'
   robots_intro: 'Jokainen robotti, lasketaan erikseen ihmisistä: ilmoitettu käyttäjäagenttinsa mukaan — indeksoijat, tekoälyavustajat —, tai epäilty — selaimen käyttäjäagentti ilman selaimen otsikoita, lukemassa purkauksittain tai nopeammin kuin ihminen. Vain heidän sivunsa.'
@@ -242,14 +338,22 @@ ru:
   page_title: Аудитория
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: 'Прямо сейчас'
     composition: 'Кто читает сайт'
     traffic: 'Со временем'
     geography: 'Где находятся посетители'
     origin: 'Откуда приходят визиты'
     pages: Страницы
     robots: Роботы
+    api: API
+  api_intro: 'Программы и агенты MCP, вызывающие API, подсчитываются отдельно от читателей: по маршруту или инструменту, вызывающему, статусу и тому, ответил ли кэш.'
+  now_intro: 'Каждая страница, прочитанная за последние часы, независимо от выбранного ниже периода и аудитории.'
+  now:
+    window_24h: '24 часа'
+    window_2h: '2 часа'
   composition_intro: 'Каждая прочитанная страница, сырой трафик: люди, роботы, маскирующиеся под браузеры, и роботы, которые называют себя.'
   people_only: 'Только люди, независимо от выбранной выше аудитории.'
+  geography_intro: 'Карта учитывает каждую прочитанную страницу, роботы в; таблица рядом с ней, выбранная выше аудитория.'
   storage: '%size% аудитории в базе данных. Хранятся день за днем: люди %human% месяцев, подозреваемые роботы %suspect% месяцев, заявленные роботы %declared% месяцев; по месяцам после этого.'
   origin_intro: 'Учитываются на сервере, без куки: посетитель — это кто-то другой на следующий день. Поисковые системы редко передают ключевое слово больше.'
   robots_intro: 'Каждый робот, учитываемый отдельно от людей: заявленный своим пользовательским агентом — краулеры, AI помощники — или подозреваемый — пользовательский агент браузера без заголовков браузера, читающий с перебоями или быстрее, чем человек. Только их страницы.'
@@ -258,14 +362,22 @@ pl:
   page_title: Odbiorcy
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: Teraz
     composition: 'Kto czyta stronę'
     traffic: 'Z biegiem czasu'
     geography: 'Gdzie są odwiedzający'
     origin: 'Skąd pochodzą wizyty'
     pages: Strony
     robots: Roboty
+    api: API
+  api_intro: 'Programy i agenci MCP wywołujący API, liczeni osobno od czytników: według trasy lub narzędzia, wywołującego, statusu i tego, czy pamięć podręczna odpowiedziała.'
+  now_intro: 'Każda strona przeczytana w ciągu ostatnich godzin, niezależnie od okresu i publiczności wybranej poniżej.'
+  now:
+    window_24h: '24 godziny'
+    window_2h: '2 godziny'
   composition_intro: 'Każda przeczytana strona, surowy ruch: ludzie, roboty przebrane za przeglądarki oraz roboty, które same się nazywają.'
   people_only: 'Tylko ludzie, bez względu na wybraną powyżej publiczność.'
+  geography_intro: 'Mapa zlicza każdą przeczytaną stronę, roboty w tym; tabela obok, publiczność wybrana powyżej.'
   storage: '%size% publiczności w bazie danych. Przechowywane dzień po dniu: ludzie %human% miesięcy, podejrzane roboty %suspect% miesięcy, zadeklarowane roboty %declared% miesięcy; miesiąc po miesiącu po tym.'
   origin_intro: 'Liczone na serwerze, bez ciasteczek: odwiedzający to ktoś inny następnego dnia. Wyszukiwarki rzadko przekazują już słowo kluczowe.'
   robots_intro: 'Każdy robot, liczony oddzielnie od ludzi: zadeklarowany przez swój agent użytkownika — roboty indeksujące, asystenci AI — lub podejrzany — agent użytkownika przeglądarki bez nagłówków przeglądarki, czytający w seriach lub szybciej niż człowiek. Tylko ich strony.'
@@ -274,14 +386,22 @@ es:
   page_title: Audiencia
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: 'Ahora mismo'
     composition: 'Quién lee el sitio'
     traffic: 'Con el tiempo'
     geography: 'Dónde están los visitantes'
     origin: 'De dónde provienen las visitas'
     pages: Páginas
     robots: Robots
+    api: API
+  api_intro: 'Los programas y agentes MCP que llaman a la api, contados aparte de los lectores: por ruta o herramienta, llamador, estado, y si la caché respondió.'
+  now_intro: 'Cada página leída en las últimas horas, independientemente del período y la audiencia elegida a continuación.'
+  now:
+    window_24h: '24 horas'
+    window_2h: '2 horas'
   composition_intro: 'Cada página leída, el tráfico bruto: las personas, los robots atrapados disfrazados de navegadores, y los robots que se nombran a sí mismos.'
   people_only: 'Solo las personas, cualquiera que sea la audiencia elegida arriba.'
+  geography_intro: 'El mapa cuenta cada página leída, robots incluidos; la tabla al lado, la audiencia elegida arriba.'
   storage: '%size% de audiencia en la base de datos. Conservados día a día: las personas %human% meses, los robots sospechosos %suspect% meses, los robots declarados %declared% meses; mes a mes después de eso.'
   origin_intro: 'Contado en el servidor, sin cookies: un visitante es alguien diferente al día siguiente. Los motores de búsqueda rara vez pasan la palabra clave ya.'
   robots_intro: 'Cada robot, contado aparte de las personas: declarado por su agente de usuario — rastreadores, asistentes de IA —, o sospechado — un agente de usuario de navegador sin los encabezados de navegador, leyendo en ráfagas o más rápido que una persona. Solo sus páginas.'
@@ -290,14 +410,22 @@ it:
   page_title: Pubblico
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: 'Proprio adesso'
     composition: 'Chi legge il sito'
     traffic: 'Nel tempo'
     geography: 'Dove si trovano i visitatori'
     origin: 'Da dove provengono le visite'
     pages: Pagine
     robots: Robot
+    api: API
+  api_intro: "I programmi e gli agenti MCP che chiamano l'api, conteggiati a parte dai lettori: per percorso o strumento, chiamante, stato e se la cache ha risposto."
+  now_intro: 'Ogni pagina letta nelle ultime ore, qualunque sia il periodo e il pubblico scelto qui sotto.'
+  now:
+    window_24h: '24 ore'
+    window_2h: '2 ore'
   composition_intro: 'Ogni pagina letta, il traffico grezzo: le persone, i robot travestiti da browser e i robot che si dichiarano tali.'
   people_only: 'Solo le persone, qualunque sia il pubblico scelto sopra.'
+  geography_intro: 'La mappa conta ogni pagina letta, robot inclusi; la tabella accanto, il pubblico scelto sopra.'
   storage: '%size% del pubblico nel database. Conservato giorno dopo giorno: le persone %human% mesi, i robot sospetti %suspect% mesi, i robot dichiarati %declared% mesi; mese dopo mese dopo di ciò.'
   origin_intro: 'Contati sul server, senza cookie: un visitatore è qualcun altro il giorno dopo. I motori di ricerca raramente passano più la parola chiave.'
   robots_intro: 'Ogni robot, conteggiato a parte dalle persone: dichiarato dal suo user agent — crawler, assistenti AI —, o sospetto — un user agent di un browser senza le intestazioni di un browser, che legge a scatti o più velocemente di una persona. Solo le loro pagine.'
@@ -306,14 +434,22 @@ pt_BR:
   page_title: Público
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: 'Agora mesmo'
     composition: 'Quem lê o site'
     traffic: 'Ao longo do tempo'
     geography: 'De onde são os visitantes'
     origin: 'De onde vêm as visitas'
     pages: Páginas
     robots: Robôs
+    api: API
+  api_intro: 'Os programas e agentes MCP que chamam a API, contados separadamente dos leitores: por rota ou ferramenta, chamador, status e se o cache respondeu.'
+  now_intro: 'Cada página lida nas últimas horas, independentemente do período e do público escolhido abaixo.'
+  now:
+    window_24h: '24 horas'
+    window_2h: '2 horas'
   composition_intro: 'Toda página lida, o tráfego bruto: as pessoas, os robôs disfarçados de navegadores e os robôs que se nomeiam.'
   people_only: 'Apenas as pessoas, independentemente do público escolhido acima.'
+  geography_intro: 'O mapa conta cada página lida, robôs inclusos; a tabela ao lado, o público escolhido acima.'
   storage: '%size% do público na base de dados. Mantido dia após dia: as pessoas %human% meses, os robôs suspeitos %suspect% meses, os robôs declarados %declared% meses; mês a mês após isso.'
   origin_intro: 'Contados no servidor, sem cookies: um visitante é alguém diferente no dia seguinte. Motores de busca raramente repassam a palavra-chave agora.'
   robots_intro: 'Todo robô, contado separadamente das pessoas: declarado pelo seu agente de usuário — crawlers, assistentes de IA —, ou suspeito — um agente de usuário de navegador sem os cabeçalhos de um navegador, lendo em rajadas ou mais rápido que uma pessoa. Suas páginas apenas.'
@@ -322,14 +458,22 @@ tr:
   page_title: 'Hedef Kitle'
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: 'Şu anda'
     composition: 'Siteyi kim okuyor'
     traffic: Zamanla
     geography: 'Ziyaretçilerin bulunduğu yer'
     origin: 'Ziyaretlerin geldiği yer'
     pages: Sayfalar
     robots: Robotlar
+    api: API
+  api_intro: "API'yi çağıran programlar ve MCP ajanları, okuyuculardan ayrı olarak sayılır: güzergah veya araç, çağıran, durum ve önbelleğin yanıt verip vermediği."
+  now_intro: 'Son saatlerde okunan her sayfa, aşağıda seçilen dönem ve izleyici ne olursa olsun.'
+  now:
+    window_24h: '24 saat'
+    window_2h: '2 saat'
   composition_intro: 'Okunan her sayfa, ham trafik: insanlar, tarayıcı gibi giyinmiş robotlar ve kendilerini robot olarak adlandıranlar.'
   people_only: 'Yalnızca insanlar, yukarıda seçilen hedef kitle ne olursa olsun.'
+  geography_intro: 'Harita, okunan her sayfayı sayar, robotlar dahil; yanındaki tablo, yukarıda seçilen izleyiciyi gösterir.'
   storage: 'Veritabanında %size% izleyici. Gün gün tutulur: insanlar %human% ay, şüpheli robotlar %suspect% ay, beyan edilen robotlar %declared% ay; ondan sonra her ay.'
   origin_intro: 'Sunucuda sayılır, çerez olmadan: bir ziyaretçi ertesi gün başka birisidir. Arama motorları artık anahtar kelimeyi nadiren iletir.'
   robots_intro: 'Her robot, insanlar dışında sayılır: kullanıcı ajanı tarafından beyan edilen — tarayıcılar, yapay zeka asistanları — veya şüpheli — bir tarayıcının başlıkları olmadan bir tarayıcının kullanıcı ajanı, bir insandan daha hızlı veya patlayarak okuma yapan. Sadece onların sayfaları.'
@@ -338,14 +482,22 @@ vi:
   page_title: 'Đối tượng'
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: 'Hiện tại'
     composition: 'Ai đọc trang web'
     traffic: 'Theo thời gian'
     geography: 'Nơi khách truy cập đến từ'
     origin: 'Nơi các lượt truy cập đến từ'
     pages: Trang
     robots: Robot
+    api: API
+  api_intro: 'Các chương trình và tác nhân MCP gọi api, được đếm riêng biệt với người đọc: theo lộ trình hoặc công cụ, người gọi, trạng thái, và liệu bộ nhớ đệm đã phản hồi hay chưa.'
+  now_intro: 'Mỗi trang được đọc trong vài giờ qua, bất kể khoảng thời gian và đối tượng đã chọn bên dưới.'
+  now:
+    window_24h: '24 giờ'
+    window_2h: '2 giờ'
   composition_intro: 'Mỗi trang được đọc, lưu lượng truy cập thô: những người, những robot giả dạng trình duyệt, và những robot tự xưng.'
   people_only: 'Chỉ có những người, bất kể đối tượng đã chọn ở trên.'
+  geography_intro: 'Bản đồ đếm mỗi trang được đọc, bao gồm cả robot; bảng bên cạnh, đối tượng đã chọn ở trên.'
   storage: '%size% của đối tượng trong cơ sở dữ liệu. Giữ lại từng ngày: những người %human% tháng, những robot bị nghi ngờ %suspect% tháng, những robot đã được công nhận %declared% tháng; từng tháng sau đó.'
   origin_intro: 'Đếm trên máy chủ, không có cookie: một khách truy cập là người khác vào ngày hôm sau. Các công cụ tìm kiếm hiếm khi chuyển từ khóa nữa.'
   robots_intro: 'Mỗi robot, được tính riêng biệt với con người: được công nhận bởi tác nhân người dùng của nó — trình thu thập thông tin, trợ lý AI —, hoặc bị nghi ngờ — tác nhân người dùng của trình duyệt mà không có tiêu đề của trình duyệt, đọc theo từng đợt hoặc nhanh hơn con người. Chỉ những trang của chúng.'
@@ -354,14 +506,22 @@ id:
   page_title: Audiens
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: 'Saat ini'
     composition: 'Siapa yang membaca situs'
     traffic: 'Seiring waktu'
     geography: 'Di mana pengunjung berada'
     origin: 'Dari mana kunjungan berasal'
     pages: Halaman
     robots: Robot
+    api: API
+  api_intro: 'Program dan agen MCP yang memanggil api, dihitung terpisah dari pembaca: per rute atau alat, pemanggil, status, dan apakah cache memberikan jawaban.'
+  now_intro: 'Setiap halaman yang dibaca dalam beberapa jam terakhir, apa pun periode dan audiens yang dipilih di bawah.'
+  now:
+    window_24h: '24 jam'
+    window_2h: '2 jam'
   composition_intro: 'Setiap halaman yang dibaca, lalu lintas mentah: orang-orang, robot yang tertangkap berpura-pura sebagai peramban, dan robot yang menyebut diri mereka sendiri.'
   people_only: 'Hanya orang-orang, apa pun audiens yang dipilih di atas.'
+  geography_intro: 'Peta menghitung setiap halaman yang dibaca, robot di dalamnya; tabel di sampingnya, audiens yang dipilih di atas.'
   storage: '%size% audiens di database. Disimpan hari demi hari: orang %human% bulan, robot yang dicurigai %suspect% bulan, robot yang dinyatakan %declared% bulan; bulan demi bulan setelah itu.'
   origin_intro: 'Dihitung di server, tanpa cookie: seorang pengunjung adalah orang lain di hari berikutnya. Mesin pencari jarang lagi meneruskan kata kunci.'
   robots_intro: 'Setiap robot, dihitung terpisah dari orang: dinyatakan oleh agen penggunanya — crawler, asisten AI —, atau dicurigai — agen pengguna peramban tanpa header peramban, membaca dalam lonjakan atau lebih cepat dari manusia. Halaman mereka saja.'
@@ -370,14 +530,22 @@ nl:
   page_title: Doelgroep
   page_icon: 'ph:bold/chart-line-up'
   section:
+    now: 'Op dit moment'
     composition: 'Wie leest de site'
     traffic: 'In de loop van de tijd'
     geography: 'Waar bezoekers vandaan komen'
     origin: 'Waar bezoeken vandaan komen'
     pages: "Pagina's"
     robots: Roboters
+    api: API
+  api_intro: "De programma's en MCP-agenten die de api aanroepen, apart geteld van de lezers: per route of tool, aanroeper, status, en of de cache heeft geantwoord."
+  now_intro: 'Elke pagina gelezen in de afgelopen uren, ongeacht de periode en het publiek dat hieronder is gekozen.'
+  now:
+    window_24h: '24 uur'
+    window_2h: '2 uur'
   composition_intro: 'Elke gelezen pagina, het ruwe verkeer: de mensen, de robots die zich verkleden als browsers, en de robots die zichzelf benoemen.'
   people_only: 'Alleen de mensen, ongeacht het publiek dat hierboven is gekozen.'
+  geography_intro: 'De kaart telt elke gelezen pagina, robots inbegrepen; de tabel ernaast, het boven gekozen publiek.'
   storage: '%size% van het publiek in de database. Dagelijks bijgehouden: de mensen %human% maanden, de vermoedelijke robots %suspect% maanden, de verklaarde robots %declared% maanden; maand na maand daarna.'
   origin_intro: 'Geteld op de server, zonder cookies: een bezoeker is de volgende dag iemand anders. Zoekmachines geven zelden het zoekwoord nog door.'
   robots_intro: "Elke robot, apart geteld van de mensen: verklaard door zijn user agent — crawlers, AI-assistenten —, of vermoedelijk — de user agent van een browser zonder de headers van een browser, die in bursts leest of sneller dan een persoon. Alleen hun pagina's."

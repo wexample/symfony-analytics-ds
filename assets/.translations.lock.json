@@ -1,4 +1,718 @@
 {
+    "components/analytics-api-table/analytics-api-table.ar.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.bn.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.de.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.es.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.fa.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.fi.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.he.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.hi.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.id.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.it.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.ja.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.ko.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.nl.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.pl.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.pt_BR.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.ru.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.th.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.tr.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.ur.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.vi.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-api-table/analytics-api-table.zh.yml": {
+        "anonymous": {
+            "hash": "3d2eb1c7488d3b63d4771f3e5f263148",
+            "engine": "syrtis"
+        },
+        "cache.hit": {
+            "hash": "65720dad0ece32e11a32369a3db8aa39",
+            "engine": "syrtis"
+        },
+        "cache.miss": {
+            "hash": "6b0256b87f03caf3d15656b76d401e75",
+            "engine": "syrtis"
+        },
+        "cache.none": {
+            "hash": "7e5191636e72cc9d293c983489126199",
+            "engine": "syrtis"
+        },
+        "dimension.cache": {
+            "hash": "ceca71a0cb554d73c29e62947a47cf5c",
+            "engine": "syrtis"
+        },
+        "dimension.client": {
+            "hash": "bd87b88c83a3a5607e92a7b464aa6c7b",
+            "engine": "syrtis"
+        },
+        "dimension.route": {
+            "hash": "7b2139ef6f39ce759b0b68a96c9b968d",
+            "engine": "syrtis"
+        },
+        "dimension.status": {
+            "hash": "eb10925a264a03ef1a2eb7e0d8118304",
+            "engine": "syrtis"
+        }
+    },
     "components/analytics-audience-nav/analytics-audience-nav.ar.yml": {
         "all": {
             "hash": "e221f47a59b93c6464ac51112ea97ac6",
@@ -2267,6 +2981,216 @@
             "engine": "syrtis"
         }
     },
+    "components/analytics-now/analytics-now.ar.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.bn.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.de.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.es.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.fa.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.fi.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.he.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.hi.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.id.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.it.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.ja.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.ko.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.nl.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.pl.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.pt_BR.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.ru.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.th.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.tr.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.ur.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.vi.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
+    "components/analytics-now/analytics-now.zh.yml": {
+        "api_label": {
+            "hash": "a84abc7cda7269c078c336178d7609a8",
+            "engine": "syrtis"
+        },
+        "api_limited": {
+            "hash": "be52675394c8ec79145f7c74584836bb",
+            "engine": "syrtis"
+        }
+    },
     "components/analytics-totals/analytics-totals.ar.yml": {
         "per_visit": {
             "hash": "95080914008b301aa010fe34802c3a17",
@@ -2394,8 +3318,28 @@
         }
     },
     "pages/analytics/index.ar.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -2418,12 +3362,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -2448,8 +3400,28 @@
         }
     },
     "pages/analytics/index.bn.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -2472,12 +3444,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -2502,8 +3482,28 @@
         }
     },
     "pages/analytics/index.de.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -2526,12 +3526,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -2556,8 +3564,28 @@
         }
     },
     "pages/analytics/index.es.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -2580,12 +3608,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -2610,8 +3646,28 @@
         }
     },
     "pages/analytics/index.fa.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -2634,12 +3690,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -2664,8 +3728,28 @@
         }
     },
     "pages/analytics/index.fi.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -2688,12 +3772,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -2718,8 +3810,28 @@
         }
     },
     "pages/analytics/index.he.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -2742,12 +3854,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -2772,8 +3892,28 @@
         }
     },
     "pages/analytics/index.hi.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -2796,12 +3936,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -2826,8 +3974,28 @@
         }
     },
     "pages/analytics/index.id.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -2850,12 +4018,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -2880,8 +4056,28 @@
         }
     },
     "pages/analytics/index.it.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -2904,12 +4100,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -2934,8 +4138,28 @@
         }
     },
     "pages/analytics/index.ja.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -2958,12 +4182,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -2988,8 +4220,28 @@
         }
     },
     "pages/analytics/index.ko.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -3012,12 +4264,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -3042,8 +4302,28 @@
         }
     },
     "pages/analytics/index.nl.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -3066,12 +4346,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -3096,8 +4384,28 @@
         }
     },
     "pages/analytics/index.pl.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -3120,12 +4428,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -3150,8 +4466,28 @@
         }
     },
     "pages/analytics/index.pt_BR.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -3174,12 +4510,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -3204,8 +4548,28 @@
         }
     },
     "pages/analytics/index.ru.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -3228,12 +4592,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -3258,8 +4630,28 @@
         }
     },
     "pages/analytics/index.th.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -3282,12 +4674,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -3312,8 +4712,28 @@
         }
     },
     "pages/analytics/index.tr.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -3336,12 +4756,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -3366,8 +4794,28 @@
         }
     },
     "pages/analytics/index.ur.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -3390,12 +4838,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -3420,8 +4876,28 @@
         }
     },
     "pages/analytics/index.vi.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -3444,12 +4920,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
@@ -3474,8 +4958,28 @@
         }
     },
     "pages/analytics/index.zh.yml": {
+        "api_intro": {
+            "hash": "6532697cc9fc17b001792f37b5c8e3d1",
+            "engine": "syrtis"
+        },
         "composition_intro": {
             "hash": "6370d7a78566ab871b03a9210860af90",
+            "engine": "syrtis"
+        },
+        "geography_intro": {
+            "hash": "a457c5e73736ca1e5e76ddc6d1605d2a",
+            "engine": "syrtis"
+        },
+        "now.window_24h": {
+            "hash": "437b7c48c810b3e2e147ce86ff1d886f",
+            "engine": "syrtis"
+        },
+        "now.window_2h": {
+            "hash": "aba5553e2dafe9bd0aef9a0c13daf925",
+            "engine": "syrtis"
+        },
+        "now_intro": {
+            "hash": "4f690b43db0cd8b772ea95b0843fd535",
             "engine": "syrtis"
         },
         "origin_intro": {
@@ -3498,12 +5002,20 @@
             "hash": "24affa86f10d68bf93c3d0d56b469d07",
             "engine": "syrtis"
         },
+        "section.api": {
+            "hash": "e9ef28ff001ce7d13090d4aa88424162",
+            "engine": "syrtis"
+        },
         "section.composition": {
             "hash": "844352d19955cae3604740ac7c250fae",
             "engine": "syrtis"
         },
         "section.geography": {
             "hash": "0f7a788fecb2baf16424de5af80f58bd",
+            "engine": "syrtis"
+        },
+        "section.now": {
+            "hash": "9a7590f521e9e45e4bd54f4c68e148ed",
             "engine": "syrtis"
         },
         "section.origin": {
