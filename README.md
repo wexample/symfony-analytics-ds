@@ -1,6 +1,6 @@
 # symfony-analytics-ds
 
-Version: 5.0.1
+Version: 5.0.2
 
 Design-system screens of symfony-analytics: the audience of the site over a period, for its administrator
 
